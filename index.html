@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<meta name="description" content="">
+	<meta name="viewport" content="initial-scale=1, width=device-width, height=device-height, viewport-fit=cover">
+	
+	<!-- Angular -->
+	<script src="js/vendor/angular.min.js"></script>
+	<script src="js/vendor/angular-animate.js"></script>
+	<script src="js/vendor/angular-sanitize.js"></script>
+	
+	<!-- Framework Styles -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/material-icons.min.css">
+
+	<!-- Custom Styles -->
+	<link rel="stylesheet" href="css/main.css">
+
+	<script>/*<![CDATA[*/window.zEmbed||function(e,t){var n,o,d,i,s,a=[],r=document.createElement("iframe");window.zEmbed=function(){a.push(arguments)},window.zE=window.zE||window.zEmbed,r.src="javascript:false",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="display: none",d=document.getElementsByTagName("script"),d=d[d.length-1],d.parentNode.insertBefore(r,d),i=r.contentWindow,s=i.document;try{o=s}catch(c){n=document.domain,r.src='javascript:var d=document.open();d.domain="'+n+'";void(0);',o=s}o.open()._l=function(){var o=this.createElement("script");n&&(this.domain=n),o.id="js-iframe-async",o.src=e,this.t=+new Date,this.zendeskHost=t,this.zEQueue=a,this.body.appendChild(o)},o.write('<body onload="document._l();">'),o.close()}("https://assets.zendesk.com/embeddable_framework/main.js","swmobile.zendesk.com");
+	/*]]>*/</script>
+
+</head>
+<body ng-app="myApp" ng-controller="chapterController">
+	<header>
+		<a href="#" class="btn btn-secondary test-button"  ng-hide="testing" data-toggle="modal" data-target="#testModal">Take Test</a>
+		<a href="#" class="btn btn-secondary test-button"  ng-show="testing" ng-click="gradeTest()">Grade Test</a>
+		<a href="#" class="btn btn-secondary back-button" ng-show="testing" ng-click="testing=false">Back</a>
+		<div class="topicNav-area" ng-hide="testing">
+			<a href="#" class="topicNav-button">Chapters</a>
+			<div class="topicNav-wrapper">
+				<div class="topicNav-search-wrapper">
+					<a href="#" class="topicNav-bookmarks-btn"></a>
+					<div class="icon-wrapper">
+						<input type="text" class="form-control" ng-model="searchTerm" id="topicNav-search" placeholder="Search chapters">
+						<i class="icon mdi mdi-search"></i>
+						<i class="icon mdi mdi-add-circle" id="topicNav-search-clear" style="display:none;"></i>
+					</div>
+
+				</div>
+				<ul id="topicNav">
+					<li ng-repeat="(key, value) in chapters" ng-class="(chapterID===key)?'current':''">
+						<a href="#" class="" data-topic="cover" ng-click="openChapter(key)" ng-class="(value.bookmarked)?'bookmarked':''"><div class="chapterProgress" style="width:{{(value.correctPercent)?value.correctPercent:'0'}}%"></div>
+							<span class="chapter-number">{{key}}</span><span class="chapter-title">{{value.title}}</span><span class="chapter-percent">{{(value.correctPercent)?value.correctPercent:'0'}}%</span></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	
+	<div class="hero" ng-hide="testing">
+		<div class="container text-center">
+			<h1>Chapter {{(chapterID>22)?translatedChapterID:chapterID}}</h1>
+			<h2>{{chapters[chapterID].title}}</h2>
+			<a href="#" class="bookmark-toggle-btn" ng-click="bookmarkToggle()" ng-class="(chapters[chapterID].bookmarked===true)?'bookmarked':''"><span class="bookmark-toggle-icon"></span> Bookmark</a>
+		</div>
+	</div>
+	<div class="utility-menu text-right" ng-hide="testing">
+		<span id="search-count"></span>
+		<div class="icon-wrapper">
+			<input type="text" class="form-control" id="search" style="display:inline-block;">
+			<i class="icon mdi mdi-search"></i>
+			<i class="icon mdi mdi-add-circle" id="search-clear" style="display:none;"></i>
+		</div>
+	</div>
+	<div class="container" ng-hide="testing">
+		<div class="row">
+			<div class="col portal">
+				
+			</div>
+		</div>
+		<div class="row">
+			<div class="col quiz-area">
+				<h3>QUIZ</h3>
+				<div class="quiz" ng-repeat="question in chapterQuestions">
+					<div class="quiz-question">
+						<span>{{chapterID}}-{{$index+1}}. </span>{{question.question}}
+					</div>
+					<div class="quiz-answers" >
+						<a href="#" ng-repeat="answer in question.answers" class="quiz-answer" ng-class="(answer.correct)?'quiz-correct':'quiz-incorrect'" ng-click="selectAnswer($event)"><span>{{numbersToLetters[$index]}}</span>{{answer.answer}}</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container" ng-show="testing">
+		<div class="row">
+			<div class="col test-area">
+				<h3>{{currentTestIndex+1}}. {{currentTestData.title}}</h3>
+				<hr>
+				<div class="quiz" ng-repeat="question in currentTestData.questions" data-index="{{$index}}">
+					<div class="quiz-question">
+						<span>{{currentTestIndex+1}}-{{$index+1}}. </span>{{question.question}}
+					</div>
+					<div class="quiz-answers" >
+						<a href="#" ng-repeat="answer in question.answers" class="quiz-answer" ng-class="answerClass($parent.$index,$index)" ng-click="testSelectAnswer($event,$parent.$index,$index)"><span>{{numbersToLetters[$index]}}</span>{{answer.answer}}</a>
+					</div>
+				</div>
+
+				<div class="test-nav">
+					<a href="#" class="btn btn-primary test-nav-button test-nav-button-back" ng-click="loadTest(currentTestIndex-1)" ng-hide="currentTestIndex===0">Back</a>
+					<a href="#" class="btn btn-primary test-nav-button test-nav-button-next" ng-click="loadTest(currentTestIndex+1)" ng-hide="currentTestIndex+1===testMapping.length">Next</a>
+					<a href="#" class="btn btn-primary test-nav-button test-nav-button-next" ng-click="gradeTest()" ng-show="currentTestIndex+1===testMapping.length">Grade Test</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<div class="shroud"></div>
+	
+	<div class="modal" id="alertModal" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title"></h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<i class="mdi mdi-close"></i>
+					</button>
+				</div>
+				<div class="modal-body">
+					
+				</div>
+				<div class="modal-footer">
+					<a href="#" class="btn btn-secondary" data-dismiss="modal">Close</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal" id="testModal" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Verify Email Capability</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<i class="mdi mdi-close"></i>
+					</button>
+				</div>
+				<div class="modal-body">
+					Before proceeding, please ensure that a functioning email account is active on your device. Once testing is complete and a passing score is achieved, you will be able to enter your 10-digit DODID and generate a completion email addressed to NTMPS.
+				</div>
+				<div class="modal-footer">
+					<a href="#" class="btn btn-secondary" data-dismiss="modal">Cancel</a>
+					<a href="#" class="btn btn-primary" data-dismiss="modal" ng-click="initTest()">Begin</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal" id="figureModal" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Modal title</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<i class="mdi mdi-close"></i>
+					</button>
+				</div>
+				<div class="modal-body">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal" id="disclaimerModal" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-body">
+					<div class="modal-body">
+
+						<p>DISCLAIMER OF WARRANTY AND HOLD HARMLESS AGREEMENT FOR NAVY TOOLS MOBILE APPLICATION</p>
+						<p>By downloading the NAVY TOOLS mobile application and subsequent updates, you expressly acknowledge and agree that use of the NAVY TOOLS mobile application is at your sole risk and that you are assuming all possible risks with respect to the quality, performance, and accuracy of the NAVY TOOLS mobile application.  TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE NAVY TOOLS MOBILE APPLICATION IS PROVIDED "AS IS" AND “AS AVAILABLE,” WITH ALL FAULTS AND WITHOUT WARRANTY OF ANY KIND, AND THE DEPARTMENT OF THE NAVY HEREBY DISCLAIMS ALL WARRANTIES AND CONDITIONS WITH RESPECT TO THE NAVY TOOLS MOBILE APPLICATION, WHETHER EXPRESS, IMPLIED, OR STATUTORY, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES AND/OR CONDITIONS OF MERCHANTABILITY, OF SATISFACTORY QUALITY, OF FITNESS FOR A PARTICULAR PURPOSE, OF ACCURACY, OF QUIET ENJOYMENT, AND OF NON-INFRINGEMENT OF THIRD PARTY RIGHTS.  THE DEPARTMENT OF THE NAVY DOES NOT WARRANT: AGAINST INTERFERENCE WITH YOUR USE OF THE NAVY TOOLS MOBILE APPLICATION; THAT THE FUNCTIONS CONTAINED IN, OR INFORMATION PROVIDED BY, THE NAVY TOOLS MOBILE APPLICATION IS CURRENT; THAT SUCH INFORMATION OR FUNCTIONS WILL MEET YOUR REQUIREMENTS; THAT THE OPERATION OF THE NAVY TOOLS MOBILE APPLICATION WILL BE UNINTERRUPTED OR ERROR-FREE; OR THAT DEFECTS IN THE NAVY TOOLS MOBILE APPLICATION WILL BE CORRECTED.  No oral or written information or advice concerning the NAVY TOOLS mobile application shall create a warranty.  Should the NAVY TOOLS mobile application prove defective, you assume the entire cost of all necessary servicing, repairs, or correction of devices on which you download the NAVY TOOLS mobile application.  If an applicable jurisdiction does not allow disclaimer of implied warranties or exclusion of statutory consumer rights, these disclaimers and exclusions may not apply to you.  If you are active duty military or a Government employee, any lack of availability or currency of information in the NAVY TOOLS mobile application does not relieve you from performing all requirements of your duties.</p>
+						<p>By downloading the NAVY TOOLS mobile application and subsequent updates, you also expressly acknowledge and agree that, to the extent not prohibited by law, you shall indemnify and hold harmless the Department of the Navy and the United States Government for personal injury, or any incidental, special, indirect or consequential damages whatsoever, including (without limitation) damage to devices on which the NAVY TOOLS mobile application is downloaded and damages for loss of data, loss of profits, business interruption, or any other damages or losses arising out of or related to your use, or inability to use, the NAVY TOOLS mobile application, however caused, regardless of the theory of liability (contract, tort or otherwise).  If an applicable jurisdiction does not allow limitation of liability for personal injury or for incidental or consequential damages, these limitations may not apply to you. </p>
+						<p>PLEASE NOTE: When submitting feedback (or similar functions), an Internet connection is needed and data rates may apply. </p>
+						
+						
+					</div>
+				</div>
+				<div class="modal-footer">
+					<a href="#" class="btn btn-primary" data-dismiss="modal">I Understand</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<span class="version">Version {{version}}</span> <a href="#" onclick="$('#disclaimerModal').modal();return false;" style="color:white;text-decoration:underline;margin-left:10px;">Disclaimer</a> <a href="#" class="feedback">Feedback</a>
+				</div>
+				<div class="col text-right">
+					<a href="#" class="btn-reset" ng-click="resetData()"><i class="mdi mdi-warning"></i>Reset Data</a>
+				</div>
+			</div>
+		</div>
+		
+	</footer>
+	<script src="cordova.js"></script>
+	<!-- Framework Scripts -->
+	<script src="js/vendor/jquery-3.2.1.min.js"></script>
+	<script src="js/vendor/popper.min.js"></script>
+	<script src="js/vendor/bootstrap.min.js"></script>
+	<script src="js/vendor/mustache.min.js"></script>
+	<script src="js/fastclick.js"></script>
+	<script src="js/vendor/isotope.pkgd.min.js"></script>
+
+	<!-- Custom Scripts -->
+	<script src="js/plugins.js"></script>
+
+	<script src="js/app.js"></script>
+	<script src="js/controllers.js"></script>
+
+	<script src="js/main.js"></script>
+
+</body>
+</html>
