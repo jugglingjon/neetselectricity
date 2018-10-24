@@ -176,7 +176,7 @@ $(document).ready(function(){
 	});
 
 	//figure zoom
-	$('body').on('click','figure:not(.video)',function(){
+	$('body').on('click','figure:not(.video):not(.equation)',function(){
 		$('#figureModal .modal-title').text($(this).find('figcaption').text());
 		$('#figureModal .modal-body').empty();
 		var el=$(this);

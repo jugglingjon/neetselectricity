@@ -10,7 +10,7 @@ Examples:
 .rounded(5px);                              
 .border-radius(5px, 0, 0, 5px);             
 .opacity(0.8);                              
-.transition-duration(0.2s);                 
+.transition-duration(0.2s);               f  
 .rotation(15deg);                           
 .scale(2);                                  
 .transition(2s, ease-out);                  
@@ -330,6 +330,12 @@ footer a i::before {
 .quiz-area figure.large {
   max-width: 50%;
 }
+.portal figure.equation,
+.quiz-area figure.equation {
+  float: none !important;
+  margin: 0 auto !important;
+  border: 0 !important;
+}
 @media only screen and (max-width: 767px) {
   .portal figure,
   .quiz-area figure {
@@ -375,11 +381,13 @@ header,
 header *,
 .utility-menu,
 .utility-menu * {
-  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
 }
 header {
   height: 4rem;
-  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
   position: fixed;
   top: 0;
   width: 100%;
@@ -393,7 +401,8 @@ header .test-button {
   position: absolute;
   right: 10px;
   top: 50%;
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
   background: none;
   border-color: white;
 }
@@ -401,7 +410,8 @@ header .back-button {
   position: absolute;
   left: 10px;
   top: 50%;
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
   background: none;
   border-color: white;
 }
@@ -432,14 +442,16 @@ header .topicNav-area .topicNav-button::before {
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   left: 50%;
-  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 header .topicNav-area .topicNav-wrapper {
   display: none;
   position: absolute;
   width: 480px;
   left: 50%;
-  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
   margin-top: 20px;
   z-index: 9999999;
   background: white;
@@ -525,7 +537,8 @@ header .topicNav-area .topicNav-wrapper #topicNav li.current::before {
   border: 1px solid #ffffff;
   border-radius: .25rem;
   content: '';
-  box-shadow: 0 0 4px 0 #2e7dbb;
+  -webkit-box-shadow: 0 0 4px 0 #2e7dbb;
+          box-shadow: 0 0 4px 0 #2e7dbb;
   pointer-events: none;
   background-color: #2e7dbb;
 }
@@ -554,7 +567,8 @@ header .topicNav-area .topicNav-wrapper #topicNav li a .chapter-percent {
   position: absolute;
   right: .5rem;
   top: 50%;
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
   border-radius: .25rem;
   color: #2e7cbc;
   padding: 3px 4px;
@@ -610,12 +624,14 @@ header .topicNav-area .topicNav-wrapper #topicNav li.even {
   position: absolute;
   top: 50%;
   right: 0.6rem;
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
   font-size: 1.4rem;
 }
 .icon-wrapper .icon#topicNav-search-clear,
 .icon-wrapper .icon#search-clear {
-  transform: translateY(-50%) rotate(45deg);
+  -webkit-transform: translateY(-50%) rotate(45deg);
+          transform: translateY(-50%) rotate(45deg);
   cursor: pointer;
 }
 .shroud {

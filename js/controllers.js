@@ -173,7 +173,7 @@ app.controller('chapterController', function($scope,$compile,$http) {
 
 			$('#search').val('').trigger('keyup');
 			
-			$('figure').each(function(){
+			$('figure:not(.equation)').each(function(){
 				var figure=$(this).attr('data-id');
 				if($(this).hasClass('video')){
 					$(this).prepend('<span>Figure '+figure+'</span> &mdash; ');
@@ -193,6 +193,17 @@ app.controller('chapterController', function($scope,$compile,$http) {
 					var img=$('<img src="'+imageUrl+'">');
 					$(this).prepend(img);
 				}
+				
+			});
+
+			$('figure.equation').each(function(){
+				var figure=$(this).attr('data-id');
+
+				// $(this).prepend('<span>Figure '+figure+'</span> &mdash; ');
+				// $(this).wrapInner('<figcaption></figcaption>');
+				var imageUrl='media/equation-'+figure+'.jpg';
+				var img=$('<img src="'+imageUrl+'">');
+				$(this).prepend(img);
 				
 			});
 			
