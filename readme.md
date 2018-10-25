@@ -101,6 +101,13 @@ The large class makes the figure larger, 50% of container:
 <figure data-id="2-1" class="large">Improper tool storage</figure>
 ```
 
+### Add equations
+The markup to add equations is very similar to the Figure markup, simply add an `equation` class and omit caption text:
+
+```
+<figure data-id="2-1" class="equation"></figure>
+```
+
 ### Add Alerts
 A number of alerts exist in the document, of different styles. Use the bootstrap 4 alert system, with an appropriate class-suffix:
 
@@ -208,5 +215,6 @@ Within the [shared Excel spreadsheet](https://boozallen-my.sharepoint.com/:x:/g/
 
 * [Chapter Progress Tracker](https://boozallen-my.sharepoint.com/:x:/g/personal/559014_bah_com/EYUZ1k9rVVBMmm0luz5NNkkBPeakNpmoFmAk9_j8E-bMPQ?e=OZSOoZ) - Excel spreadsheet we're using to share progress
 * [Source NEETS Electricity Document](https://boozallen-my.sharepoint.com/:w:/g/personal/559014_bah_com/Eak6mNmW8i9AqumjKXfB-uYBCWx1b4Le66j1knXLnaZ29g?e=mR402V) - Microsoft Word Version of source document
+* [Chapter 3 Equation IDs](https://boozallen-my.sharepoint.com/:w:/g/personal/559014_bah_com/EaQOUI8pwtRGlxJ9yfaqI4cBmQtEYhdLwQo_Kx5ZiJLWlA?e=FK6gxm) - Defines IDs and general boundaries of equations in chapter 4
 * [Bootstrap 4](https://getbootstrap.com/docs/4.1/getting-started/introduction/) - Bootstrap 4, framework used
 
