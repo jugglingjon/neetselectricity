@@ -134,7 +134,6 @@
 <p>Once the equivalent resistance is known, a new circuit is drawn consisting of a single resistor (to represent the equivalent resistance) and the voltage source, as shown in part B.</p>
 
 <h5>Rules for Parallel DC Circuits</h5>
-
 <ol>
     <li>The same voltage exists across each branch of a parallel circuit and is equal to the source voltage.</li>
     <li>The current through a branch of a parallel network is inversely proportional to the amount of resistance of the branch.</li>
@@ -154,5 +153,110 @@
 <p>This may appear to be a large amount of mathematical manipulation. However, if you use the step-by-step approach, the circuit will fall apart quite easily.</p>    
 <p>The first step in solving this problem is for you to draw the circuit and indicate the known values as shown in figure 3-50.</p>    
 <figure data-id="3-50">Parallel circuit problem.</figure>
+<p>There are several ways to approach this problem. With the values you have been given, you could first solve for R<sub>T</sub>, the power used by R<sub>1</sub>, or the voltage across R<sub>1</sub>, which you know is equal to the source voltage and the voltage across each of the other resistors. Solving for R<sub>T</sub> or the power used by R<sub>1</sub> will not help in solving for the other unknown values.</p>
+<p>Once the voltage across R<sub>1</sub> is known, this value will help you calculate other unknowns. Therefore the logical unknown to solve for is the source voltage (the voltage across R<sub>1</sub>).</p>
+<figure data-id="3-83" class="equation"></figure>
+<p>Now that source voltage is known, you can solve for current in each branch.</p>
+<figure data-id="3-84" class="equation"></figure>
+<p>Since R<sub>3</sub> = R<sub>4</sub> = R<sub>5</sub>  and the voltage across each branch is the same:</p>
+<figure data-id="3-85" class="equation"></figure>
+<p>Solving for total resistance. </p>
+<figure data-id="3-86" class="equation"></figure>
+<p>An alternate method for solving for R<sub>T</sub> can be used.  By observation, you can see that R<sub>3</sub>, R<sub>4</sub>, and R<sub>5</sub> are of equal ohmic value. Therefore an equivalent resistor can be substituted for these three resistors in solving for total resistance.</p>
+<figure data-id="3-87" class="equation"></figure>
+<p>The circuit can now be redrawn using a resistor labeled R<sub>eq1</sub> in place of R<sub>3</sub>, R<sub>4</sub>, and R<sub>5</sub> as shown in figure 3-51.</p>
+<figure data-id="3-51">First equivalent parallel circuit.</figure>
+<p>An equivalent resistor can be calculated and substituted for R<sub>1</sub> and R<sub>2</sub> by use of the product over the sum formula.</p>
+<figure data-id="3-88" class="equation"></figure>
+<p>The circuit is now redrawn again using a resistor labeled R<sub>eq2</sub>  in place of R<sub>1</sub> and R<sub>2</sub> as shown in figure 3-52.</p>
+<figure data-id="3-52">Second equivalent parallel circuit.</figure>
+<p>You are now left with two resistors in parallel. The product over the sum method can now be used to solve for total resistance.</p>
+<figure data-id="3-89" class="equation"></figure>
+<p>This agrees with the solution found by using the general formula for solving for resistors in parallel. The circuit can now be redrawn as shown in figure 3-53 and total current can be calculated.</p>    
+<figure data-id="3-52">Parallel circuit redrawn to final equivalent circuit.</figure>
+<figure data-id="3-90" class="equation"></figure>
+<p>This solution can be checked by using the values already calculated for the branch currents. </p>
+<figure data-id="3-91" class="equation"></figure>
+<p>Now that total current is known, the next logical step is to find total power. </p>
+<figure data-id="3-92" class="equation"></figure>
+<p>Solving for the power in each branch. </p>
+<figure data-id="3-93" class="equation"></figure>
+<p>Since I<sub>R3</sub> = I<sub>R4</sub> = I<sub>R5</sub> then, P<sub>R3</sub> = P<sub>R4</sub> = P<sub>R5</sub> = 1800 W. The previous calculation for total power can now be checked.</p>
+<figure data-id="3-94" class="equation"></figure>
 
-<p>TO BE CONTINUED...PAGE 3-70</p>
+<i>
+    <p>Q39.  What term identifies a single resistor that represents total resistance of a complex circuit?</p>
+    <p>Q40.  The total power in both series and parallel circuits is computed with the formula: P<sub>T</sub> = P<sub>1</sub> + P<sub>2</sub> + P<sub>3</sub> +...P<sub>n</sub>. Why can this formula be used for both series and parallel circuits?</p>   
+    <p>Q41.  A circuit consists of three resistors connected in parallel across a voltage source. R<sub>1</sub> = 40 &#8486;, R<sub>2</sub> = 30 &#8486;, R<sub>3</sub> = 40 &#8486;, and P<sub>R3</sub> = 360 watts. Solve for R<sub>T</sub>, E<sub>S</sub> and I<sub>R2</sub>. (Hint: Draw and label the circuit first.)</p>    
+</i>
+
+<h3>SERIES-PARALLEL DC CIRCUITS</h3>
+<p>In the preceding discussions, series and parallel dc circuits have been considered separately. The technician will encounter circuits consisting of both series and parallel elements. A circuit of this type is referred to as a COMBINATION CIRCUIT. Solving for the quantities and elements in a combination circuit is simply a matter of applying the laws and rules discussed up to this point.</p>
+
+<h4>SOLVING COMBINATION-CIRCUIT PROBLEMS</h4>
+<p>The basic technique used for solving dc combination-circuit problems is the use of equivalent circuits. To simplify a complex circuit to a simple circuit containing only one load, equivalent circuits are substituted (on paper) for the complex circuit they represent. To demonstrate the method used to solve combination circuit problems, the network shown in figure 3-54(A) will be used to calculate various circuit quantities, such as resistance, current, voltage, and power.</p>
+<figure data-id="3-54">Example combination circuit.</figure>
+<p>Examination of the circuit shows that the only quantity that can be computed with the given information is the equivalent resistance of R<sub>2</sub> and R<sub>3</sub>.</p>
+<figure data-id="3-95" class="equation"></figure>
+<p>Now that the equivalent resistance for R<sub>2</sub> and R<sub>3</sub> has been calculated, the circuit can be redrawn as a series circuit as shown in figure 3-54(B).</p>
+<p>The equivalent resistance of this circuit (total resistance) can now be calculated. </p>
+<figure data-id="3-96" class="equation"></figure>
+<p>The original circuit can be redrawn with a single resistor that represents the equivalent resistance of the entire circuit as shown in figure 3-54(C).</p>
+<p>To find total current in the circuit: </p>
+<figure data-id="3-97" class="equation"></figure>
+<p>To find total power in the circuit: </p>
+<figure data-id="3-98" class="equation"></figure>
+<p>To find the voltage dropped across R<sub>1</sub>, R<sub></sub>, and R<sub>3</sub>, refer to figure 3-54(B). R<sub>eq1</sub> represents the parallel network of R<sub>2</sub> and R<sub>3</sub>. Since the voltage across each branch of a parallel circuit is equal, the voltage across R<sub>eq1</sub> (E<sub>eq1</sub>) will be equal to the voltage across R<sub>2</sub> (E<sub>R2</sub>) and also equal to the voltage across R<sub>3</sub> (E<sub>R3</sub>).</p>
+<figure data-id="3-99" class="equation"></figure>
+<p>To find power used by R<sub>1</sub>: </p>
+<figure data-id="3-100" class="equation"></figure>
+<p>To find the current through R<sub>2</sub> and R<sub>3</sub>, refer to the original circuit, figure 3-54(A). You know E<sub>R2</sub> and E<sub>R3</sub> from previous calculation.</p>
+<figure data-id="3-101" class="equation"></figure>
+<p>To find power used by R<sub>2</sub> and R<sub>3</sub>, using values from previous calculations:</p>    
+<figure data-id="3-102" class="equation"></figure>
+
+<p>Now that you have solved for the unknown quantities in this circuit, you can apply what you have learned to any series, parallel, or combination circuit. It is important to remember to first look at the circuit and from observation make your determination of the type of circuit, what is known, and what you are looking for. A minute spent in this manner may save you many unnecessary calculations.</p>    
+<p>Having computed all the currents and voltages of figure 3-54, a complete description of the operation of the circuit can be made. The total current of 3 amps leaves the negative terminal of the battery and flows through the 8-ohm resistor (R<sub>1</sub>). In so doing, a voltage drop of 24 volts occurs across resistor R<sub>1</sub>. At point A, this 3-ampere current divides into two currents. Of the total current, 1.8 amps flows through the 20-ohm resistor. The remaining current of 1.2 amps flows from point A, down through the 30-ohm resistor to point B. This current produces a voltage drop of 36 volts across the 30-ohm resistor. (Notice that the voltage drops across the 20- and 30-ohm resistors are the same.) The two branch currents of 1.8 and 1.2 amps combine at junction B and the total current of 3 amps flows back to the source. The action of the circuit has been completely described with the exception of power consumed, which could be described using the values previously computed.</p>    
+<p>It should be pointed out that the combination circuit is not difficult to solve. The key to its solution lies in knowing the order in which the steps of the solution must be accomplished.</p>    
+
+<h5>Practice Circuit Problem</h5>
+<p>Figure 3-55 is a typical combination circuit. To make sure you understand the techniques of solving for the unknown quantities, solve for E<sub>R1</sub>.</p>
+<figure data-id="3-54">Combination practice circuit.</figure>
+<p>It is not necessary to solve for all the values in the circuit to compute the voltage drop across resistor R<sub>1</sub> (E<sub>R1</sub>). First look at the circuit and determine that the values given do not provide enough information to solve for E<sub>R1</sub> directly.</p>
+<p>If the current through R<sub>1</sub> (I<sub>R1</sub>) is known, then ER1 can be computed by applying the formula:</p>
+<figure data-id="3-103" class="equation"></figure>
+<p>The following steps will be used to solve the problem.</p>
+<ol>
+    <li>
+        The total resistance (R<sub>T</sub>) is calculated by the use of equivalent resistance.
+        <figure data-id="3-104" class="equation"></figure>
+        Redraw the circuit as shown in figure 3-55(B). 
+        <figure data-id="3-105" class="equation"></figure>
+        Redraw the circuit as shown in figure 3-55(C). 
+        <figure data-id="3-106" class="equation"></figure>
+    </li>
+    <li>
+        The total current (I<sub>T</sub>) is now computed. 
+        <figure data-id="3-107" class="equation"></figure>
+    </li>
+    <li>
+        Solve for the voltage dropped across R<sub>eq2</sub>. This represents the voltage dropped across the network R<sub>1</sub>, R<sub>2</sub>, and R<sub>3</sub> in the original circuit.
+        <figure data-id="3-108" class="equation"></figure>
+    </li>
+    <li>
+        Solve for the current through R<sub>eq1</sub>. (R<sub>eq1</sub> represents the network R<sub>1</sub> and R<sub>2</sub> in the original circuit.) Since the voltage across each branch of a parallel circuit is equal to the voltage across the equivalent resistor representing the circuit:
+        <figure data-id="3-109" class="equation"></figure>
+    </li>
+    <li>
+        Solve for the voltage dropped across R<sub>1</sub> (the quantity you were asked to find). Since R<sub>eq1</sub> represents the series network of R<sub>1</sub> and R<sub>2</sub> and total current flows through each resistor in a series circuit, I<sub>R1</sub> must equal I<sub>Req1</sub>.
+        <figure data-id="3-109" class="equation"></figure>
+    </li>
+</ol>
+
+<i>
+    <p>Q42.  Refer to figure 3-55(A). If the following resistors were replaced with the values indicated: R<sub>1</sub> = 900 &#8486;, R<sub>3</sub> = 1 k&#8486;, what is the total power in the circuit? What is E<sub>R2</sub>?</p>
+</i>
+
+<h4>REDRAWING CIRCUITS FOR CLARITY</h4>
+
+<p>TO BE CONTINUED...PAGE 3-85</p>
