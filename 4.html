@@ -395,7 +395,7 @@
 <h4>POWER IN THE VOLTAGE DIVIDER</h4>
 <p>Power in the voltage divider is an extremely important quantity. The power dissipated by the resistors in the voltage divider should be calculated to determine the power handling requirements of the resistors. Total power of the circuit is needed to determine the power requirement of the source.</p>
 <p>The power for the circuit shown in figure 3-65 is calculated as follows: </p>
-<figure data-id="3-130" class="equation"></figure>
+<figure data-id="3-130" class="equation"></figure> 
 <p>The power in each resistor is calculated just as for R<sub>1</sub>. When the calculations are performed, the following results are obtained:</p>
 <figure data-id="3-131" class="equation"></figure>
 <p>To calculate the power for load 1: </p>
@@ -410,5 +410,61 @@
 
 <h4>VOLTAGE DIVIDER WITH POSITIVE AND NEGATIVE VOLTAGE REQUIREMENTS</h4>
 <p>In many cases the load for a voltage divider requires both positive and negative voltages. Positive and negative voltages can be supplied from a single source voltage by connecting the ground (reference point) between two of the divider resistors. The exact point in the circuit at which the reference point is placed depends upon the voltages required by the loads.</p>
+<p>For example, a voltage divider can be designed to provide the voltage and current to three loads from a given source voltage.</p>
+<figure data-id="3-135" class="equation"></figure>
+<p>The circuit is drawn as shown in figure 3-66. Notice the placement of the ground reference point. The values for resistors R<sub>1</sub>, R<sub>3</sub>, and R<sub>4</sub> are computed exactly as was done in the last example. I<sub>R1</sub> is the bleeder current and can be calculated as follows:</p>
+<figure data-id="3-66">Voltage divider providing both positive and negative voltages.</figure>
+<figure data-id="3-136" class="equation"></figure>
+<p>Calculate the value of R<sub>1</sub>.</p>
+<figure data-id="3-137" class="equation"></figure>
+<p>(or 195mA leaving point A)</p>
+<p>Since E<sub>R2</sub> = E load 2, you can calculate the value of R<sub>2</sub>.</p>
+<figure data-id="3-138" class="equation"></figure>
+<p>The voltage across R<sub>3</sub> (E<sub>R3</sub>) equals the difference between the voltage requirements of loads 3 and 2. </p>
+<figure data-id="3-139" class="equation"></figure>
+<p>The voltage across E<sub>R4</sub> equals the source voltage (E<sub>s</sub>) minus the voltage requirement of load 3 and the voltage requirement of load 1. Remember Kirchhoff’s voltage law which states that the sum of the voltage drops and emfs around any closed loop is equal to zero.</p>
+<figure data-id="3-140" class="equation"></figure>
+<p>With the calculations just explained, the values of the resistors used in the voltage /divider are as follows:</p>
+<figure data-id="3-141" class="equation"></figure>
+<p>From the information just calculated, any other circuit quantity, such as power, total current, or resistance of the load, could be calculated.</p>
 
-<p>TO BE CONTINUED...PAGE 3-101</p>
+<h4>PRACTICAL APPLICATION OF VOLTAGE DIVIDERS</h4>
+<p>In actual practice the computed value of the bleeder resistor does not always come out to an even value. Since the rule-of-thumb for bleeder current is only an estimated value, the bleeder resistor can be of a value close to the computed value. (If the computed value of the resistance were 510 ohms, a 500- ohm resistor could be used.) Once the actual value of the bleeder resistor is selected, the bleeder current must be recomputed. <u>The voltage developed by the bleeder resistor must be equal to the voltage requirement of the load in parallel with the bleeder resistor</u>.</p>
+<p>The value of the remaining resistors in the voltage divider is computed from the current through the remaining resistors and the voltage across them. These values <u>must be used</u> to provide the required voltage and current to the loads.</p>
+<p>If the computed values for the divider resistors are not even values; series, parallel, or series-parallel networks can be used to provide the required resistance.</p>
+<p>Example: A voltage divider is required to supply two loads from a 190.5 volts source. Load 1 requires +45 volts and 210 milliamps; load 2 requires +165 volts and 100 milliamps.</p>
+<figure data-id="3-142" class="equation"></figure>
+<p>Since it would be difficult to find a resistor of 1451.6 ohms, a practical choice for R<sub>1</sub> is 1500 ohms. </p>
+<p>Calculate the actual bleeder current using the selected value for R<sub>1</sub>.</p>
+<figure data-id="3-143" class="equation"></figure>
+<p>Using this value for I<sub>R1</sub>, calculate the resistance needed for the next divider resistor. The current (I<sub>R2</sub>) is equal to the bleeder current plus the current used by load 1.</p>
+<figure data-id="3-144" class="equation"></figure>
+<p>The voltage across R<sub>2</sub> (E<sub>R2</sub>) is equal to the difference between the voltage requirements of loads 2 and 1, or 120 volts.</p>
+<p>Calculate the value of R<sub>2</sub>.</p>
+<figure data-id="3-145" class="equation"></figure>
+<p>The value of the final divider resistor is calculated with I<sub>R3</sub> (I<sub>R2</sub> + I load 2) equal to 340 mA and E<sub>R3</sub> (E<sub>s</sub> - E load 2) equal to 25.5V. </p>
+<figure data-id="3-146" class="equation"></figure>
+<p>A 75-ohm resistor may not be easily obtainable, so a network of resistors equal to 75 ohms can be used in place of R<sub>3</sub>.</p>
+<p>Any combination of resistor values adding up to 75 ohms could be placed in series to develop the required network. For example, if you had two 37.5-ohm resistors, you could connect them in series to get a network of 75 ohms. One 50-ohm and one 25-ohm resistor or seven 10-ohm and one 5-ohm resistor could also be used.</p>    
+<p>A parallel network could be constructed from two 150-ohm resistors or three 225-ohm resistors. Either of these parallel networks would also be a network of 75 ohms.</p>    
+<p>The network used in this example will be a series-parallel network using three 50-ohm resistors. </p>    
+<p>With the information given, you should be able to draw this voltage divider network.</p>    
+<p>Once the values for the various divider resistors have been selected, you can compute the power used by each resistor using the methods previously explained. When the power used by each resistor is known, the wattage rating required of each resistor determines the physical size and type needed for the circuit. This circuit is shown in figure 3-67.</p>
+<figure data-id="3-67">Practical example of a voltage divider.</figure>
+
+<i>
+    <p>Q53.  In figure 3-67, why is the value of R<sub>1</sub> calculated first?</p>
+    <p>Q54.  In figure 3-67, how is (a) the current through R<sub>2</sub> and (b) the voltage drop across R<sub>2</sub> computed?</p>
+    <p>Q55.  In figure 3-67, what is the power dissipated in R<sub>1</sub>?</p>
+    <p>Q56.  In figure 3-67,  what is the purpose of the series-parallel network R<sub>3</sub>, R<sub>4</sub>, and R<sub>5</sub>?</p>
+    <p>Q57.  In figure 3-67,  what should be the minimum wattage ratings of R<sub>3</sub> and R<sub>5</sub>?</p>
+    <p>Q58.  If the load requirement consists of both positive and negative voltages, what technique is used in the voltage divider to supply the loads from a single voltage source?</p>
+</i>
+
+<h3>EQUIVALENT CIRCUIT TECHNIQUES</h3>
+<p>The circuit solutions that you have studied up to this point have been obtained mainly through the use of formulas derived from Ohm’s law. As in many other fields of science, electricity has its share of special shortcut methods. Some of the special circuit analysis techniques are: THEVENIN’S THEOREM, which uses a process of circuit reduction to Thevenin’s equivalent circuit; and NORTON’S THEOREM, which is reduction of a circuit to Norton’s equivalent. Another method is called LOOP ANALYSIS. This uses Kirchhoff’s voltage law to simultaneously solve problems in parallel branches of a circuit. The use of these methods should be reserved until you have become thoroughly familiar with the methods covered thus far in this chapter. You may want to explore some of the special techniques later in your career.</p>
+
+<h3>ELECTRICAL SAFETY</h3>
+<p>Safety precautions must always be observed by persons working around electric circuits and equipment to avoid injury from electric shock. Detailed safety precautions are contained in NAVMAT P-5100, <i>Safety Precautions for Shore Activities</i> and OPNAVINST 5100-19, <i>Navy Safety Precautions for Forces Afloat</i>.</p>
+
+<p>TO BE CONTINUED...PAGE 3-108</p>
