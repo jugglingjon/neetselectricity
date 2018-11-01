@@ -381,7 +381,7 @@ Q<p>9.  What is the term applied to the rate at which a mechanical or electrical
 
 <p>The value of the voltage dropped by a resistor is determined by the applied voltage and is in proportion to the circuit resistances. The voltage drops that occur in a series circuit are in direct  proportion to the resistances. This is the result of having the same current flow through each resistor—the larger the ohmic value of the resistor, the larger the voltage drop across it. </p>
 
-<p>Q17.  A series circuit consisting of three resistors has a current of 3 amps. If R1 = 20 ohms, R2= 60 ohms, and  R3 = 80 ohms, what is the (a) total resistance and (b) source voltage of the circuit? </p>
+<p>Q17.  A series circuit consisting of three resistors has a current of 3 amps. If R1 = 20 ohms, R2= 60 ohms, and  R3 = 80 ohms, what is the (a) total resistance and (b) source voltage of the circuit?</p>
 
 <p>Q18.  What is the voltage dropped by each resistor of the circuit described in question 17? </p>
 
@@ -401,4 +401,278 @@ Q<p>9.  What is the term applied to the rate at which a mechanical or electrical
 
 <figure data-id="3-19" class="float-right">Solving for total power in a series circuit.</figure>
 
-<!-- up to Voltage in a Parallel Circuit --> 
+<figure data-id="3-34" class="equation"></figure>
+
+<p>By using the total resistance and the applied voltage, the circuit current is calculated. </p>
+
+<figure data-id="3-35" class="equation"></figure>
+
+<p>By means of the power formulas, the power can be calculated for each resistor:</p>
+
+<figure data-id="3-36" class="equation"></figure>
+
+<p>To check the answer, the total power delivered by the source can be calculated: </p>
+
+<figure data-id="3-37" class="equation"></figure>
+
+<p>The total power is equal to the sum of the power used by the individual resistors. </p>
+
+<h2>SUMMARY OF CHARACTERISTICS</h2>
+
+<p>The important factors governing the operation of a series circuit are listed below. These factors have been set up as a group of rules so that they may be easily studied. These rules must be completely understood before the study of more advanced circuit theory is undertaken. </p>
+
+<h3>Rules for Series DC Circuits </h3>
+
+<ol><li>The same current flows through each part of a series circuit. </li>
+    
+    <li>The total resistance of a series circuit is equal to the sum of the individual resistances. </li>
+    
+    <li>The total voltage across a series circuit is equal to the sum of the individual voltage drops.</li> 
+    
+    <li>The voltage drop across a resistor in a series circuit is proportional to the ohmic value of the resistor.</li>
+
+    <li>The total power in a series circuit is equal to the sum of the individual powers used by each circuit component.</li> </ol>
+
+<h3>SERIES CIRCUIT ANALYSIS </h3>
+
+<p>To establish a procedure for solving series circuits, the following sample problems will be solved.</p> 
+
+<p>Example: Three resistors of 5 ohms, 10 ohms, and 15 ohms are connected in series with a power source of 90 volts as shown in figure 3-20. Find the total resistance, circuit current, voltage drop of each resistor, power of each resistor, and total power of the circuit. </p>
+
+<figure data-id="3-20" class="float-right">Solving for various values in a series circuit.</figure>
+
+<p>In solving the circuit the total resistance will be found first. Next, the circuit current will be calculated. Once the current is known, the voltage drops and power dissipations can be calculated.</p>
+
+<figure data-id="3-38" class="equation"></figure>
+
+<p>Example: Four resistors, R1 = 10 ohms,  R2 = 10 ohms, R3 = 50 ohms, and R4  = 30 ohms, are connected in series with a power source as shown in figure 3-21. The current through the circuit is 1/2 ampere. </p>
+
+<p>a. What is the battery voltage?</p> 
+
+<p>b. What is the voltage across each resistor?</p> 
+
+<p>c. What is the power expended in each resistor?</p> 
+
+<p>d. What is the total power?</p> 
+
+<figure data-id="3-21" class="float-right">Computing series circuit values.</figure>
+
+<figure data-id="3-39" class="equation"></figure>
+
+<p>An important fact to keep in mind when applying Ohm’s law to a series circuit is to consider whether the values used are component values or total values. When the information available enables the use of Ohm’s law to find total resistance, total voltage, and total current, total values must be inserted into the formula. To find total resistance:</p> 
+
+<figure data-id="3-40" class="equation"></figure>
+
+<p>To find total voltage:</p>
+
+<figure data-id="3-41" class="equation"></figure>
+
+<p>To find total current:</p>
+
+<figure data-id="3-42" class="equation"></figure>
+
+<p>NOTE: IT is equal to I in a series circuit. However, the distinction between IT and I in the formula should be noted. The reason for this is that future circuits may have several currents, and it will be necessary to differentiate between IT and other currents.</p>
+
+<p>To compute any quantity (E, I, R, or P) associated with a single given resistor, the values used in the formula must be obtained from that particular resistor. For example, to find the value of an unknown resistance, the voltage across and the current through that particular resistor must be used.</p> 
+
+<p>To find the value of a resistor:</p>
+
+<figure data-id="3-43" class="equation"></figure>
+
+<p>To find the voltage drop across a resistor:</p>
+
+<figure data-id="3-44" class="equation"></figure>
+
+<p>To find current through a resistor:</p>
+
+<figure data-id="3-45" class="equation"></figure>
+
+<p>Q21. A series circuit consists of two resistors in series. R1 = 25 ohms and R2 = 30 ohms. The circuit current is 6 amps. What is the (a) source voltage, (b) voltage dropped by each resistor, (c) total power, and (d) power used by each resistor? </p>
+
+<h2>KIRCHHOFF’S VOLTAGE LAW</h2> 
+
+<p>In 1847, G. R. Kirchhoff extended the use of Ohm’s law by developing a simple concept concerning the voltages contained in a series circuit loop. Kirchhoff’s voltage law states:</p>
+
+<p>"The algebraic sum of the voltage drops in any closed path in a circuit and the electromotive forces in that path is equal to zero."</p>
+
+<p>To state Kirchhoff’s law another way, the voltage drops and voltage sources in a circuit are equal at any given moment in time. If the voltage sources are assumed to have one sign (positive or negative) at that instant and the voltage drops are assumed to have the opposite sign, the result of adding the voltage sources and voltage drops will be zero.</p> 
+
+<p>NOTE: The terms electromotive force and emf are used when explaining Kirchhoff’s law because Kirchhoff’s law is used in alternating current circuits (covered in Module 2). In applying Kirchhoff’s law to direct current circuits, the terms electromotive force and emf apply to voltage sources such as batteries or power supplies.</p>
+
+<p>Through the use of Kirchhoff’s law, circuit problems can be solved which would be difficult, and often impossible, with knowledge of Ohm’s law alone. When Kirchhoff’s law is properly applied, an equation can be set up for a closed loop and the unknown circuit values can be calculated.</p>
+
+<h3>POLARITY OF VOLTAGE</h3>
+
+<p>To apply Kirchhoff’s voltage law, the meaning of voltage polarity must be understood.</p> 
+
+<p>In the circuit shown in figure 3-22, the current is shown flowing in a counterclockwise direction.</p> 
+
+<p>Notice that the end of resistor R1, into which the current flows, is marked NEGATIVE (-). The end of R1 at which the current leaves is marked POSITIVE (+). These polarity markings are used to show that the end of R1 into which the current flows is at a higher negative potential than the end of the resistor at which the current leaves. Point A is more negative than point B.</p> 
+
+<figure data-id="3-22" class="float-right">Voltage polarities.</figure>
+
+<p>Point C, which is at the same potential as point B, is labeled negative. This is to indicate that point C is more negative than point D. To say a point is positive (or negative) without stating what the polarity is based upon has no meaning. In working with Kirchhoff’s law, positive and negative polarities are assigned in the direction of current flow.</p>
+
+<h2>APPLICATION OF KIRCHHOFF’S VOLTAGE LAW</h2>
+
+<p>Text BoxKirchhoff’s voltage law can be written as an equation, as shown below:</p>
+ 
+<figure data-id="3-46" class="equation"></figure>
+
+<p>where Ea, Eb, etc., are the voltage drops or emf’s around any closed circuit loop. To set up the equation for an actual circuit, the following procedure is used. </p>
+
+<p>Assume a direction of current through the circuit. (The correct direction is desirable but not necessary.)</p> 
+
+<p>Using the assumed direction of current, assign polarities to all resistors through which the current flows.</p> 
+
+<p>Place the correct polarities on any sources included in the circuit.</p> 
+
+<p>Starting at any point in the circuit, trace around the circuit, writing down the amount and polarity of the voltage across each component in succession. The polarity used is the sign AFTER the assumed current has passed through the component. Stop when the point at which the trace was started is reached. </p>
+
+<p>Place these voltages, with their polarities, into the equation and solve for the desired quantity.</p> 
+
+<p>Example: Three resistors are connected across a 50-volt source. What is the voltage across the third resistor if the voltage drops across the first two resistors are 25 volts and 15 volts?</p> 
+
+<p>Solution: First, a diagram, such as the one shown in figure 3-23, is drawn. Next, a direction of current is assumed (as shown). Using this current, the polarity markings are placed at each end of each resistor and also on the terminals of the source. Starting at point A, trace around the circuit in the direction of current flow, recording the voltage and polarity of each component. Starting at point A and using the components from the circuit:</p> 
+
+<figure data-id="3-47" class="equation"></figure>
+
+<p>Substituting values from the circuit:</p>
+
+<figure data-id="3-48" class="equation"></figure>
+
+<figure data-id="3-23" class="float-right">Determining unknown voltage in a series circuit.</figure>
+
+<p>Using the same idea as above, you can solve a problem in which the current is the unknown quantity. Example: A circuit having a source voltage of 60 volts contains three resistors of 5 ohms, 10 ohms, and 15 ohms. Find the circuit current.</p>
+
+<p>Solution: Draw and label the circuit (fig. 3-24). Establish a direction of current flow and assign polarities. Next, starting at any point—point A will be used in this example—write out the loop equation.</p> 
+
+<figure data-id="3-24" class="float-right">Correct direction of assumed current.</figure>
+
+<figure data-id="3-49" class="equation"></figure>
+
+<p>Since the current obtained in the above calculations is a positive 2 amps, the assumed direction of current was correct. To show what happens if the incorrect direction of current is assumed, the problem will be solved as before, but with the opposite direction of current. The circuit is redrawn showing the new direction of current and new polarities in figure 3-25. Starting at point A the loop equation is: </p>
+
+<figure data-id="3-50" class="equation"></figure>
+
+<figure data-id="3-25" class="float-right">Incorrect direction of assumed current.</figure>
+
+<p>Notice that the AMOUNT of current is the same as before. The polarity, however, is NEGATIVE. The negative polarity simply indicates the wrong direction of current was assumed. Should it be necessary to use this current in further calculations on the circuit using Kirchhoff’s law, the negative polarity should be retained in the calculations.</p> 
+
+<h3>Series Aiding and Opposing Sources</h3>
+
+<p>In many practical applications a circuit may contain more than one source of emf. Sources of emf that cause current to flow in the same direction are considered to be SERIES AIDING and the voltages are added. Sources of emf that would tend to force current in opposite directions are said to be SERIES OPPOSING, and the effective source voltage is the difference between the opposing voltages. When two opposing sources are inserted into a circuit current flow would be in a direction determined by the larger source. Examples of series aiding and opposing sources are shown in figure 3-26.</p>
+
+<figure data-id="3-26" class="float-right">Aiding and opposing sources. </figure>
+
+<p>A simple solution may be obtained for a multiple-source circuit through the use of Kirchhoff’s voltage law. In applying this method, the same procedure is used for the multiple-source circuit as was used above for the single-source circuit. This is demonstrated by the following example.</p>
+
+<p>Example: Using Kirchhoff’s voltage equation, find the amount of current in the circuit shown in fig 3-27. </p>
+
+<figure data-id="3-27" class="float-right">Aiding and opposing sources. </figure>
+
+<p>Solution: As before, a direction of current flow is assumed and polarity signs are placed on the drawing. The loop equation will be started at point A. </p>
+
+<figure data-id="3-51" class="equation"></figure>
+
+<p>Q22.  When using Kirchhoff’s voltage law, how are voltage polarities assigned to the voltage drops across resistors?</p> 
+
+<p>Q23.  Refer to figure 3-27, if R1 was changed to a 40-ohm resistor, what would be the value of circuit current  (IT)?</p> 
+
+<p>Q24.  Refer to figure 3-27. What is the effective source voltage of the circuit using the 40-ohm resistor?</p> 
+
+<h2>CIRCUIT TERMS AND CHARACTERISTICS</h2>
+
+<p>Before you learn about the types of circuits other than the series circuit, you should become familiar with some of the terms and characteristics used in electrical circuits. These terms and characteristics will be used throughout your study of electricity and electronics.</p> 
+
+<h3>REFERENCE POINT</h3> 
+
+<p>A reference point is an arbitrarily chosen point to which all other points in the circuit are compared. In series circuits, any point can be chosen as a reference and the electrical potential at all other points can be determined in reference to that point. In figure 3-28 point A shall be considered the reference point. </p>
+
+<p>Each series resistor in the illustrated circuit is of equal value. The applied voltage is equally distributed across each resistor. The potential at point B is 25 volts more positive than at point A. Points C and D are 50 volts and 75 volts more positive than point A respectively.</p> 
+
+<figure data-id="3-28" class="float-right">Reference points in a series circuit.</figure>
+
+<p>When point B is used as the reference, as in figure 3-29, point D would be positive 50 volts in respect to the new reference point. The former reference point, A, is 25 volts negative in respect to point B. </p>
+
+<figure data-id="3-29" class="float-right">Determining potentials with respect to a reference point.</figure>
+
+<p>As in the previous circuit illustration, the reference point of a circuit is always considered to be at zero potential. Since the earth (ground) is said to be at a zero potential, the term GROUND is used to denote a common electrical point of zero potential. In figure 3-30, point A is the zero reference, or ground, and the symbol for ground is shown connected to point A. Point C is 75 volts positive in respect to ground.</p>
+
+<figure data-id="3-30" class="float-right">Use of ground symbols.</figure>
+
+<p>In most electrical equipment, the metal chassis is the common ground for the many electrical circuits. When each electrical circuit is completed, common points of a circuit at zero potential are connected directly to the metal chassis, thereby eliminating a large amount of connecting wire. The electrons pass through the metal chassis (a conductor) to reach other points of the circuit. An example of a chassis grounded circuit is illustrated in figure 3-31. </p>
+
+<figure data-id="3-31" class="float-right">Ground used as a conductor.</figure>
+
+<p>Most voltage measurements used to check proper circuit operation in electrical equipment are taken in respect to ground. One meter lead is attached to a grounded point and the other meter lead is moved to various test points. Circuit measurement is explained in more detail in NEETS Module 3. </p>
+
+<h3>OPEN CIRCUIT</h3>
+
+<p>A circuit is said to be OPEN when a break exists in a complete conducting pathway. Although an open occurs when a switch is used to deenergize a circuit, an open may also develop accidentally. To restore a circuit to proper operation, the open must be located, its cause determined, and repairs made.</p> 
+
+<p>Sometimes an open can be located visually by a close inspection of the circuit components. Defective components, such as burned out resistors, can usually be discovered by this method. Others, such as a break in wire covered by insulation or the melted element of an enclosed fuse, are not visible to the eye. Under such conditions, the understanding of the effect an open has on circuit conditions enables a technician to make use of test equipment to locate the open component. </p>
+
+<p>In figure 3-32, the series circuit consists of two resistors and a fuse. Notice the effects on circuit conditions when the fuse opens. </p>
+
+<figure data-id="3-32" class="float-right">Normal and open circuit conditions. (A) Normal current; (B) Excessive current.</figure>
+
+<p>Current ceases to flow; therefore, there is no longer a voltage drop across the resistors. Each end of the open conducting path becomes an extension of the battery terminals and the voltage felt across the open is equal to the applied voltage (EA). </p>
+
+<p>An open circuit has INFINITE resistance. INFINITY represents a quantity so large it cannot be measured. The symbol for infinity is oo. In an open circuit, RT = oo. </p>
+
+<h3>SHORT CIRCUIT</h3>
+
+<p>A short circuit is an accidental path of low resistance which passes an abnormally high amount of current. A short circuit exists whenever the resistance of a circuit or the resistance of a part of a circuit drops in value to almost zero ohms. A short often occurs as a result of improper wiring or broken insulation.</p> 
+
+<p>In figure 3-33, a short is caused by improper wiring. Note the effect on current flow. Since the resistor has in effect been replaced with a piece of wire, practically all the current flows through the short and very little current flows through the resistor. Electrons flow through the short (a path of almost zero resistance) and the remainder of the circuit by passing through the 10-ohm resistor and the battery. The amount of current flow increases greatly because its resistive path has decreased from 10,010 ohms to 10 ohms. Due to the excessive current flow the 10-ohm resistor becomes heated. As it attempts to dissipate this heat, the resistor will probably be destroyed. Figure 3-34 shows a pictorial wiring diagram, rather than a schematic diagram, to indicate how broken insulation might cause a short circuit.</p> 
+
+<figure data-id="3-33" class="float-right">Normal and short circuit conditions.</figure>
+
+<figure data-id="3-34" class="float-right">Short due to broken insulation</figure>
+
+<h3>SOURCE RESISTANCE</h3>
+
+<p>A meter connected across the terminals of a good 1.5-volt battery reads about 1.5 volts. When the same battery is inserted into a complete circuit, the meter reading decreases to something less than 1.5 volts. This difference in terminal voltage is caused by the INTERNAL RESISTANCE of the battery (the opposition to current offered by the electrolyte in the battery). All sources of electromotive force have some form of internal resistance which causes a drop in terminal voltage as current flows through the source.</p> 
+
+<p>This principle is illustrated in figure 3-35, where the internal resistance of a battery is shown as Ri. In the schematic, the internal resistance is indicated by an additional resistor in series with the battery. The battery, with its internal resistance, is enclosed within the dotted lines of the schematic diagram. With the switch open, the voltage across the battery terminals reads 15 volts. When the switch is closed, current flow causes voltage drops around the circuit. The circuit current of 2 amperes causes a voltage drop of 2 volts across Ri. The 1-ohm internal battery resistance thereby drops the battery terminal voltage to 13 volts. Internal resistance cannot be measured directly with a meter. An attempt to do this would damage the meter. </p>
+
+<figure data-id="3-35" class="float-right">Effect of internal resistance.</figure>
+
+<p>The effect of the source resistance on the power output of a dc source may be shown by an analysis of the circuit in figure 3-36. When the variable load resistor (RL) is set at the zero-ohm position (equivalent to a short circuit), current (I) is calculated using the following formula: </p>
+
+<figure data-id="3-52" class="equation"></figure>
+
+<p>This is the maximum current that may be drawn from the source. The terminal voltage across the short circuit is zero volts and all the voltage is across the resistance within the source. </p>
+
+<figure data-id="3-36" class="float-right">Effect of source resistance on power output.</figure>
+
+<p>If the load resistance (RL) were increased (the internal resistance remaining the same), the current drawn from the source would decrease. Consequently, the voltage drop across the internal resistance would decrease. At the same time, the terminal voltage applied across the load would increase and approach a maximum as the current approaches zero amps.</p> 
+
+<h3>POWER TRANSFER AND EFFICIENCY</h3> 
+
+<p>Maximum power is transferred from the source to the load when the resistance of the load is equal to the internal resistance of the source. This theory is illustrated in the table and the graph of figure 3-36. </p>
+
+<p>When the load resistance is 5 ohms, matching the source resistance, the maximum power of 500 watts is developed in the load. </p>
+
+<p>The efficiency of power transfer (ratio of output power to input power) from the source to the load increases as the load resistance is increased. The efficiency approaches 100 percent as the load resistance approaches a relatively large value compared with that of the source, since less power is lost in the source. The efficiency of power transfer is only 50 percent at the maximum power transfer point (when the load resistance equals the internal resistance of the source). The efficiency of power transfer approaches zero efficiency when the load resistance is relatively small compared with the internal resistance of the source. This is also shown on the chart of figure 3-36.</p> 
+
+<p>The problem of a desire for both high efficiency and maximum power transfer is resolved by a compromise between maximum power transfer and high efficiency. Where the amounts of power involved are large and the efficiency is important, the load resistance is made large relative to the source resistance so that the losses are kept small. In this case, the efficiency is high. Where the problem of             matching a source to a load is important, as in communications circuits, a strong signal may be more important than a high percentage of efficiency. In such cases, the efficiency of power transfer should be only about 50 percent; however, the power transfer would be the maximum which the source is capable of supplying.</p> 
+
+<p>You should now understand the basic concepts of series circuits. The principles which have been presented are of lasting importance. Once equipped with a firm understanding of series circuits, you hold the key to an understanding of the parallel circuits to be presented next.</p> 
+
+<p>Q25.  A circuit has a source voltage of 100 volts and two 50-ohm resistors connected in series. If the reference point for this circuit is placed between the two resistors, what would be the voltage at the reference point?</p> 
+
+<p>Q26.  If the reference point in question 25 were connected to ground, what would be the voltage level of the reference point?</p> 
+
+<p>Q27.  What is an open circuit?</p> 
+
+<p>Q28.  What is a short circuit?</p> 
+
+<p>Q29.  Why will a meter indicate more voltage at the battery terminal when the battery is out of a circuit than when the battery is in a circuit?</p> 
+
+<p>Q30.  What condition gives maximum power transfer from the source to the load?</p> 
+
+<p>Q31.  What is the efficiency of power transfer in question 30?</p> 
+
+<p>Q32.  A circuit has a source voltage of 25 volts. The source resistance is 1 ohm and the load resistance is 49 ohms. What is the efficiency of power transfer? </p>
