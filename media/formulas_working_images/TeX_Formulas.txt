@@ -1,0 +1,1281 @@
+$$
+    \require{cancel}
+$$
+
+<p>
+    3-1
+    $$
+        I = {E \over R}\\
+        \begin{array}{l l}
+        \text{Where: } & I = \text{current in amperes}\\
+         & E = \text{voltage in volts}\\
+         & R = \text{resistance in amperes}\\
+        \end{array}
+    $$
+    
+</p>
+<p>
+    3-2
+    $$I = {E \over R}$$
+</p>
+<p>
+    3-3
+    $$I = {E \over R} = {1.5 \text{ volts} \over 5 \text{ ohm}} = {0.3 \text{ amperes}}$$
+</p>
+
+<p>
+    3-4
+    $$I = {E \over R} = {3.0 \text{ volts} \over 5 \text{ ohm}} = {0.6 \text{ amperes}}$$
+</p>
+
+<p>
+    3-5
+    $$I = {E \over R} = {3.0 \text{ volts} \over 10 \text{ ohm}} = {0.3 \text{ amperes}}$$
+</p>
+
+<p>
+    3-5a
+    $$I = {E \over R}$$
+</p>
+
+<p>
+    3-6
+    $$R \times I = {{E \over \cancel{R}} \times {\cancel{R} \over 1}}$$
+</p>
+
+<p>
+    3-7
+    $${{R \cancel{I}} \over \cancel{I}} = {E \over I} $$
+</p>
+
+<p>
+    3-8
+    $$R = {E \over I}$$
+</p>
+
+<p>
+    3-9
+    $$
+        \begin{array}{ll}
+        \text{Given: }\\
+        & E = 10 \text{ volts}\\
+        & I = 1 \text{ ampere}\\
+        \text{Solution: }\\
+        & R = \dfrac{E}{I}
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-10
+    $$
+        \begin{array}{ll}
+        \text{Insert the values of the known}\\
+        \text{quantities: }\\
+        & R = \dfrac{10 \text{ volts}}{1 \text{ ampere}}\\
+        & R = 10 \text{ ohms}\\
+        \text{The basic formula can also be}\\
+        \text{used to solve for E: }\\
+        \text{Take the basic formula: }\\
+        & I = \dfrac{E}{R}\\
+        \text{Multiply both sides by R: }\\
+        & I \times R = \dfrac{E}{R} \times \dfrac{R}{1}\\
+        \text{Results: }\\
+        & E = I \times R\\
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-11
+    $$
+        \begin{array}{ll}
+        \text{Given: } & I = 0.5 \text{ ampere}\\
+        & R = 45 \text{ ohms}\\
+        \text{Solution: } & E = {I \times R}\\
+        & E = {0.5 \text{ ampere} \times 45 \text{ ohms}}\\
+        & E = 2.25 \text{ volts}
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-12
+    $$I = {E \over R}$$
+</p>
+
+<p>
+    3-13
+    $$R = {E \over I}$$
+</p>
+
+<p>
+    3-14
+    $$
+        \begin{array}{ll}
+        \text{Given: } & E = {12 \text{ volts}}\\
+        & R = {2 \text{ ohms to } 12 \text{ ohms}}\\
+        \text{Solution: } & I = \dfrac{E}{R}\\
+        & I = \dfrac{12 \text{ volts}}{12 \text{ ohms}} = 1 \text{ ampere}\\
+        & I = \dfrac{12 \text{ volts}}{10 \text{ ohms}} = 1.2 \text{ ampere}\\
+        & I = \dfrac{12 \text{ volts}}{8 \text{ ohms}} = 1.5 \text{ ampere}\\
+        & I = \dfrac{12 \text{ volts}}{6 \text{ ohms}} = 2 \text{ ampere}\\
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-15
+    $$
+        \begin{aligned}
+        & I = {E \times R}\\
+        & I = {1 \text{ volt} \over 2 \text{ ohms}}\\
+        & I = {0.5 \text{ ampere}}
+        \end{aligned}
+    $$
+</p>
+
+<p>
+    3-16
+    $$   
+        \begin{array}{rl}
+        &P = \dfrac{E}{I}\\
+        &P = {1\text{ volt} \times 0.5 \text{ ampere}}\\
+        &P = {0.5 \text{ watt}}\\
+        \text{When E is increased to 2 volts:}\\
+        &I = \dfrac{E}{R}\\
+        &I = \dfrac{2\text{ volts}}{2 \text{ ohms}}\\
+        &I = {1 \text{ ampere}}\\
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-17
+    $$
+        \begin{array}{ll}
+        &P = {E \times I}\\
+        &P = {2 \text{ volts} \times 1 \text{ ampere}}\\
+        &P = {2 \text{ watts}}\\
+        \text{When E is increased to 3 volts:}\\
+        &I = \dfrac{E}{R}\\
+        &I = \dfrac{3 \text{ volts}}{2 \text{ ohms}}\\
+        &I = {1.5 \text{ amperes}}\\
+        \text{and}\\
+        &P = {E \times I}\\
+        &P = {3 \text{ volts} \times 1.5 \text{ ampere}}\\
+        &P = {4.5 \text{ watts}}\\
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-18
+    $$
+        
+        \begin{array}{ll}
+        \text{Since:}\\
+        & I = \dfrac{E}{R}\\
+        \text{By substitution in:}\\
+        & P = {E \times I}\\
+        \text{You get:}\\ 
+        & P = {E \times \dfrac{E}{R}}\\
+        \text{Or:}\\ 
+        & P = {\dfrac{E \times E}{R}}\\
+        \text{Therefore:}\\ 
+        & P = \dfrac{E^2}{R}\\
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-19
+    $$
+        P = {E^2 \over R}
+    $$
+</p>
+
+<p>
+    3-20
+    $$
+    \begin{array}{ll}
+    \text{Since:}\\ & E = {I \times R}\\
+    \text{By substitution in:}\\ & P = {E \times I}\\
+    \text{You get:}\\ & P = {I \times R \times I}\\
+    \text{Or:}\\ & P = {I \times I \times R}\\
+    \text{Therefore:}\\ & P = {I^2 \times R}\\
+    \end{array}
+    $$
+</p>
+
+<p>
+    3-20a
+    $$E^2 \over P$$
+</p>
+
+<p>
+    3-21
+    $$R = {E^2 \over P}$$
+</p>
+
+<p>
+    3-22
+    $$
+        \begin{aligned}
+        \text{Given: }\\
+        & E = {6 \text{ volts}}\\
+        & P = {3 \text{ watts}}\\
+        \text{Solution: }\\
+        & R = {E^2 \over P}\\
+        & (6 \text{ volts})^2 \over 3 \text{ watts}\\
+        & R = {36 \over 3} = {12 \text{ ohms}}
+        \end{aligned}
+    $$
+</p>
+
+<p>
+    3-23
+    $$
+        \begin{array}{ll}
+        \text{Given: } & t = {8 \text{ hrs}} \times 30 \text{ days}\\
+        & P = {3/4 \text{ hp}}\\
+        \text{Solution: } & \text{Convert horsepower to watts}\\
+        & P = {hp \times 746 \text{ watts}}\\
+        & P = {3/4 \times 746 \text{ watts}}\\
+        & P = 559 \text{ watts}
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-24
+    $$
+        \begin{aligned}
+        &P = \text{work} \times \text{time}\\
+        &P = 559 \text{ watts} \times 8 \times 30\\
+        &P = 134,000 \text{ watt-houts per month}
+        \end{aligned}
+    $$
+</p>
+
+<p>
+    3-25
+    $$
+        \begin{aligned}
+        &P = {\text{Power in watt-hours} \over 1000}\\
+        &P = {134,000 \text{ in watt-hours} \over 1000}\\
+        &P = 134 \text{ kWh}
+        \end{aligned}
+    $$
+</p>
+
+<p>
+    3-26
+    $$
+        \begin{aligned}
+        \text{Given: }\\ 
+        &\text{Power converted} = 134 \text{ kWh per month}\\
+        &\text{Power used} = 137 \text{ kWh per month}\\
+        \text{Solution: }\\ 
+        &\text{EFF} = {\text{Power converted} \over \text{Power used}}\\
+        &\text{EFF} = {134 \text{ kWh per month} \over 137 \text{ kWh per month}}\\
+        &\text{EFF} = .978 \text{(Rounded to three figures)}
+        \end{aligned}
+    $$
+</p>
+
+<p>
+    3-27
+    $$
+        \begin{array}{ll}
+        \text{Given:} & R_1 = 10 \text{ ohms}\\
+        & R_2 = 15 \text{ ohms}\\
+        & R_3 = 30 \text{ ohms}\\
+        \text{Solution:} & R_T = R_1 + R_2 + R_3\\
+        & R_T = 10 \text{ ohms} + 15 \text{ ohms} + 20 \text{ ohms}\\
+        & R_T = 55 \text{ ohms}
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-28
+    $$
+        \begin{array}{ll}
+        \text{Given:}\\ & R_1 = 40 \text{ ohms}\\
+        & R_2 = 10 \text{ ohms}\\
+        & R_3 = 10 \text{ ohms}\\
+        \text{Solution:}\\ & R_T = R_1 + R_2 + R_3\\
+        &\text{(Subtract } R_1 + R_2 \text{ from both sides of the equation.)}\\
+        & R_T - R_1 - R_2 = R_3\\
+        & R_3 = R_T - R_1 - R_2\\
+        & R_3 = 40 \text{ ohms} - 10 \text{ ohms} - 10 \text{ ohms}\\
+        & R_3 = 40 \text{ ohms} - 20 \text{ ohms}\\
+        & R_3 = 20 \text{ ohms}
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-29
+    $$
+        \begin{array}{ll}
+        \text{Given:} & E_T = 20 \text{ volts}\\
+        & R_T = 10 \text{ ohms}\\
+        \text{Solution:} & I_T = \dfrac{E_T}{R_T}\\
+        & I_T = \dfrac{20 \text{ volts}}{10 \text{ ohms}}\\
+        & I_T = {2 \text{ amps}}
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-30
+    $$
+        \begin{array}{ll}
+        \text{Given:} & I_1 = 2 \text{ amperes}\\
+        & R_1 = 5 \text{ ohms}\\
+        \text{Solution:} & E_1 = {I_1 \times R_1}\\
+        & E_1 = 2 \text{ amperes} \times 5 \text{ ohms}\\
+        & E_1 = 10 \text{ volts}\\
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-31
+    $$
+        E_T = E_1 + E_2 + E_3 = ...E_n
+    $$
+</p>
+
+<p>
+    3-23
+    $$
+        \begin{array}{ll}
+        \text{Given:}\\
+        & R_1 = 20 \text{ ohms}\\
+        & R_2 = 30 \text{ ohms}\\
+        & R_3 = 50 \text{ ohms}\\
+        & I = 2 \text{ amps}\\
+        \text{Solution:}\\
+        & E_T = E_1 + E_2 + E_3\\
+        & E_1 = R_1 \times I_1 & (I_1 = \text{The current running through resistor} R_1)\\
+        & E_2 = R_2 \times I_2\\
+        & E_3 = R_3 \times I_3\\
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-33
+    $$
+        \begin{aligned}
+        E_T &= (R_1 \times I_1) + (R_2 \times I_2) + (R_3 \times I_3)\\
+        E_T &= (20 \text{ ohms} \times 2 \text{ amps})\\
+            &\;+ (30 \text{ ohms} \times 2 \text{ amps})\\
+            &\;+ (50 \text{ ohms} \times 2 \text{ amps})\\
+        E_T &= 40 \text{ volts} + 60 \text{ volts} + 100 \text{ volts}\\
+        E_T &= 200 \text{ volts}\\
+        \end{aligned}
+    $$
+</p>
+
+<p>
+    3-34
+    $$
+        \begin{array}{ll}
+        \text{Given:} & R_1 = 5 \text{ ohms}\\
+        & R_2 = 10 \text{ ohms}\\
+        & R_3 = 15 \text{ ohms}\\
+        & E = 120 \text{ volts}\\
+        \text{Solution:} & \text{The total resistance is found first}\\
+        & R_T = R_1 + R_2 + R_3\\
+        & R_T = 5 \text{ ohms} + 10 \text{ ohms} + 15 \text{ ohms}\\
+        & R_T = 30 \text{ ohms}\\
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-35
+    $$
+        \begin{aligned}
+        &I = \dfrac{E_T}{R_T}\\
+        &I = \dfrac{120 \text{ volts}}{30 \text{ ohms}}\\
+        &I = 4 \text{ amps}
+        \end{aligned}
+    $$
+</p>
+
+<p>
+    3-36
+    $$
+        \begin{array}{ll}
+        \text{For } R_1:\\
+        & P_1 = I^2 \times R_1\\
+        & P_1 = (4 \text{ amps})^2 \times 5 \text{ ohms}\\
+        & P_1 = 80 \text{ watts}\\
+        \text{For } R_2:\\
+        & P_2 = I^2 \times R_2\\
+        & P_2 = (4 \text{ amps})^2 \times 10 \text{ ohms}\\
+        & P_2 = 160 \text{ watts}\\
+        \text{For } R_1:\\
+        & P_1 = I^2 \times R_3\\
+        & P_3 = (4 \text{ amps})^2 \times 15 \text{ ohms}\\
+        & P_3 = 240 \text{ watts}\\
+        \text{For total power: }\\
+        & P_T = P_1 + P_2 + P3\\
+        & P_T = 80 \text{ watts} + 160 \text{ watts}\\
+        & \;\;\;\;\;\;+ 240 \text{ watts}\\
+        & P_T = 480 \text{ watts}
+        \end{array}
+    $$ 
+</p>
+
+<p>
+    3-37
+    $$
+        \begin{aligned}
+        &P_{source} = I_{source} \times E_{source}\\
+        &P_{source} = 4 \text{ amps} \times 120 \text{ volts}\\
+        &P_{source} = 480 \text{ watts}
+        \end{aligned}
+    $$
+</p>
+
+<p>
+    3-38
+    $$
+        \begin{array}{ll}
+        \text{Given:}\\
+        & R_1 = 5 \text{ ohms}\\
+        & R_2 = 10 \text{ ohms}\\
+        & R_3 = 15 \text{ ohms}\\
+        & E = 90 \text{ volts}\\
+        \text{Solution:}\\
+        & R_T = R_1 + R_2 + R_3\\
+        & R_T = 5 \text{ ohms} + 10 \text{ ohms} + 15 \text{ ohms}\\
+        & R_T = 30 \text{ ohms}\\
+        &\\
+        & I = \dfrac{E_T}{R_T}\\
+        & I = \dfrac{90 \text{ volts}}{30 \text{ ohms}}\\
+        & I = 3 \text{ amps}\\
+        &\\
+        & E_1 = IR_1\\
+        & E_1 = 3 \text{ amperes} \times 5 \text{ ohms}\\
+        & E_1 = 15 \text{ volts}\\
+        &\\
+        & E_2 = I \times R_2\\
+        & E_2 = 3 \text{ amperes} \times 10 \text{ ohms}\\
+        & E_2 = 30 \text{ volts}\\
+        &\\
+        & E_3 = IR_3\\
+        & E_3 = 3 \text{ amperes} \times 15 \text{ ohms}\\
+        & E_3 = 45 \text{ volts}\\
+        &\\
+        & P_1 = I \times E_1\\
+        & P_1 = 3 \text{ amperes} \times 15 \text{ volts}\\
+        & P_1 = 45 \text{ watts}\\
+        &\\
+        & P_2 = I \times E_2\\
+        & P_2 = 3 \text{ amperes} \times 30 \text{ volts}\\
+        & P_2 = 90 \text{ watts}\\
+        &\\
+        & P_3 = I \times E_3\\
+        & P_3 = 3 \text{ amperes} \times 45 \text{ volts}\\
+        & P_3 = 135 \text{ watts}\\
+        &\\
+        & P_T = E_1 \times I\\
+        & P_T = 90 \text{ volts} \times 3 \text{ amps}\\
+        & P_T = 270 \text{ watts}\\
+        or\\
+        & P_T = P_1 + P_2 + P3\\
+        & P_T = 45 \text{ watts} + 90 \text{ watts} + 135 \text{ watts}\\
+        & P_T = 270 \text{ watts}\\
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-39
+    $$
+        \begin{array}{ll}
+        \text{Given:}\\
+        & R_1 = 10 \text{ ohms}\\
+        & R_2 = 10 \text{ ohms}\\
+        & R_3 = 50 \text{ ohms}\\
+        & R_4 = 30 \text{ ohms}\\
+        & I = 0.5 \text{ amps}\\
+        \text{Solution (a):}\\
+        & E_T = IR_T\\
+        & R_T = R_1 + R_2 + R_3 + R_4\\
+        & R_T = 10 \text{ ohms} + 10 \text{ ohms} + 50 \text{ ohms} + 30 \text{ ohms}\\
+        & R_T = 100 \text{ ohms}\\
+        &\\
+        & E_T = 0.5 \text{ amps} \times 100 \text{ ohms}\\
+        & E_T = 50 \text{ volts}\\
+        \text{Solution (b):}\\
+        & E_1 = IR_1\\
+        & E_1 = 0.5 \text { amperes} \times 10 \text{ ohms}\\
+        & E_1 = 5 \text{ volts}\\
+        &\\
+        & E_2 = IR_2\\
+        & E_2 = 0.5 \text { amperes} \times 10 \text{ ohms}\\
+        & E_2 = 5 \text{ volts}\\
+        &\\
+        & E_3 = IR_3\\
+        & E_3 = 0.5 \text { amperes} \times 50 \text{ ohms}\\
+        & E_3 = 25 \text{ volts}\\
+        &\\
+        & E_4 = IR_4\\
+        & E_4 = 0.5 \text { amperes} \times 30 \text{ ohms}\\
+        & E_4 = 15 \text{ volts}\\
+        &\\
+        \text{Solution (c):}\\
+        & P_1 = IE_1\\
+        & P_1 = 0.5 \text{ amperes} \times 5 \text{ volts}\\
+        & P_1 = 2.5 \text{ watts}\\
+        &\\
+        & P_2 = IE_2\\
+        & P_2 = 0.5 \text{ amperes} \times 5 \text{ volts}\\
+        & P_2 = 2.5 \text{ watts}\\
+        &\\
+        & P_3 = IE_3\\
+        & P_3 = 0.5 \text{ amperes} \times 25 \text{ volts}\\
+        & P_3 = 12.5 \text{ watts}\\
+        &\\
+        & P_4 = IE_4\\
+        & P_4 = 0.5 \text{ amperes} \times 15 \text{ volts}\\
+        & P_4 = 7.5 \text{ watts}\\
+        &\\
+        \text{Solution (d):}\\
+        & P_T = P_1 + P_2 + P_3 + P_4\\
+        & P_T = 2.5 \text{ watts} + 2.5 \text{ watts} + 12.5 \text{ watts} + 7.5 \text{ watts}\\
+        & P_T = 25 \text{ watts}\\
+        or\\
+        & P_T = IE_T\\
+        & P_T = 0.5 \text{ amperes} \times 50 \text{ volts}\\
+        & P_T = 25 \text{ watts}\\
+        or\\
+        & P_T = \dfrac{{E_T}^2}{R_T}\\
+        & P_T = \dfrac{(50 \text{ volts})^2}{100 \text{ ohms}}\\
+        & P_T = \dfrac{2500 \text{ volts}}{100 \text{ ohms}}\\
+        & P_T = 25 \text{ watts}\\
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-40
+    $$
+        R_T = \dfrac{E_T}{I_T}
+    $$
+</p>
+
+<p>
+    3-41
+    $$
+        E_T = I_T \times R_T
+    $$
+</p>
+
+<p>
+    3-42
+    $$
+        I_T = \dfrac{E_T}{R_T}
+    $$
+</p>
+
+<p>
+    3-43
+    $$
+        R = \dfrac{E_R}{I_R}
+    $$
+</p>
+
+<p>
+    3-44
+    $$
+        E_R = I_R \times R
+    $$
+</p>
+
+<p>
+    3-45
+    $$
+        I_R = \dfrac{E_R}{R}
+    $$
+</p>
+
+<p>
+    3-46
+    $$
+        E_a + E_b + E_c + ...E_n = 0
+    $$
+</p>
+
+<p>
+    3-47
+    $$
+        (+E_x) + (E_2) + (+E_1) + (-E_A) = 0
+    $$
+</p>
+
+<p>
+    3-48
+    $$
+        \begin{aligned}
+        &E_X + 15 \text{ volts} + 25 \text{ volts} - 50 \text{ volts} = 0\\
+        &E_X - 10 \text{ volts} = 0\\
+        &E_X = 10 \text{ volts}\\
+        &\\
+        &\text{The unknown voltage } (E_X)\\
+        &\text{is found to be } 10 \text{ volts}
+        \end{aligned}
+    $$
+</p>
+
+<p>
+    3-49
+    $$
+        \begin{aligned}
+        &\text{Basic equation:}\\
+        & E_2 + E_1 + E_A + E_3 = 0\\
+        &\\
+        &\text{Since } E = IR \text{ by substitution:}\\
+        & (I \times R_2) + (I \times R_1) + E_A + (I \times R_3) = 0\\
+        &\\
+        &\text{Substituting Values:}\\
+        & (I \times 10 \text{ ohms}) + (I \times 5 \text{ ohms}) + (-60 \text{ volts}) + (I \times 15 \text{ ohms}) = 0\\
+        &\\
+        &\text{Combining like terms:}\\
+        & (I \times 30 \text{ ohms}) + (-60 \text{ volts}) = 0\\
+        & (I \times 30 \text{ ohms}) = 60 \text{ volts}\\
+        & I = \dfrac{60 \text{ volts}}{30 \text{ ohms}}\\
+        & I = 2 \text{ amps}
+        \end{aligned}
+    $$
+</p>
+
+<p>
+    3-50
+    $$
+        \begin{aligned}
+        & E_3 + E_A + E_1 + E_2 = 0\\
+        &\\
+        & (I \times R_3) + E_A + (I \times R_1) + (I \times R_2) = 0\\
+        &\\
+        &\text{Substituting Values:}\\
+        & (I \times 15 \text{ ohms}) + 60 \text{ volts} + (I \times 5 \text{ ohms}) + (I \times 10 \text{ ohms}) = 0\\
+        &\\
+        &\text{Combining like terms:}\\
+        & (I \times 30 \text{ ohms}) + 60 \text{ volts} = 0\\
+        & I \times 30 \text{ ohms} = -60 \text{ volts}\\
+        & I = \dfrac{-60 \text{ volts}}{30 \text{ ohms}}\\
+        & I = -2 \text{ amps}
+        \end{aligned}
+    $$
+</p>
+
+<p>
+    3-51
+    $$
+        \begin{aligned}
+        & E_2 + E_{R1} + E_1 + E_3 + E_{R2} = 0\\
+        &\\
+        & 20 \text{ volts} + (I \times 60 \text{ ohms}) + (-180 \text{ volts}) 
+        + 40 \text{ volts} + (I \times 20 \text{ ohms}) = 0\\
+        & 20 \text{ volts} - 180 \text{ volts} + 40 \text{ volts} 
+        + (I \times 60 \text{ ohms}) + (I \times 20 \text{ ohms}) = 0\\
+        & -120 \text{ volts} + (I \times 80 \text{ ohms}) = 0\\
+        &\\
+        & I \times 80 \text{ ohms} = 120 \text{ volts}\\
+        & I = \dfrac{120 \text{ volts}}{80 \text{ ohms}}\\
+        & I = 1.5 \text{ amps}
+        \end{aligned}
+    $$
+</p>
+
+<p>
+    3-52
+    $$
+        I = \dfrac{E_S}{R_i} = \dfrac{100 \text{ volts}}{5 \text{ ohms}} = 20 \text{ amperes}
+    $$
+</p>
+
+<p>
+    3-53
+    $$
+        E_S = E_{R1} = E_{R2}
+    $$
+</p>
+
+<p>
+    3-54
+    $$
+        \begin{array}{ll}
+        \text{Given:}
+        & R_2 = 30,000 \text{ ohms } (30 \text{k&#8486;})\\
+        & I_{R2} = 4.5 \text{ milliamps} (4.5 \text{mA or} 0.0045 \text{ amps})\\
+        \text{Solution:}\\
+        & E = IR\\
+        & E_{R2} = 0.0045 \text{ amp} \times 30,000 \text{ ohms}\\
+        & E_{R2} = 135 \text{ volts}
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-55
+    $$
+        \begin{aligned}
+        & 30,000 \text{ ohms} = 30 \times 10^3 \text{ ohms}\\
+        & 4.5 \text{ mA} = 4.5 \times 10^{-3} \text{ amps}\\
+        & E_{R2} = (4.5 \times 10^{-3}) \text{ amps} \times (30 \times 10^3) \text{ ohms}\\
+        & E_{R2} = (4.5 \times 30 \times 10^{-3} \times 10^3) \text{ volts}\\
+        &\;\;\;\;(10^{-3} \times 10^3 = 10^{-3+3} = 10^0 = 1)\\
+        & E_{R2} = (4.5 \times 30 \times 1) volts\\
+        & E_{R2} = 135 \text{ volts}\\
+        & E_S = E_{R2}\\
+        & E_S = 135 \text{ volts}
+        \end{aligned}
+    $$
+</p>
+
+<p>
+    3-56
+    $$
+        \begin{array}{ll}
+        \text{Given:}\\
+        & E_S = 50 \text{ volts}\\
+        & R_1 = 10 \text{ ohms}\\
+        \text{Solution:}\\
+        & I = \dfrac{E}{R}\\
+        & I_T = \dfrac{E_S}{R_1}\\
+        & I_T = \dfrac{50 \text{ volts}}{10 \text{ ohms}}\\
+        & I_T = 5 \text{ amps}
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-57
+    $$
+        \begin{array}{ll}
+        \text{Given:}\\
+        & E_S = 50 \text{ volts}\\
+        & R_1 = 10 \text{ ohms}\\
+        & R_2 = 10 \text{ ohms}\\
+        \text{Solution:}\\
+        & I = \dfrac{E}{R}\\
+        & E_S = E_{R1} = E_{R2}\\
+        & I_{R1} = \dfrac{E_{R1}}{R_1}\\
+        & I_{R1} = \dfrac{50 \text{ volts}}{10 \text{ ohms}}\\
+        & I_{R1} = 5 \text{ amps}\\
+        & I_{R2} = \dfrac{50 \text{ volts}}{10 \text{ ohms}}\\
+        & I_{R2} = 5 \text{ amps}\\
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-57a
+    $$
+        I_T = I_1 + I_2 +...I_n
+    $$
+</p>
+
+<p>
+    3-58
+    $$
+        \begin{array}{ll}
+        \text{Given:}\\
+        & E_S = 50 \text{ volts}\\
+        & R_1 = 10 \text{ ohms}\\
+        & R_2 = 20 \text{ ohms}\\
+        \text{Solution:}\\
+        & I = \dfrac{E}{R}\\
+        & E_S = E_{R1} = E_{R2}\\
+        & I_{R1} = \dfrac{E_{R1}}{R_1}\\
+        & I_{R1} = \dfrac{50 \text{ volts}}{10 \text{ ohms}}\\
+        & I_{R1} = 5 \text{ amps}\\
+        & I_{R2} = \dfrac{E_{R2}}{R_2}\\
+        & I_{R2} = \dfrac{50 \text{ volts}}{20 \text{ ohms}}\\
+        & I_{R2} = 2.5 \text{ amps}\\
+        & I_T = I_{R1} + I_{R2}\\
+        & I_T = 5 \text{ amps} + 2.5 \text{ amps}\\
+        & I_T = 7.5 \text{ amps}
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-59
+    $$
+        \begin{array}{ll}
+        \text{Given:}\\
+        & E_S = 50 \text{ volts}\\
+        & R_1 = 10 \text{ ohms}\\
+        & R_2 = 20 \text{ ohms}\\
+        \text{Solution:}\\
+        & I = \dfrac{E}{R}\\
+        & E_S = E_{R1} = E_{R2}\\
+        & I_{R1} = \dfrac{E_{R1}}{R_1}\\
+        & I_{R1} = \dfrac{50 \text{ volts}}{10 \text{ ohms}}\\
+        & I_{R1} = 5 \text{ amps}\\
+
+        & I_{R2} = \dfrac{E_{R2}}{R_2}\\
+        & I_{R2} = \dfrac{50 \text{ volts}}{10 \text{ ohms}}\\
+        & I_{R2} = 5 \text{ amps}\\
+
+        & I_{R3} = \dfrac{E_{R3}}{R_3}\\
+        & I_{R3} = \dfrac{50 \text{ volts}}{10 \text{ ohms}}\\
+        & I_{R3} = 5 \text{ amps}\\
+
+        & I_T = I_{R1} + I_{R2} + I_{R3}\\
+        & I_T = 5 \text{ amps} + 5 \text{ amps} + 5 \text{ amps}\\
+        & I_T = 15 \text{ amps}
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-60
+    $$
+        I_a + I_b +...I_n = 0
+    $$
+</p>
+
+<p>
+    3-61
+    $$
+        \begin{array}{ll}
+        \text{Given:}\\
+        & I_1 = 10 \text{ amps}\\
+        & I_2 = 3 \text{ amps}\\
+        & I_4 = 5 \text{ amps}\\
+        \end{array}
+    $$
+</p>
+<p>
+    3-62
+    $$
+        \begin{array}{ll}
+        \text{Solution:}\\
+        & I_a + I_b +...I_n = 0\\
+        & I_1 + I_2 + I_3 + I_4 = 0\\
+        & 10 \text{ amps} + (-3 \text{ amps}) + I_3 + (-5 \text{ amps}) = 0\\
+        & I_3 + 2 \text{ amps} = 0\\
+        & I_3 = -2 \text{ amps}
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-63
+    $$
+        \begin{array}{ll}
+        \text{Given:}\\
+        & I_1 = 6 \text{ amps}\\
+        & I_2 = 3 \text{ amps}\\
+        & I_4 = 5 \text{ amps}\\
+        \text{Solution:}\\
+        & I_a + I_b +...I_n = 0\\
+        & I_1 + I_2 + I_3 + I_4 = 0\\
+        & 6 \text{ amps} + (-3 \text{ amps}) + I_3 + (-5 \text{ amps}) = 0\\
+        & I_3 + (-2 \text{ amps}) = 0\\
+        & I_3 = -2 \text{ amps}
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-64
+    $$
+        \begin{array}{ll}
+        \text{Given:}\\
+        & E_T = 5V\\
+        & I_T = 1A\\
+        \text{Solution:}\\
+        & R = \dfrac{E}{I}\\
+        & R_T = \dfrac{E_T}{I_T}\\
+        & R_T = \dfrac{5V}{1A}\\
+        & R_T = 5&#8486;\\
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-65
+    $$
+        \begin{aligned}
+        & R_{eq} = \dfrac{R}{N}\\
+        & R_{eq} = \text{equivalent parallel resistance}\\
+        & R = \text{ohmic value of one resistor}\\
+        & N = \text{number of resistors}
+        \end{aligned}
+    $$
+</p>
+
+<p>
+    3-66
+    $$
+    \begin{array}{ll}
+    \text{Given:}\\
+    & R_1 + R_2 + R_3 + R_4\\
+    & R_1 = 40&#8486;\\
+    \text{Solution:}\\
+    & R_{eq} = \dfrac{R}{N}\\
+    & R_{eq} = \dfrac{40&#8486;}{4}\\
+    & R_{eq} = 10&#8486;\\
+    \end{array}
+    $$
+</p>
+
+<p>
+    3-67
+    $$
+        \begin{array}{ll}
+        \text{Given:}\\
+        & E_S = 30V\\
+        & I_T = 15A\\
+        \text{Solution:}\\
+        & R_{eq} = \dfrac{E_S}{I_T}\\
+        & R_{eq} = \dfrac{30V}{15A}\\
+        & R_{eq} = 1&#8486;\\
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-68
+    $$
+        \dfrac{1}{R_{eq}} = \dfrac{1}{R_{1}} + \dfrac{1}{R_{2}} + \dfrac{1}{R_{3}} +...\dfrac{1}{R_{n}}
+    $$
+</p>
+
+<p>
+    3-69
+    $$
+        \begin{array}{ll}
+        \text{Given:}\\
+        & R_1 = 3&#8486;\\
+        & R_2 = 6&#8486;\\
+        \text{Solution:}\\
+        & \dfrac{1}{R_{eq}} = \dfrac{1}{R_{1}} + \dfrac{1}{R_{2}}\\
+        & \dfrac{1}{R_{eq}} = \dfrac{1}{3&#8486;} + \dfrac{1}{6&#8486;}
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-70
+    $$
+    \begin{aligned}
+        & \dfrac{1}{R_{eq}} = \dfrac{2}{6&#8486;} + \dfrac{1}{6&#8486;}\\
+        & \dfrac{1}{R_{eq}} = \dfrac{3}{6&#8486;}\\
+        & \dfrac{1}{R_{eq}} = \dfrac{1}{2&#8486;}\\
+    \end{aligned}
+    $$
+</p>
+
+<p>
+    3-71
+    $$
+        R_{eq} = 2&#8486;
+    $$
+</p>
+
+<p>
+    3-72
+    $$
+        R_{eq} = \dfrac{R}{N}
+    $$
+</p>
+
+<p>
+    3-73
+    $$
+        \dfrac{1}{R_{eq}} = \dfrac{1}{R_{1}} + \dfrac{1}{R_{2}} + \dfrac{1}{R_{3}} +...\dfrac{1}{R_{n}}
+    $$
+</p>
+
+<p>
+    3-74
+    $$
+        R_{eq} = \dfrac{1}{\dfrac{1}{R_1} + \dfrac{1}{R_2} + ...\dfrac{1}{R_n}}
+    $$
+</p>
+
+<p>
+    3-75
+    $$
+        \begin{array}{ll}
+        \text{Given:}
+        & R_1 = 20&#8486;\\
+        & R_2 = 30&#8486;\\
+        & R_3 = 40&#8486;\\
+        \text{Solution:}
+        & R_{eq} = \dfrac{1}{\dfrac{1}{R_1} + \dfrac{1}{R_2} + \dfrac{1}{R_3}}\\
+        & R_{eq} = \dfrac{1}{\dfrac{1}{20&#8486;} + \dfrac{1}{30&#8486;} + \dfrac{1}{40&#8486;}}\\
+        & R_{eq} = \dfrac{1}{\dfrac{6}{120&#8486;} + \dfrac{4}{120&#8486;} + \dfrac{3}{120&#8486;}}\\
+        & R_{eq} = \dfrac{1}{\dfrac{13}{120&#8486;}}\\
+        & R_{eq} = \dfrac{120}{13}&#8486;\\
+        & R_{eq} = 9.23&#8486;
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-75a
+    $$
+        R_{eq} = \dfrac{R_1 \times R_2}{R_1 + R_2}
+    $$
+</p>
+
+<p>
+    3-76
+    $$
+        \begin{array}{ll}
+        \text{Given:}\\
+        & R_1 = 20&#8486;\\
+        & R_2 = 30&#8486;\\
+        \text{Solution:}\\
+        & R_{eq} = \dfrac{R_1 \times R_2}{R_1 + R_2}\\
+        & R_{eq} = \dfrac{20&#8486; \times 30&#8486;}{20&#8486; + 30&#8486;}\\
+        & R_{eq} = \dfrac{600}{50}&#8486;\\
+        & R_{eq} = 12&#8486;
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-77
+    $$
+        P_T = P_1 + P_2 +...P_n
+    $$
+</p>
+
+<p>
+    3-78
+    $$
+        \begin{array}{ll}
+        \text{Given:}\\
+        & R_1 = 10&#8486;\\
+        & I_{R1} = 5A\\
+        &\\
+        & R_2 = 25&#8486;\\
+        & I_{R2} = 2A\\
+        &\\
+        & R_3 = 50&#8486;\\
+        & I_{R3} = 1A\\
+        \text{Solution:}\\
+        & P = I^2 R\\
+        & P_{R1} = (I_{R1})^2 \times R_1\\
+        & P_{R1} = (5A)^2 \times 10&#8486;\\
+        & P_{R1} = 250W\\
+        &\\
+        & P_{R2} = (I_{R2})^2 \times R_2\\
+        & P_{R2} = (2A)^2 \times 25&#8486;\\
+        & P_{R2} = 100W\\
+        &\\
+        & P_{R3} = (I_{R3})^2 \times R_3\\
+        & P_{R3} = (1A)^2 \times 500&#8486;\\
+        & P_{R3} = 50W\\
+        &\\
+        & P_T = P_{R1} + P_{R2} + P_{R3}\\
+        & P_T = 250W + 100W + 50W\\
+        & P_T = 400W
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-79
+    $$
+        \begin{array}{ll}
+        \text{Given:}\\
+        & E_S = 50V\\
+        & I_T = 8A\\ 
+        \text{Solution:}\\
+        & P_T = E_S \times I_T\\
+        & P_T = 50V \times 8A\\
+        & P_T = 400W
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-80
+    $$
+    \begin{array}{ll}
+        \text{Given:}\\
+        & R_1 = 45&#8486;\\
+        & R_2 = 45&#8486;\\
+        & R_3 = 45&#8486;\\
+        \text{Solution:}\\
+        & R_{eq} = \dfrac{R}{N}\\
+        & R_{eq} = \dfrac{45&#8486;}{3}\\
+        & R_{eq} = 15&#8486;
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-81
+    $$
+        \dfrac{1}{R_{eq}} = \dfrac{1}{R_{1}} + \dfrac{1}{R_{2}} + \dfrac{1}{R_{3}} +...\dfrac{1}{R_{n}}
+    $$
+</p>
+
+<p>
+    3-82
+    $$
+        \begin{array}{ll}
+        \text{Given:}\\
+        & R_1 = 20&#8486;\\
+        & R_2 = 30&#8486;\\
+        & R_3 = 18&#8486;\\
+        & R_4 = 18&#8486;\\
+        & R_5 = 18&#8486;\\
+        & I_{R1} = 9A\\
+        \text{Find:}\\
+        & R_T, E_S, I_T, P_T, I_{R2}, I_{R3}, I_{R4},\\
+        & I_{R5}, P_{R1}, P_{R2}, P_{R3}, P_{R4}, P_{R5}
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-83
+    $$
+        \begin{array}{ll}
+        \text{Given:}\\
+        & R_1 = 20&#8486;\\
+        & I_{R1} = 9A\\
+        & E_{R1} = E_S\\
+        \text{Solution:}\\
+        & E_S = R_1 \times I_{R1}\\
+        & E_S = 9A \times 20&#8486;\\
+        & E_S = 180V\\
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-84
+    $$
+        \begin{array}{ll}
+        \text{Given:}\\
+        & E_S = 180V\\
+        & R_2 = 30&#8486;\\
+        & R_3 = 18&#8486;\\
+        & R_4 = 18&#8486;\\
+        & R_5 = 18&#8486;\\
+        \text{Solution:}\\
+        & I_{R2} = \dfrac{E_S}{R_2}\\
+        & I_{R2} = \dfrac{180V}{30&#8486;}\\
+        & I_{R2} = 6A\\
+        &\\
+        & I_{R3} = \dfrac{E_S}{R_3}\\
+        & I_{R3} = \dfrac{180V}{18&#8486;}\\
+        & I_{R3} = 10A\\
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-85
+    $$
+        \begin{aligned}
+        & I_{R4} = 10A\\
+        & I_{R5} = 10A\\
+        \end{aligned}
+    $$
+</p>
+
+<p>
+    3-86
+    $$
+        \begin{array}{ll}
+        \text{Given:}\\
+        & R_1 = 20&#8486;\\
+        & R_2 = 30&#8486;\\
+        & R_3 = 18&#8486;\\
+        & R_4 = 18&#8486;\\
+        & R_5 = 18&#8486;\\    
+        \text{Solution:}\\
+        & R_T = R_{eq}\\
+        & \dfrac{1}{R_{eq}} = \dfrac{1}{R_1} + \dfrac{1}{R_2} + \dfrac{1}{R_3} + \dfrac{1}{R_4} + \dfrac{1}{R_5}\\
+        & \dfrac{1}{R_T} = \dfrac{1}{20&#8486;} + \dfrac{1}{30&#8486;} + \dfrac{1}{18&#8486;} + \dfrac{1}{18&#8486;} + \dfrac{1}{18&#8486;}\\
+        & \dfrac{1}{R_T} = \dfrac{9 + 6 + 10 + 10 + 10}{180 \text{ (L.C.D.)}} &#8486;\\
+        & \dfrac{1}{R_T} = \dfrac{45}{180}&#8486;\\
+        & R_T = \dfrac{180}{45}&#8486;\\
+        & R_T = 4&#8486;
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-87
+    $$
+        \begin{array}{ll}
+        \text{Given:}\\
+        & R_3 = R_4 = R_5 = 18&#8486;\\
+        \text{Solution:}\\
+        & R_{eq1} = \dfrac{R}{N}\\
+        & R_{eq1} = \dfrac{18&#8486;}{3}\\
+        & R_{eq1} = 6&#8486;
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-88
+    $$
+        \begin{array}{ll}
+        \text{Given:}\\
+        & R_1 = 20&#8486;\\
+        & R_2 = 30&#8486;\\
+        \text{Solution:}\\
+        & R_{eq} = \dfrac{R_1 \times R_2}{R_1 + R_2}\\
+        & R_{eq2} = \dfrac{20&#8486; \times 30&#8486;}{20&#8486; + 30&#8486;}\\
+        & R_{eq2} = \dfrac{600}{50}&#8486;\\
+        & R_{eq2} = 12&#8486;
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-89
+    $$
+        \begin{array}{ll}
+        \text{Given:}\\
+        & R_{eq1} = 6&#8486;\\
+        & R_{eq2} = 12&#8486;\\
+        & R_T = R_{eq}\\
+        \text{Solution:}\\
+        & R_{eq} = \dfrac{R_1 \times R_2}{R_1 + R_2}\\
+        & R_T = \dfrac{R_{eq1} \times R_{eq2}}{R_{eq1} + R_{eq2}}\\
+        & R_{eq2} = \dfrac{6&#8486; \times 12&#8486;}{6&#8486; + 12&#8486;}\\
+        & R_{eq2} = \dfrac{72}{18}&#8486;\\
+        & R_{eq2} = 4&#8486;
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-90
+    $$
+        \begin{array}{ll}
+        \text{Given:}\\
+        & E_S = 180V\\
+        & R_T = 4&#8486;\\
+        \text{Solution:}\\
+        & I_T = \dfrac{E_S}{R_T}\\
+        & I_T = \dfrac{180V}{4&#8486;}\\
+        & I_T = 45A
+        \end{array}
+    $$
+</p>
