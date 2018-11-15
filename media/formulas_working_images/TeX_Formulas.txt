@@ -1279,3 +1279,396 @@ $$
         \end{array}
     $$
 </p>
+
+<p>
+    3-91
+    $$
+        \begin{array}{ll}
+        \text{Given:}\\
+        & I_{R1} = 9A\\
+        & I_{R2} = 6A\\
+        & I_{R3} = 10A\\
+        & I_{R4} = 10A\\
+        & I_{R5} = 10A\\
+        \text{Solution:}\\
+        & I_T = I_{R1} + I_{R2} + ...I_n\\
+        & I_T = 9A + 6A + 10A + 10A + 10A\\
+        & I_T = 45A\\
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-92
+    $$
+        \begin{array}{ll}
+        \text{Given:}\\
+        & E_S = 180V\\
+        & I_T = 45A\\
+        \text{Solution:}\\
+        & P = EI\\
+        & P_T = E_S \times I_T\\
+        & P_T = 180V \times 45A\\
+        & P_T = 8100 \text{ watts} = 8.1 kW\\
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-93
+    $$
+        \begin{array}{ll}
+        \text{Given:}\\
+        & E_S = 180V\\
+        & I_{R1} = 9A\\
+        & I_{R2} = 6A\\
+        & I_{R3} = 10A\\
+        & I_{R4} = 10A\\
+        & I_{R5} = 10A\\
+        \text{Solution:}\\
+        & P = EI\\
+        & P_{R1} = E_S \times I_{R1}\\
+        & P_{R1} = 180V \times 9A\\
+        & P_{R1} = 1620W\\
+        &\\
+        & P_{R2} = E_S \times I_{R2}\\
+        & P_{R2} = 180V \times 6A\\
+        & P_{R2} = 1080W\\
+        &\\
+        & P_{R3} = E_S \times I_{R3}\\
+        & P_{R3} = 180V \times 10A\\
+        & P_{R3} = 1800W\\
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-94
+    $$
+        \begin{array}{ll}
+        \text{Given:}\\
+        & P_{R1} = 1620W\\
+        & P_{R2} = 1080W\\
+        & P_{R3} = 1800W\\
+        & P_{R4} = 1800W\\
+        & P_{R5} = 1800W\\
+        \text{Solution:}\\
+        & P_T = P_1 + P_2 + P_3 + P_4 + P_5\\
+        & P_T = 1620W + 1080W + 1800W + 1800W + 1800W\\
+        & P_T = 8100W\\
+        & P_T = 8.1kW\\
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-95
+    $$
+        \begin{array}{ll}
+        \text{Given:}\\
+        & R_2 = 20&#8486;\\
+        & R_3 = 30&#8486;\\
+        \text{Solution:}\\
+        & R_{eq1} = \dfrac{R_2 \times R_3}{R_2 + R_3} \text{ (Product over Sum)}\\
+        & R_{eq1} = \dfrac{20&#8486; \times 30&#8486;}{20&#8486; + 30&#8486;}\\
+        & R_{eq1} = \dfrac{600}{50}&#8486;\\
+        & R_{eq1} = 12&#8486;\\
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-96
+    $$
+        \begin{array}{ll}
+        \text{Given:}\\
+        & R_1 = 8&#8486; \text{ (Resistors in Series)}\\
+        & R_{eq1} = 12&#8486;\\
+        \text{Solution:}\\
+        & R_{eq} = R_1 + R_{eq1}\\
+        & R_{eq} = 8&#8486; + 12&#8486;\\
+        & R_{eq} = 20&#8486;\\
+        or\\
+        & R_T = 20&#8486;
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-97
+    $$
+        \begin{array}{ll}
+        \text{Given:}\\
+        & E_S = 60V\\
+        & R_T = 20&#8486;\\
+        \text{Solution:}\\
+        & I_T = \dfrac{E_S}{R_T} \text{ (Ohm's Law)}\\
+        & I_T = \dfrac{60V}{20&#8486;}\\
+        & I_T = 3A
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-98
+    $$
+        \begin{array}{ll}
+        \text{Given:}\\
+        & E_S = 60V\\
+        & I_T = 3A\\    
+        \text{Solution:}\\
+        & P_T = E_S \times I_T\\
+        & P_T = 60V \times 3A\\
+        & P_T = 180W
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-99
+    $$
+    \begin{array}{ll}
+    \text{Given:}\\
+    & I_T = 3A\\
+    & R_1 = 8&#8486;\\
+    & R_{eq1} = 12&#8486;\\
+    & \text{(Current through each part of a series is equal to total current.)}\\
+    \text{Solution:}\\
+    & E_{R1} = I_1 \times R_1\\
+    & E_{R1} = 3A \times 8&#8486;\\
+    & E_{R1} = 24V\\
+    &\\
+    & E_{R2} = E_{R3} = E_{eq1}\\
+    & E_{eq1} = I_T \times R_{eq1}\\
+    & E_{eq1} = 3A \times 12&#8486;\\
+    & E_{eq1} = 36V\\
+    & E_{R2} = 36V\\
+    & E_{R3} = 36V\\
+    \end{array}
+    $$
+</p>
+
+<p>
+    3-100
+    $$
+        \begin{array}{ll}
+        \text{Given:}\\
+        & E_{R1} = 24V\\
+        & I_T = 3A\\
+        \text{Solution:}\\
+        & P_{R1} = E_{R1} \times I_T\\
+        & P_{R1} = 24V \times 3A\\
+        & P_{R1} = 72W
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-101
+    $$
+        \begin{array}{ll}
+        \text{Given:}\\
+        & E_{R2} = 36V\\
+        & E_{R3} = 36V\\
+        & R_2 = 20&#8486;\\
+        & R_3 = 30&#8486;\\
+        \text{Solution:}\\
+        & I_{R2} = \dfrac{E_{R2}}{R_2} \text{ (Ohm's Law)}\\
+        & I_{R2} = \dfrac{36V}{20&#8486;}\\
+        & I_{R2} = 1.8A\\
+        &\\
+        & I_{R3} = \dfrac{E_{R3}}{R_3}\\
+        & I_{R3} = \dfrac{36V}{30&#8486;}\\
+        & I_{R3} = 1.2A\\
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-102
+    $$
+        \begin{array}{ll}
+        \text{Given:}\\
+        & E_{R2} = 36V\\
+        & E_{R3} = 36V\\
+        & I_{R2} = 1.8A\\
+        & I_{R3} = 1.2A\\
+        \text{Solution:}\\
+        & P_{R2} = E_{R2} \times I_{R2}\\
+        & P_{R2} = 36V \times 1.8A\\
+        & P_{R2} = 64.8W\\
+        &\\
+        & P_{R3} = E_{R3} \times I_{R3}\\
+        & P_{R3} = 36V \times 1.2A\\
+        & P_{R3} = 43.2W\\
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-103
+    $$
+        E_{R1} = R_1 \times I_{R1}
+    $$
+</p>
+
+<p>
+    3-104
+    $$
+        \begin{array}{ll}
+        \text{Given:}\\
+        & R_1 = 300&#8486;\\
+        & R_2 = 100&#8486;\\
+        \text{Solution:}\\
+        & R_{eq1} = R_1 + R_2\\
+        & R_{eq1} = 300&#8486; + 100&#8486;\\
+        & R_{eq1} = 400&#8486;
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-105
+    $$
+        \begin{array}{ll}
+        \text{Given:}\\
+        & R_{eq1} = 400&#8486;\\
+        & R_3 = 400&#8486;\\
+        \text{Solution:}\\
+        & R_{eq2} = \dfrac{R}{N} \text{ (Equal resistors in parallel)}\\
+        & R_{eq2} = \dfrac{100&#8486;}{2}\\
+        & R_{eq2} = 200&#8486;
+    \end{array}
+    $$
+</p>
+
+<p>
+    3-106
+    $$
+        \begin{array}{ll}
+        \text{Given:}\\
+        & R_{eq2} = 200&#8486;\\
+        & R_4 = 1k&#8486;\\
+        \text{Solution:}\\
+        & R_{eq} = R_{Eq2} + R_4\\
+        & R_{eq} = 200&#8486; + 1k&#8486;\\
+        & R_{eq} = 1.2k&#8486;
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-107
+    $$
+    \begin{array}{ll}
+    \text{Given:}\\
+    & E_S = 300V\\
+    & R_{eq} = 1.2k&#8486;\\
+    \text{Solution:}\\
+    & I_T = \dfrac{E_S}{R_{eq}}\\
+    & I_T = \dfrac{300V}{12k&#8486;}\\
+    & I_T = 250mA
+    \end{array}
+    $$
+</p>
+
+<p>
+    3-108
+    $$
+        \begin{array}{ll}
+        \text{Given:}\\
+        & R_{eq} = 200&#8486;\\
+        & I_T = 250mA\\
+        \text{Solution:}\\
+        & E_{Req2} = R_{eq2} \times I_T\\
+        & E_{Req2} = 200&#8486; \times 250mA\\
+        & E_{Req2} = 50V
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-109
+    $$
+        \begin{array}{ll}
+        \text{Given:}\\
+        & E_{Req2} = E_{Req1}\\
+        & E_{Req1} = 50V\\
+        & R_{eq1} = 400&#8486;\\
+        \text{Solution:}\\
+        & I_{Req1} = \dfrac{E_{Req1}}{R_{eq1}}\\
+        & I_{Req1} = \dfrac{50V}{400&#8486;}\\
+        & I_{Req1} = 125mA\\
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-110
+    $$
+        \begin{array}{ll}
+        \text{Given:}\\
+        & I_{R1} = 125mA\\
+        & R_1 = 300&#8486;\\
+        \text{Solution:}\\
+        & E_{R1} = I_{R1} \times R_1\\
+        & E_{R1} = 125mA \times 300&#8486;\\
+        & E_{R1} = 37.5V
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-111
+    $$
+        \begin{array}{ll}
+        \text{Given:}\\
+        & R_2 = 100&#8486;\\
+        & R_3 = 0&#8486;\\
+        \text{Solution:}\\
+        & R_{eq} = \dfrac{R_2 \times R_3}{R_2 + R3}\\
+        & R_{eq} = \dfrac{100&#8486; \times 0&#8486;}{100&#8486; + 0&#8486;}\\
+        & R_{eq} = 0&#8486;\\
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-112
+    $$
+        \begin{aligned}
+        & E_S = 100V\\
+        & E_{load} = 25V\\
+        & I_{load} = 910mA\\
+        \end{aligned}
+    $$
+</p>
+
+<p>
+    3-113
+    $$
+        \begin{aligned}
+        & I_{R1} = 10 \text{%} \times I_{load}\\
+        & I_{R1} = 0.1 \times 910mA\\
+        & I_{R1} = 91mA
+        \end{aligned}
+    $$
+</p>
+
+<p>
+    3-114
+    $$
+        \begin{aligned}
+        & R_1 = \dfrac{E_{R1}}{I_{R1}}\\
+        & R_1 = \dfrac{25V}{91mA}\\
+        & R_1 = 274.73&#8486;
+        \end{aligned}
+    $$
+</p>
+
+<p>
+    3-115
+    $$
+        R_1 = 275&#8486;
+    $$
+</p>
