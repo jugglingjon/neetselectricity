@@ -1672,3 +1672,243 @@ $$
         R_1 = 275&#8486;
     $$
 </p>
+
+<p>
+    3-116
+    $$
+        \begin{aligned}
+        & I_T = I_{load} + I_{R1}\\
+        & I_T = 910mA + 91mA\\
+        & I_T = 1A \text{ (rounded off)}
+        \end{aligned}
+    $$
+</p>
+
+<p>
+    3-117
+    $$
+        \begin{aligned}
+        & E_{R2} = E_S - E_{R1}\\
+        & E_{R2} = 100V - 25V\\
+        & E_{R2} = 75V\\
+        & R_2 = \dfrac{E_{R_2}}{I_T}\\
+        & R_2 = \dfrac{75V}{1A}\\
+        & R_2 = 75&#8486;
+        \end{aligned}
+    $$
+</p>
+
+<p>
+    3-118
+    $$
+        \begin{array}{lll}
+        \text{Given:}\\
+        & \text{Load 1:} & E = 90V\\
+        & & I = 10mA\\
+        &\\
+        & \text{Load 2:} & E = 150V\\
+        & & I = 10mA\\
+        &\\
+        & \text{Load 3:} & E = 175V\\
+        & & I = 30mA\\
+        &\\
+        & & E_S = 285V\\
+        \text{Solution:}\\
+        & & I_{R1} = 10 \text{%} \times I \text{ (load total)}\\
+        & & I_{R1} = 10 \text{%} \times (10mA + 10mA + 30mA)\\
+        & & I_{R1} = 5mA\\
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-119
+    $$
+        \begin{array}{ll}
+        \text{Solution:}\\
+        & R_1 = \dfrac{E_R1}{I_R1}\\
+        & R_1 = \dfrac{90V}{5mA}\\
+        & R_1 = 18k&#8486;
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-120
+    $$
+        \begin{array}{ll}
+        \text{Solution:}\\
+        & I_{R2} = I_{R1} + I_{load1}\\
+        & I_{R2} = 5mA + 10mA\\
+        & I_{R2} = 15mA
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-121
+    $$
+        \begin{aligned}
+        & E_{R2} = E_{load2} - E_{load1}\\
+        & E_{R2} = 150V - 90V\\
+        & E_{R2} = 60V
+        \end{aligned}
+    $$
+</p>
+
+<p>
+    3-122
+    $$
+        \begin{aligned}
+        & R_2 = \dfrac{E_{R2}}{I_{R2}}\\
+        & R_2 = \dfrac{60V}{15mA}\\
+        & R_2 = 4k&#8486;
+        \end{aligned}
+    $$
+</p>
+
+<p>
+    3-123
+    $$
+        \begin{aligned}
+        & I_{R3} = I_{R2} + I_{load2}\\
+        & I_{R3} = 15mA + 10mA\\
+        & I_{R3} = 25mA
+        \end{aligned}
+    $$
+</p>
+
+<p>
+    3-124
+    $$
+        \begin{aligned}
+        & E_{R3} = E_{load3} - E_{load2}\\
+        & E_{R3} = 175V - 150V\\
+        & E_{R3} = 25V
+        \end{aligned}
+    $$
+</p>
+
+<p>
+    3-125
+    $$
+        \begin{array}{ll}
+        \text{Solution:}\\
+        & R_3 = \dfrac{E{R3}}{I_{R3}}\\
+        & R_3 = \dfrac{25V}{25mA}\\
+        & R_3 = 1k&#8486;
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-126
+    $$
+        \begin{aligned}
+        & I_{R4} = I_{R3} + I_{load3}\\
+        & I_{R4} = 25mA + 30mA\\
+        & I_{R4} = 55mA
+        \end{aligned}
+    $$
+</p>
+
+<p>
+    3-127
+    $$
+        \begin{aligned}
+        & E_{R4} = E_S + E_{load3}\\
+        & E_{R4} = 285V + 175V\\
+        & E_{R4} = 110V
+        \end{aligned}
+    $$
+</p>
+
+<p>
+    3-128
+    $$
+        \begin{array}{ll}
+        \text{Solution:}\\
+        & R_4 = \dfrac{E_{R4}}{I_{R4}}\\
+        & R_4 = \dfrac{110V}{55mA}\\
+        & R_4 = 2k&#8486;
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-129
+    $$
+        \begin{aligned}
+        & R_1 = 18k&#8486;\\
+        & R_2 = 4k&#8486;\\
+        & R_3 = 1k&#8486;\\
+        & R_4 = 2k&#8486;\\
+        \end{aligned}
+    $$
+</p>
+
+<p>
+    3-130
+    $$
+        \begin{array}{ll}
+        \text{Given:}\\
+        & E_{R1} = 90V\\
+        & I_{R1} = 5mA\\
+        \text{Solution:}\\
+        & P_{R1} = E_{R3} \times I_{R1}\\
+        & P_{R1} = 90V \times 5mA\\
+        & P_{R1} = 0.45W
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-131
+    $$
+        \begin{aligned}
+        & P_{R2} = 0.9W\\
+        & P_{R3} = 0.625W\\
+        & P_{R4} = 6.05W\\
+        \end{aligned}
+    $$
+</p>
+
+<p>
+    3-132
+    $$
+        \begin{array}{ll}
+        \text{Given:}\\
+        & E_{load1} = 90V\\
+        & I_{load1} = 10mA\\
+        \text{Solution:}\\
+        & P_{load1} = E_{load1} \times I_{load1}\\
+        & P_{load1} = 90V \times 10mA\\
+        & P_{load1} = 0.9W
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-133
+    $$
+        \begin{aligned}
+        & P_{load2} = 1.5W\\
+        & P_{load3} = 5.25W\\
+        \end{aligned}
+    $$
+</p>
+
+<p>
+    3-134
+    $$
+        \begin{array}{ll}
+        \text{Given:}\\
+        & E_S = 285V\\
+        & I_T = 55mA \ (I_{R4})\\
+        \text{Solution:}\\
+        & P_T = E_S \times I_T\\
+        & P_T = 285V \times 55mA\\
+        & P_T = 15.675W
+        \end{array}
+    $$
+</p>
