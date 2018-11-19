@@ -1,3 +1,5 @@
+<!--David's part 1 starts here-->
+
 <h1>CHAPTER 3</h1>
 
 <h2>DIRECT CURRENT</h2>
@@ -690,3 +692,527 @@
 <p><i>Q31.  What is the efficiency of power transfer in question 30?</i></p> 
 
 <p><i>Q32.  A circuit has a source voltage of 25 volts. The source resistance is 1 ohm and the load resistance is 49 ohms. What is the efficiency of power transfer?</i> </p>
+
+<!--Note: WK's part 2 starts here-->
+
+<h3>PARALLEL DC CIRCUITS</h3>
+<p>The discussion of electrical circuits presented up to this point has been concerned with series circuits in which there is only one path for current. There is another basic type of circuit known as the PARALLEL CIRCUIT with which you must become familiar. Where the series circuit has only one path for current, the parallel circuit has more than one path for current.</p>    
+<p>Ohm’s law and Kirchhoff’s law apply to all electrical circuits, but the characteristics of a parallel dc circuit are different than those of a series dc circuit.</p>    
+
+<h4>PARALLEL CIRCUIT CHARACTERISTICS</h4>
+<p>A PARALLEL CIRCUIT is defined as one having more than one current path connected to a common voltage source. Parallel circuits, therefore, must contain two or more resistances which are not connected in series. An example of a basic parallel circuit is shown in figure 3-37.</p>    
+<figure data-id="3-37">Example of a basic parallel circuit.</figure>
+<p>Start at the voltage source (E<sub>s</sub>) and trace counterclockwise around the circuit. Two complete and separate paths can be identified in which current can flow. One path is traced from the source, through resistance R<sub>1</sub>, and back to the source. The other path is from the source, through resistance R2, and back to the source.</p>    
+
+<h5>Voltage in a Parallel Circuit</h5>
+<p>You have seen that the source voltage in a series circuit divides proportionately across each resistor in the circuit. IN A PARALLEL CIRCUIT, THE SAME VOLTAGE IS PRESENT IN EACH BRANCH. (A branch is a section of a circuit that has a complete path for current.) In figure 3-37 this voltage is equal to the applied voltage (E<sub>s</sub>). This can be expressed in equation form as:</p>    
+<figure data-id="3-53" class="equation"></figure>
+<p>Voltage measurements taken across the resistors of a parallel circuit, as illustrated by figure 3-38 verify this equation. Each meter indicates the same amount of voltage. Notice that the voltage across each resistor is the same as the applied voltage.</p>    
+<figure data-id="3-38">Voltage comparison in a parallel circuit.</figure>
+<p>Example: Assume that the current through a resistor of a parallel circuit is known to be 4.5 milliamperes (4.5 mA) and the value of the resistor is 30,000 ohms (30 k&#8486;). Determine the source voltage. The circuit is shown in figure 3-39.</p>
+<figure data-id="3-54" class="equation"></figure>
+<figure data-id="3-39">Example problem parallel circuit.</figure>
+<p>Since the source voltage is equal to the voltage of a branch:</p>
+<figure data-id="3-54a" class="equation"></figure>
+<p>To simplify the math operation, the values can be expressed in powers of ten as follows:</p>
+<figure data-id="3-55" class="equation"></figure>
+<p>If you are not familiar with the use of the powers of 10 or would like to brush up on it, <i>Mathematics, Vol. 1</i>, NAVEDTRA 10069-C, will be of great help to you.</p>
+
+<i>
+    <p>Q33.  What would the source voltage (E<sub>s</sub>) in figure 3-39 be if the current through R<sub>2</sub> were 2 milliamps?</p>
+</i>
+
+<h5>Current in a Parallel Circuit</h5>
+<p>Ohm’s law states that the current in a circuit is inversely proportional to the circuit resistance. This fact is true in both series and parallel circuits.</p>    
+<p>There is a single path for current in a series circuit. The amount of current is determined by the total resistance of the circuit and the applied voltage. <u>In a parallel circuit the source current divides among the available paths.</u></p>    
+<p>The behavior of current in parallel circuits will be shown by a series of illustrations using example circuits with different values of resistance for a given value of applied voltage.</p>    
+<p>Part (A) of figure 3-40 shows a basic series circuit. Here, the total current must pass through the single resistor. The amount of current can be determined.</p>    
+<figure data-id="3-40">Analysis of current in parallel circuit.</figure>
+<figure data-id="3-56" class="equation"></figure>
+<p>Part (B) of figure 3-40 shows the same resistor (R<sub>1</sub>) with a second resistor (R<sub>2</sub>) of equal value connected in parallel across the voltage source. When Ohm’s law is applied, the current flow through each resistor is found to be the same as the current through the single resistor in part (A).</p>
+<figure data-id="3-57" class="equation"></figure>
+<p>It is apparent that if there is 5 amperes of current through each of the two resistors, there must be a TOTAL CURRENT of 10 amperes drawn from the source.</p>    
+<p>The total current of 10 amperes, as illustrated in figure 3-40(B), leaves the negative terminal of the battery and flows to point a. Since point a is a connecting point for the two resistors, it is called a JUNCTION. At junction a, the total current divides into two currents of 5 amperes each. These two currents flow through their respective resistors and rejoin at junction b. The total current then flows from junction b back to the positive terminal of the source. The source supplies a total current of 10 amperes and each of the two equal resistors carries one-half the total current.</p>    
+<p>Each individual current path in the circuit of figure 3-40(B) is referred to as a BRANCH. Each branch carries a current that is a portion of the total current. Two or more branches form a NETWORK.</p>    
+<p>From the previous explanation, the characteristics of current in a parallel circuit can be expressed in terms of the following general equation:</p>    
+<figure data-id="3-57a" class="equation"></figure>
+<p>Compare part (A) of figure 3-41 with part (B) of the circuit in figure 3-40. Notice that doubling the value of the second branch resistor (R2) has no effect on the current in the first branch (I<sub>R1</sub>), but does reduce the second branch current (I<sub>R2</sub>) to one-half its original value. The total circuit current drops to a value equal to the sum of the branch currents. These facts are verified by the following equations:</p>
+<figure data-id="3-58" class="equation"></figure>
+<figure data-id="3-41">Current behavior in parallel circuits.</figure>
+<p>The amount of current flow in the branch circuits and the total current in the circuit shown in figure 3-41(B) are determined by the following computations.</p>
+<figure data-id="3-59" class="equation"></figure>
+<p>Notice that the sum of the ohmic values in each circuit shown in figure 3-41 is equal (30 ohms), and that the applied voltage is the same (50 volts). However, the total current in 3-41(B) (15 amps) is twice the amount in 3-41(A) (7.5 amps). It is apparent, therefore, that the manner in which resistors are connected in a circuit, as well as their actual ohmic values, affect the total current.</p>    
+<p>The division of current in a parallel network follows a definite pattern. This pattern is described by KIRCHHOFF’S CURRENT LAW which states:</p>     
+<p>"The algebraic sum of the currents entering and leaving any junction of conductors is equal to zero."</p>    
+<p>This law can be stated mathematically as:</p>
+<figure data-id="3-60" class="equation"></figure>
+<p>where: I<sub>a</sub>, I<sub>b</sub>, etc., are the currents entering and leaving the junction. Currents ENTERING the junction are considered to be POSITIVE and currents LEAVING the junction are considered to be NEGATIVE. When solving a problem using Kirchhoff’s current law, the currents must be placed into the equation WITH THE PROPER POLARITY SIGNS ATTACHED.</p>
+<p>Example: Solve for the value of I<sub>3</sub> in figure 3-42.</p>
+<figure data-id="3-61" class="equation"></figure>
+<figure data-id="3-42">Circuit for example problem.</figure>
+<p>The currents are placed into the equation with the proper signs.</p>
+<figure data-id="3-62" class="equation"></figure>
+<p>I<sub>3</sub> has a value of 2 amperes, and the negative sign shows it to be a current LEAVING the junction. </p> 
+<p>Example. Using figure 3-43, solve for the magnitude and direction of I<sub>3</sub>.</p>
+<figure data-id="3-43">Circuit for example problem.</figure>
+<figure data-id="3-63" class="equation"></figure>
+<p>I<sub>3</sub> is 2 amperes and its positive sign shows it to be a current entering the junction.</p>
+
+<i>
+    <p>Q34.  There is a relationship between total current and current through the individual components in a circuit. What is this relationship in a series circuit and a parallel circuit?</p>    
+    <p>Q35.  In applying Kirchhoff’s current law, what does the polarity of the current indicate?</p>    
+</i>
+
+<h5>Resistance in a Parallel Circuit</h5>
+<p>In the example diagram, figure 3-44, there are two resistors connected in parallel across a 5-volt battery. Each has a resistance value of 10 ohms. A complete circuit consisting of two parallel paths is formed and current flows as shown.</p>
+<figure data-id="3-44">Two equal resistors connected in parallel.</figure>
+<p>Computing the individual currents shows that there is one-half of an ampere of current through each resistance. The total current flowing from the battery to the junction of the resistors, and returning from the resistors to the battery, is equal to 1 ampere.</p>
+<p>The total resistance of the circuit can be calculated by using the values of total voltage (E<sub>T</sub>) and total current (I<sub>T</sub>).</p>
+<p>NOTE: From this point on the abbreviations and symbology for electrical quantities will be used in example problems.</p>
+<figure data-id="3-64" class="equation"></figure>
+<p>This computation shows the total resistance to be 5 ohms; one-half the value of either of the two resistors.</p>
+<p>Since the total resistance of a parallel circuit is smaller than any of the individual resistors, <u>total resistance</u> of a parallel circuit is not the sum of the individual resistor values as was the case in a series circuit. The total resistance of resistors in parallel is also referred to as EQUIVALENT RESISTANCE (R<sub>eq</sub>). The terms total resistance and equivalent resistance are used interchangeably.</p>    
+<p>There are several methods used to determine the equivalent resistance of parallel circuits. The best method for a given circuit depends on the number and value of the resistors. For the circuit described above, where all resistors have the <u>same value</u>, the following simple equation is used:</p>    
+<figure data-id="3-65" class="equation"></figure>
+<p>This equation is valid for any number of parallel resistors of EQUAL VALUE.</p>
+<p>Example: Four 40-ohm resistors are connected in parallel. What is their equivalent resistance?</p>
+<figure data-id="3-66" class="equation"></figure>
+<p>Figure 3-45 shows two resistors of <u>unequal value</u> in parallel. Since the total current is shown, the equivalent resistance can be calculated</p>
+<figure data-id="3-45">Example circuit with unequal parallel resistors.</figure>
+<figure data-id="3-67" class="equation"></figure>
+<p>The equivalent resistance of the circuit shown in figure 3-45 is smaller than either of the two resistors  (R<sub>1</sub>, R<sub>2</sub>). An important point to remember is that <u>the equivalent resistance of a parallel circuit is always less than the resistance of any branch.</u></p>
+<figure data-id="3-68" class="equation"></figure>
+<p>If you apply the general formula to the circuit shown in figure 3-45 you will get the same value for equivalent resistance (2&#8486;) as was obtained in the previous calculation that used source voltage and total current.</p>
+<figure data-id="3-69" class="equation"></figure>
+<p>Convert the fractions to a common denominator.</p>
+<figure data-id="3-70" class="equation"></figure>
+<p>Since both sides are reciprocals (divided into one), disregard the reciprocal function.</p>
+<figure data-id="3-71" class="equation"></figure>
+<p>The formula you were given for equal resistors in parallel</p>
+<figure data-id="3-72" class="equation"></figure>
+<p>is a simplification of the general formula for resistors in parallel</p>
+<figure data-id="3-73" class="equation"></figure>
+<p>There are other simplifications of the general formula for resistors in parallel which can be used to calculate the total or equivalent resistance in a parallel circuit.</p>
+
+<p><b>RECIPROCAL METHOD</b> — This method is based upon taking the reciprocal of each side of the equation. This presents the general formula for resistors in parallel as:</p>
+<figure data-id="3-74" class="equation"></figure>
+<p>This formula is used to solve for the equivalent resistance of a number of unequal parallel resistors. You must find the lowest common denominator in solving these problems. If you are a little hazy on finding the lowest common denominator, brush up on it in <i>Mathematics Volume 1</i>, NAVEDTRA 10069 (Series).</p>
+<p>Example: Three resistors are connected in parallel as shown in figure 3-46. The resistor values are: R<sub>1</sub> = 20 ohms, R<sub>2</sub> = 30 ohms,  R<sub>3</sub> = 40 ohms. What is the equivalent resistance? (Use the reciprocal method.)</p>
+<figure data-id="3-46">Example parallel circuit with unequal branch resistors.</figure>
+<figure data-id="3-75" class="equation"></figure>
+
+<p><b>PRODUCT OVER THE SUM METHOD</b> — A convenient method for finding the equivalent, or total, resistance of two parallel resistors is by using the following formula.</p>
+<figure data-id="3-75a" class="equation"></figure>
+<p>This equation, called the product over the sum formula, is used so frequently it should be committed to memory.</p>
+<p>Example: What is the equivalent resistance of a 20-ohm and a 30-ohm resistor connected in parallel, as in figure 3-47?</p>
+<figure data-id="3-47">Parallel circuit with two unequal resistors.</figure>
+<figure data-id="3-76" class="equation"></figure>
+
+<i>
+    <p>Q36.  Four equal resistors are connected in parallel, each resistor has an ohmic value of 100 ohms, what is the equivalent resistance?</p>    
+    <p>Q37.  Three resistors connected in parallel have values of 12 k&#8486;, 20 k&#8486;, and 30 k&#8486;. What is the equivalent resistance?</p>    
+    <p>Q38.  Two resistors connected in parallel have values of 10 k&#8486; and 30 k&#8486;. What is the equivalent resistance?</p>   
+</i> 
+
+<h5>Power in a Parallel Circuit</h5>
+<p>Power computations in a parallel circuit are essentially the same as those used for the series circuit. Since power dissipation in resistors consists of a heat loss, power dissipations are additive regardless of how the resistors are connected in the circuit. The total power is equal to the sum of the power dissipated by the individual resistors. Like the series circuit, the total power consumed by the parallel circuit is:</p>    
+<figure data-id="3-77" class="equation"></figure>
+<p>Example: Find the total power consumed by the circuit in figure 3-48.</p>
+<figure data-id="3-48">Example parallel circuit.</figure>
+<figure data-id="3-78" class="equation"></figure>
+<p>Since the total current and source voltage are known, the total power can also be computed by: </p>
+<figure data-id="3-79" class="equation"></figure>
+
+<h5>Equivalent Circuits</h5>
+<p>In the study of electricity, it is often necessary to reduce a complex circuit into a simpler form. Any complex circuit consisting of resistances can be redrawn (reduced) to a basic equivalent circuit containing the voltage source and a single resistor representing total resistance. This process is called reduction to an EQUIVALENT CIRCUIT.</p>    
+<p>Figure 3-49 shows a parallel circuit with three resistors of equal value and the redrawn equivalent circuit. The parallel circuit shown in part A shows the original circuit. To create the equivalent circuit, you must first calculate the equivalent resistance.</p>    
+<figure data-id="3-49">Parallel circuit with equivalent circuit.</figure>
+<figure data-id="3-80" class="equation"></figure>
+<p>Once the equivalent resistance is known, a new circuit is drawn consisting of a single resistor (to represent the equivalent resistance) and the voltage source, as shown in part B.</p>
+
+<h5>Rules for Parallel DC Circuits</h5>
+<ol>
+    <li>The same voltage exists across each branch of a parallel circuit and is equal to the source voltage.</li>
+    <li>The current through a branch of a parallel network is inversely proportional to the amount of resistance of the branch.</li>
+    <li>The total current of a parallel circuit is equal to the sum of the individual branch currents of the circuit.</li>
+    <li>
+        The total resistance of a parallel circuit is found by the general formula:
+        <figure data-id="3-81" class="equation"></figure>
+        or one of the formulas derived from this general formula.
+    </li>
+    <li>The total power consumed in a parallel circuit is equal to the sum of the power consumptions of the individual resistances.</li>
+</ol>
+
+<h4>SOLVING PARALLEL CIRCUIT PROBLEMS</h4>
+<p>Problems involving the determination of resistance, voltage, current, and power in a parallel circuit are solved as simply as in a series circuit. The procedure is the same — (1) draw the circuit diagram, (2) state the values given and the values to be found, (3) select the equations to be used in solving for the unknown quantities based upon the known quantities, and (4) substitute the known values in the equation you have selected and solve for the unknown value.</p>
+<p>Example: A parallel circuit consists of five resistors. The value of each resistor is known and the current through R<sub>1</sub> is known. You are asked to calculate the value for total resistance, total power, total current, source voltage, the power used by each resistor, and the current through resistors R<sub>2</sub>, R<sub>3</sub>, R<sub>4</sub>, and R<sub>5</sub>.</p>
+<figure data-id="3-82" class="equation"></figure>
+<p>This may appear to be a large amount of mathematical manipulation. However, if you use the step-by-step approach, the circuit will fall apart quite easily.</p>    
+<p>The first step in solving this problem is for you to draw the circuit and indicate the known values as shown in figure 3-50.</p>    
+<figure data-id="3-50">Parallel circuit problem.</figure>
+<p>There are several ways to approach this problem. With the values you have been given, you could first solve for R<sub>T</sub>, the power used by R<sub>1</sub>, or the voltage across R<sub>1</sub>, which you know is equal to the source voltage and the voltage across each of the other resistors. Solving for R<sub>T</sub> or the power used by R<sub>1</sub> will not help in solving for the other unknown values.</p>
+<p>Once the voltage across R<sub>1</sub> is known, this value will help you calculate other unknowns. Therefore the logical unknown to solve for is the source voltage (the voltage across R<sub>1</sub>).</p>
+<figure data-id="3-83" class="equation"></figure>
+<p>Now that source voltage is known, you can solve for current in each branch.</p>
+<figure data-id="3-84" class="equation"></figure>
+<p>Since R<sub>3</sub> = R<sub>4</sub> = R<sub>5</sub>  and the voltage across each branch is the same:</p>
+<figure data-id="3-85" class="equation"></figure>
+<p>Solving for total resistance. </p>
+<figure data-id="3-86" class="equation"></figure>
+<p>An alternate method for solving for R<sub>T</sub> can be used.  By observation, you can see that R<sub>3</sub>, R<sub>4</sub>, and R<sub>5</sub> are of equal ohmic value. Therefore an equivalent resistor can be substituted for these three resistors in solving for total resistance.</p>
+<figure data-id="3-87" class="equation"></figure>
+<p>The circuit can now be redrawn using a resistor labeled R<sub>eq1</sub> in place of R<sub>3</sub>, R<sub>4</sub>, and R<sub>5</sub> as shown in figure 3-51.</p>
+<figure data-id="3-51">First equivalent parallel circuit.</figure>
+<p>An equivalent resistor can be calculated and substituted for R<sub>1</sub> and R<sub>2</sub> by use of the product over the sum formula.</p>
+<figure data-id="3-88" class="equation"></figure>
+<p>The circuit is now redrawn again using a resistor labeled R<sub>eq2</sub>  in place of R<sub>1</sub> and R<sub>2</sub> as shown in figure 3-52.</p>
+<figure data-id="3-52">Second equivalent parallel circuit.</figure>
+<p>You are now left with two resistors in parallel. The product over the sum method can now be used to solve for total resistance.</p>
+<figure data-id="3-89" class="equation"></figure>
+<p>This agrees with the solution found by using the general formula for solving for resistors in parallel. The circuit can now be redrawn as shown in figure 3-53 and total current can be calculated.</p>    
+<figure data-id="3-52">Parallel circuit redrawn to final equivalent circuit.</figure>
+<figure data-id="3-90" class="equation"></figure>
+<p>This solution can be checked by using the values already calculated for the branch currents. </p>
+<figure data-id="3-91" class="equation"></figure>
+<p>Now that total current is known, the next logical step is to find total power. </p>
+<figure data-id="3-92" class="equation"></figure>
+<p>Solving for the power in each branch. </p>
+<figure data-id="3-93" class="equation"></figure>
+<p>Since I<sub>R3</sub> = I<sub>R4</sub> = I<sub>R5</sub> then, P<sub>R3</sub> = P<sub>R4</sub> = P<sub>R5</sub> = 1800 W. The previous calculation for total power can now be checked.</p>
+<figure data-id="3-94" class="equation"></figure>
+
+<i>
+    <p>Q39.  What term identifies a single resistor that represents total resistance of a complex circuit?</p>
+    <p>Q40.  The total power in both series and parallel circuits is computed with the formula: P<sub>T</sub> = P<sub>1</sub> + P<sub>2</sub> + P<sub>3</sub> +...P<sub>n</sub>. Why can this formula be used for both series and parallel circuits?</p>   
+    <p>Q41.  A circuit consists of three resistors connected in parallel across a voltage source. R<sub>1</sub> = 40 &#8486;, R<sub>2</sub> = 30 &#8486;, R<sub>3</sub> = 40 &#8486;, and P<sub>R3</sub> = 360 watts. Solve for R<sub>T</sub>, E<sub>S</sub> and I<sub>R2</sub>. (Hint: Draw and label the circuit first.)</p>    
+</i>
+
+<h3>SERIES-PARALLEL DC CIRCUITS</h3>
+<p>In the preceding discussions, series and parallel dc circuits have been considered separately. The technician will encounter circuits consisting of both series and parallel elements. A circuit of this type is referred to as a COMBINATION CIRCUIT. Solving for the quantities and elements in a combination circuit is simply a matter of applying the laws and rules discussed up to this point.</p>
+
+<h4>SOLVING COMBINATION-CIRCUIT PROBLEMS</h4>
+<p>The basic technique used for solving dc combination-circuit problems is the use of equivalent circuits. To simplify a complex circuit to a simple circuit containing only one load, equivalent circuits are substituted (on paper) for the complex circuit they represent. To demonstrate the method used to solve combination circuit problems, the network shown in figure 3-54(A) will be used to calculate various circuit quantities, such as resistance, current, voltage, and power.</p>
+<figure data-id="3-54">Example combination circuit.</figure>
+<p>Examination of the circuit shows that the only quantity that can be computed with the given information is the <u>equivalent resistance</u> of R<sub>2</sub> and R<sub>3</sub>.</p>
+<figure data-id="3-95" class="equation"></figure>
+<p>Now that the equivalent resistance for R<sub>2</sub> and R<sub>3</sub> has been calculated, the circuit can be redrawn as a series circuit as shown in figure 3-54(B).</p>
+<p>The equivalent resistance of this circuit (total resistance) can now be calculated. </p>
+<figure data-id="3-96" class="equation"></figure>
+<p>The original circuit can be redrawn with a single resistor that represents the equivalent resistance of the entire circuit as shown in figure 3-54(C).</p>
+<p>To find total current in the circuit: </p>
+<figure data-id="3-97" class="equation"></figure>
+<p>To find total power in the circuit: </p>
+<figure data-id="3-98" class="equation"></figure>
+<p>To find the voltage dropped across R<sub>1</sub>, R<sub></sub>, and R<sub>3</sub>, refer to figure 3-54(B). R<sub>eq1</sub> represents the parallel network of R<sub>2</sub> and R<sub>3</sub>. Since the voltage across each branch of a parallel circuit is equal, the voltage across R<sub>eq1</sub> (E<sub>eq1</sub>) will be equal to the voltage across R<sub>2</sub> (E<sub>R2</sub>) and also equal to the voltage across R<sub>3</sub> (E<sub>R3</sub>).</p>
+<figure data-id="3-99" class="equation"></figure>
+<p>To find power used by R<sub>1</sub>: </p>
+<figure data-id="3-100" class="equation"></figure>
+<p>To find the current through R<sub>2</sub> and R<sub>3</sub>, refer to the original circuit, figure 3-54(A). You know E<sub>R2</sub> and E<sub>R3</sub> from previous calculation.</p>
+<figure data-id="3-101" class="equation"></figure>
+<p>To find power used by R<sub>2</sub> and R<sub>3</sub>, using values from previous calculations:</p>    
+<figure data-id="3-102" class="equation"></figure>
+<p>Now that you have solved for the unknown quantities in this circuit, you can apply what you have learned to any series, parallel, or combination circuit. It is important to remember to first look at the circuit and from observation make your determination of the type of circuit, what is known, and what you are looking for. A minute spent in this manner may save you many unnecessary calculations.</p>    
+<p>Having computed all the currents and voltages of figure 3-54, a complete description of the operation of the circuit can be made. The total current of 3 amps leaves the negative terminal of the battery and flows through the 8-ohm resistor (R<sub>1</sub>). In so doing, a voltage drop of 24 volts occurs across resistor R<sub>1</sub>. At point A, this 3-ampere current divides into two currents. Of the total current, 1.8 amps flows through the 20-ohm resistor. The remaining current of 1.2 amps flows from point A, down through the 30-ohm resistor to point B. This current produces a voltage drop of 36 volts across the 30-ohm resistor. (Notice that the voltage drops across the 20- and 30-ohm resistors are the same.) The two branch currents of 1.8 and 1.2 amps combine at junction B and the total current of 3 amps flows back to the source. The action of the circuit has been completely described with the exception of power consumed, which could be described using the values previously computed.</p>    
+<p>It should be pointed out that the combination circuit is not difficult to solve. The key to its solution lies in knowing the order in which the steps of the solution must be accomplished.</p>    
+
+<h5>Practice Circuit Problem</h5>
+<p>Figure 3-55 is a typical combination circuit. To make sure you understand the techniques of solving for the unknown quantities, solve for E<sub>R1</sub>.</p>
+<figure data-id="3-54">Combination practice circuit.</figure>
+<p>It is not necessary to solve for all the values in the circuit to compute the voltage drop across resistor R<sub>1</sub> (E<sub>R1</sub>). First look at the circuit and determine that the values given do not provide enough information to solve for E<sub>R1</sub> directly.</p>
+<p>If the current through R<sub>1</sub> (I<sub>R1</sub>) is known, then ER1 can be computed by applying the formula:</p>
+<figure data-id="3-103" class="equation"></figure>
+<p>The following steps will be used to solve the problem.</p>
+<ol>
+    <li>
+        The total resistance (R<sub>T</sub>) is calculated by the use of equivalent resistance.
+        <figure data-id="3-104" class="equation"></figure>
+        Redraw the circuit as shown in figure 3-55(B). 
+        <figure data-id="3-105" class="equation"></figure>
+        Redraw the circuit as shown in figure 3-55(C). 
+        <figure data-id="3-106" class="equation"></figure>
+    </li>
+    <li>
+        The total current (I<sub>T</sub>) is now computed. 
+        <figure data-id="3-107" class="equation"></figure>
+    </li>
+    <li>
+        Solve for the voltage dropped across R<sub>eq2</sub>. This represents the voltage dropped across the network R<sub>1</sub>, R<sub>2</sub>, and R<sub>3</sub> in the original circuit.
+        <figure data-id="3-108" class="equation"></figure>
+    </li>
+    <li>
+        Solve for the current through R<sub>eq1</sub>. (R<sub>eq1</sub> represents the network R<sub>1</sub> and R<sub>2</sub> in the original circuit.) Since the voltage across each branch of a parallel circuit is equal to the voltage across the equivalent resistor representing the circuit:
+        <figure data-id="3-109" class="equation"></figure>
+    </li>
+    <li>
+        Solve for the voltage dropped across R<sub>1</sub> (the quantity you were asked to find). Since R<sub>eq1</sub> represents the series network of R<sub>1</sub> and R<sub>2</sub> and total current flows through each resistor in a series circuit, I<sub>R1</sub> must equal I<sub>Req1</sub>.
+        <figure data-id="3-110" class="equation"></figure>
+    </li>
+</ol>
+
+<i>
+    <p>Q42.  Refer to figure 3-55(A). If the following resistors were replaced with the values indicated: R<sub>1</sub> = 900 &#8486;, R<sub>3</sub> = 1 k&#8486;, what is the total power in the circuit? What is E<sub>R2</sub>?</p>
+</i>
+
+<h4>REDRAWING CIRCUITS FOR CLARITY</h4>
+<p>You will notice that the schematic diagrams you have been working with have shown parallel circuits drawn as neat square figures, with each branch easily identified.</p>    
+<p>In actual practice the wired circuits and more complex schematics are rarely laid out in this simple form. For this reason, it is important for you to recognize that circuits can be drawn in a variety of ways, and to learn some of the techniques for redrawing them into their simplified form. When a circuit is redrawn for clarity or to its simplest form, the following steps are used.</p>    
+<ol>
+    <li>Trace the current paths in the circuit.</li>
+    <li>Label the junctions in the circuit.</li>
+    <li>Recognize points which are at the same potential.</li>
+    <li>Visualize a rearrangement, "stretching" or "shrinking," of connecting wires.</li>
+    <li>Redraw the circuit into simpler form (through stages if necessary).</li>
+</ol>
+
+<p>To redraw any circuit, <u>start at the source</u>, and trace the path of current flow through the circuit. At points where the current divides, called JUNCTIONS, parallel branches begin. These junctions are key points of reference in any circuit and should be labeled as you find them. The wires in circuit schematics are assumed to have NO RESISTANCE and there is NO VOLTAGE drop along any wire. This means that any unbroken wire is at the same voltage all along its length, until it is interrupted by a resistor, battery, or some other circuit component. In redrawing a circuit, a wire can be "stretched" or "shrunk" as much as you like without changing any electrical characteristic of the circuit.</p>    
+<p>Figure 3-56(A) is a schematic of a circuit that is not drawn in the box-like fashion used in previous illustrations. To redraw this circuit, start at the voltage source and trace the path for current to the junction marked (a). At this junction the current divides into three paths. If you were to stretch the wire to show the three current paths, the circuit would appear as shown in figure 3-56(B).</p>    
+<figure data-id="3-56">Redrawing a simple parallel circuit.</figure>
+<p>While these circuits may appear to be different, the two drawings actually represent the same circuit. The drawing in figure 3-56(B) is the familiar box-like structure and may be easier to work with. Figure 3-57(A) is a schematic of a circuit shown in a box-like structure, but may be misleading. This circuit in reality is a series-parallel circuit that may be redrawn as shown in figure 3-57(B). The drawing in part (B) of the figure is a simpler representation of the original circuit and could be reduced to just two resistors in parallel.</p>
+<figure data-id="3-57">Redrawing a simple series-parallel circuit.</figure>
+
+<h5>Redrawing a Complex Circuit</h5>
+<p>Figure 3-58(A) shows a complex circuit that may be redrawn for clarification in the following steps.</p>
+<figure data-id="3-58">Redrawing a complex circuit.</figure>
+<p>NOTE: As you redraw the circuit, draw it in simple box-like form. Each time you reach a junction, a new branch is created by stretching or shrinking the wires.</p>    
+<p>Start at the negative terminal of the voltage source. Current flows through R<sub>1</sub> to a junction and divides into three paths; label this junction (a). Follow one of the paths of current through R<sub>2</sub> and R<sub>3</sub> to a junction where the current divides into two more paths. This junction is labeled (b).</p>    
+<p>The current through one branch of this junction goes through R<sub>5</sub> and back to the source. (The most direct path.) Now that you have completed a path for current to the source, return to the last junction, (b). Follow current through the other branch from this junction. Current flows from junction (b) through R<sub>4</sub> to the source. All the paths from junction (b) have been traced. Only one path from junction (a) has been completed. You must now return to junction (a) to complete the other two paths. From junction (a) the current flows through R<sub>7</sub> back to the source. (There are no additional branches on this path.) Return to junction (a) to trace the third path from this junction. Current flows through R<sub>6</sub> and R<sub>8</sub> and comes to a junction. Label this junction (c). From junction (c) one path for current is through R<sub>9</sub> to the source. The other path for current from junction (c) is through R<sub>10</sub> to the source. All the junctions in this circuit have now been labeled. The circuit and the junction can be redrawn as shown in figure 3-58(C). It is much easier to recognize the series and parallel paths in the redrawn circuit.</p>
+
+<i>
+    <p>Q43.  What is the total resistance of the circuit shown in figure 3-59? (Hint: Redraw the circuit to simplify and then use equivalent resistances to compute for R<sub>T</sub>.)</p>
+    <figure data-id="3-59">Simplification circuit problem.</figure>
+    <p>Q44.  What is the total resistance of the circuit shown in figure 3-60?</p>
+    <figure data-id="3-60">Source resistance in a parallel circuit.</figure>
+    <p>Q45.  What effect does the internal resistance have on the rest of the circuit shown in figure 3-60?</p>
+</i>
+
+<h4>EFFECTS OF OPEN AND SHORT CIRCUITS</h4>
+<p>Earlier in this chapter the terms open and short circuits were discussed. The following discussion deals with the effects on a circuit when an open or a short occurs.</p>  
+<p>The major difference between an open in a parallel circuit and an open in a series circuit is that in the parallel circuit the open would not necessarily disable the circuit. If the open condition occurs in a series portion of the circuit, there will be no current because there is no complete path for current flow. If, on the other hand, the open occurs in a parallel path, some current will still flow in the circuit. The parallel branch where the open occurs will be effectively disabled, total resistance of the circuit will INCREASE, and total current will DECREASE.</p>    
+<p>To clarify these points, figure 3-61 illustrates a series parallel circuit. First the effect of an open in the series portion of this circuit will be examined. Figure 3-61(A) shows the normal circuit, R<sub>T</sub> = 40 ohms and I<sub>T</sub> = 3 amps. In figure 3-61(B) an open is shown in the series portion of the circuit, there is no complete path for current and the resistance of the circuit is considered to be infinite.</p>
+<figure data-id="3-61">Series-parallel circuit with opens.</figure>
+<p>In figure 3-61(C) an open is shown in the parallel branch of R<sub>3</sub>. There is no path for current through R<sub>3</sub>. In the circuit, current flows through R<sub>1</sub> and R<sub>2</sub> only. Since there is only one path for current flow, R<sub>1</sub> and R<sub>2</sub> are effectively in series.</p>
+<p>Under these conditions R<sub>T</sub> = 120 &#8486; and I<sub>T</sub> = 1 amp. As you can see, when an open occurs in a parallel branch, total circuit resistance increases and total circuit current decreases.</p>
+<p>A short circuit in a parallel network has an effect similar to a short in a series circuit. In general, the short will cause an increase in current and the possibility of component damage regardless of the type of circuit involved. To illustrate this point, figure 3-62 shows a series-parallel network in which shorts are developed. In figure 3-62 (A) the normal circuit is shown. R<sub>T</sub> = 40 ohms and I<sub>T</sub>  = 3 amps.</p>
+<figure data-id="3-62">Series-parallel circuit with shorts.</figure>
+<p>In figure 3-62 (B), R<sub>1</sub> has shorted. R<sub>1</sub> now has zero ohms of resistance. The total of the resistance of the circuit is now equal to the resistance of the parallel network of R<sub>2</sub> and R<sub>3</sub>, or 20 ohms. Circuit current has increased to 6 amps. All of this current goes through the parallel network (R<sub>2</sub>, R<sub>3</sub>) and this increase in current would most likely damage the components.</p>
+<p>In figure 3-62 (C), R<sub>3</sub> has shorted. With R<sub>3</sub> shorted there is a short circuit in parallel with R<sub>2</sub>. The short circuit routes the current around R<sub>2</sub>, effectively removing R<sub>2</sub> from the circuit. Total circuit resistance is now equal to the resistance of R<sub>1</sub>, or 20 ohms.</p>
+<p>As you know, R<sub>2</sub> and R<sub>3</sub> form a parallel network. Resistance of the network can be calculated as follows:</p>
+<figure data-id="3-111" class="equation"></figure>
+<p>The total circuit current with R<sub>3</sub> shorted is 6 amps. All of this current flows through R<sub>1</sub> and would most likely damage R<sub>1</sub>. Notice that even though only one portion of the parallel network was shorted, the entire paralleled network was disabled.</p>    
+<p>Opens and shorts alike, if occurring in a circuit, result in an overall change in the equivalent resistance. This can cause undesirable effects in other parts of the circuit due to the corresponding change in the total current flow. A short usually causes components to fail in a circuit which is not properly fused or otherwise protected. The failure may take the form of a burned-out resistor, damaged source, or a fire in the circuit components and wiring.</p>    
+<p>Fuses and other circuit protection devices are installed in equipment circuits to prevent damage caused by increases in current. These circuit protection devices are designed to open if current increases to a predetermined value. Circuit protection devices are connected <u>in series</u> with the circuit or portion of the circuit that the device is protecting. When the circuit protection device opens, current flow ceases in the circuit.</p>    
+<p>A more thorough explanation of fuses and other circuit protection devices is presented in Module 3, <i>Introduction to Circuit Protection, Control, and Measurement.</i></p>
+
+<i>
+    <p>Q46.  What is the effect on total resistance and total current in a circuit if an open occurs in (a) a parallel branch, and (b) in a series portion?</p>    
+    <p>Q47.  What is the effect on total resistance and total current in a circuit if a short occurs in (a) a parallel branch, and (b) in a series portion?</p>    
+    <p>Q48.  If one branch of a parallel network is shorted, what portion of circuit current flows through the remaining branches?</p>
+</i>
+
+<h3>VOLTAGE DIVIDERS</h3>
+<p>Most electrical and electronics equipment use voltages of various levels throughout their circuitry.</p>    
+<p>One circuit may require a 90-volt supply, another a 150-volt supply, and still another a 180-volt supply. These voltage requirements could be supplied by three individual power sources. This method is expensive and requires a considerable amount of room. The most common method of supplying these voltages is to use a single voltage source and a VOLTAGE DIVIDER. Before voltage dividers are explained, a review of what was discussed earlier concerning voltage references may be of help.</p>    
+<p>As you know, some circuits are designed to supply both positive and negative voltages. Perhaps now you wonder if a negative voltage has any less potential than a positive voltage. The answer is that 100 volts is 100 volts. Whether it is negative or positive does not affect the feeling you get when you are shocked.</p>    
+<p>Voltage polarities are considered as being positive or negative in respect to a reference point, usually ground. Figure 3-63 will help to illustrate this point.</p>    
+<figure data-id="3-63">Voltage polarities.</figure>
+<p>Figure 3-63(A) shows a series circuit with a voltage source of 100 volts and four 50-ohm resistors connected in series. The ground, or reference point, is connected to one end of resistor R<sub>1</sub>. The current in this circuit determined by Ohm’s law is .5 amp. Each resistor develops (drops) 25 volts. The five tap-off points indicated in the schematic are points at which the voltage can be measured. As indicated on the schematic, the voltage measured at each of the points from point A to point E starts at zero volts and becomes <u>more positive</u> in 25 volt steps to a value of positive 100 volts.</p>
+<p>In figure 3-63(B), the ground, or reference point has been moved to point B. The current in the circuit is still .5 amp and each resistor still develops 25 volts. The total voltage developed in the circuit remains at 100 volts, but because the <u>reference point</u> has been changed, the voltage at point A is <u>negative</u> 25 volts. Point E, which was at positive 100 volts in figure 3-63(A), now has a voltage of positive 75 volts. As you can see the voltage at any point in the circuit is dependent on three factors; the current through the resistor, the ohmic value of the resistor, and the <u>reference point in the circuit</u>.</p>
+<p>A typical voltage divider consists of two or more resistors connected in series across a source voltage (E<sub>s</sub>). The source voltage must be as high or higher than any voltage developed by the voltage divider. As the source voltage is dropped in successive steps through the series resistors, any desired portion of the source voltage may be "tapped off" to supply individual voltage requirements. The values of the series resistors used in the voltage divider are determined by the voltage and current requirements of the loads.</p>
+<p>Figure 3-64 is used to illustrate the development of a simple voltage divider. The requirement for this voltage divider is to provide a voltage of 25 volts and a current of 910 milliamps to the load from a source voltage of 100 volts. Figure 3-64(A) provides a circuit in which 25 volts is available at point B. If the load was connected between point B and ground, you might think that the load would be supplied with 25 volts. This is not true since the load connected between point B and ground forms a parallel network of the load and resistor R<sub>1</sub>. (Remember that the value of resistance of a parallel network is always less than the value of the smallest resistor in the network.)</p>
+<figure data-id="3-64">Simple voltage divider.</figure>
+<p>ince the resistance of the network would now be less than 25 ohms, the voltage at point B would be less than 25 volts. This would not satisfy the requirement of the load.</p>
+<p>To determine the size of resistor used in the voltage divider, a rule-of-thumb is used. <u>The current in the divider resistor should equal approximately 10 percent of the load current</u>. This current, which does not flow through any of the load devices, is called <u>bleeder current</u>.</p>
+<p>Given this information, the voltage divider can be designed using the following steps.</p>
+
+<ol>
+    <li>
+        Determine the load requirement and the available voltage source.
+        <figure data-id="3-112" class="equation"></figure>
+    </li>
+    <li>
+        Select bleeder current by applying the 10% rule-of-thumb.
+        <figure data-id="3-113" class="equation"></figure>
+    </li>
+    <li>
+        Calculate bleeder resistance.
+        <figure data-id="3-114" class="equation"></figure>
+        The value of R<sub>1</sub> may be rounded off to 275 ohms:
+        <figure data-id="3-115" class="equation"></figure>
+    </li>
+   <li>
+        Calculate the total current (load plus bleeder).
+        <figure data-id="3-116" class="equation"></figure>
+   </li>
+    <li>
+        Calculate the resistance of the other divider resistor(s).
+        <figure data-id="3-117" class="equation"></figure>
+        The voltage divider circuit can now be drawn as shown in figure 3-64(B).
+    </li>
+</ol>
+
+<i>
+    <p>Q49.  What information must be known to determine the component values for a voltage divider?</p>    
+    <p>Q50.  If a voltage divider is required for a load that will use 450 mA of current, what should be the value of bleeder current?</p>    
+    <p>Q51.  If the load in question 50 requires a voltage of +90 V, what should be the value of the bleeder resistor?</p>    
+    <p>Q52.  If the source voltage for the voltage divider in question 50 supplies 150 volts, what is the total current through the voltage divider?</p>
+</i>
+
+<h4>MULTIPLE-LOAD VOLTAGE DIVIDERS</h4>
+<p>A multiple-load voltage divider is shown in figure 3-65. An important point that was not emphasized before is that when using the 10% rule-of-thumb to calculate the bleeder current, you must take 10% of the total load current.</p>
+<figure data-id="3-65">Multiple-load voltage divider.</figure>
+<p>Given the information shown in figure 3-65, you can calculate the values for the resistors needed in the voltage-divider circuits. The same steps will be followed as in the previous voltage divider problem.</p>
+<figure data-id="3-118" class="equation"></figure>
+<p>Since the voltage across R<sub>1</sub> (E<sub>R1</sub>) is equal to the voltage requirement for load 1, Ohm’s law can be used to calculate the value for R<sub>1</sub>.</p>    
+<p>Solution:</p>
+<figure data-id="3-119" class="equation"></figure>
+<p>The current through R<sub>2</sub> (I<sub>R2</sub>) is equal to the current through R1 plus the current through load 1.</p>
+<p>Solution:</p>    
+<figure data-id="3-120" class="equation"></figure>
+<p>The voltage across R<sub>2</sub> (E<sub>R2</sub>) is equal to the <u>difference</u> between the voltage requirements of load 1 and load 2.</p>    
+<figure data-id="3-121" class="equation"></figure>
+<p>Ohm’s law can now be used to solve for the value of R<sub>2</sub>.</p>
+<p>Solution:</p>    
+<figure data-id="3-122" class="equation"></figure>
+<p>The current through  R<sub>3</sub> (I<sub>R3</sub>) is equal to the current through R<sub>2</sub> plus the current through load 2.</p>    
+<figure data-id="3-123" class="equation"></figure>
+<p>The voltage across  R<sub>3</sub> (E<sub>R3</sub>) equals the difference between the voltage requirement of load 3 and load 2.</p>    
+<figure data-id="3-124" class="equation"></figure>
+<p>Ohm’s law can now be used to solve for the value of R<sub>3</sub>. </p>    
+<p>Solution:</p>
+<figure data-id="3-125" class="equation"></figure>
+<p>The current through R<sub>4</sub> (I<sub>R4</sub>) is equal to the current through R<sub>3</sub> plus the current through load 3. I<sub>R4</sub> is equal to total circuit current (I<sub>T</sub>).</p>    
+<figure data-id="3-126" class="equation"></figure>
+<p>The voltage across R<sub>4</sub> (E<sub>R4</sub>) equals the difference between the source voltage and the voltage requirement of load 3.</p>    
+<figure data-id="3-127" class="equation"></figure>
+<p>Ohm’s law can now be used to solve for the value of R<sub>4</sub>. Solution:</p>    
+<figure data-id="3-128" class="equation"></figure>
+<p>With the calculations just explained, the values of the resistors used in the voltage divider are as follows:</p>    
+<figure data-id="3-129" class="equation"></figure>
+
+<h4>POWER IN THE VOLTAGE DIVIDER</h4>
+<p>Power in the voltage divider is an extremely important quantity. The power dissipated by the resistors in the voltage divider should be calculated to determine the power handling requirements of the resistors. Total power of the circuit is needed to determine the power requirement of the source.</p>
+<p>The power for the circuit shown in figure 3-65 is calculated as follows: </p>
+<figure data-id="3-130" class="equation"></figure> 
+<p>The power in each resistor is calculated just as for R<sub>1</sub>. When the calculations are performed, the following results are obtained:</p>
+<figure data-id="3-131" class="equation"></figure>
+<p>To calculate the power for load 1: </p>
+<figure data-id="3-132" class="equation"></figure>
+<p>The power in each load is calculated just as for load 1. When the calculations are performed, the following results are obtained.</p>
+<figure data-id="3-133" class="equation"></figure>
+<p>Total power is calculated by summing the power consumed by the loads and the power dissipated by the divider resistors. The total power in the circuit is 15.675 watts.</p>    
+<p>The power used by the loads and divider resistors is supplied by the source. This applies to all electrical circuits; power for all components is supplied by the source.</p>    
+<p>Since power is the product of voltage and current, the power supplied by the source is equal to the source voltage multiplied by the total circuit current (E<sub>s</sub>&times;I<sub>T</sub>).</p>
+<p>In the circuit of figure 3-65, the total power can be calculated by: </p>
+<figure data-id="3-134" class="equation"></figure>
+
+<h4>VOLTAGE DIVIDER WITH POSITIVE AND NEGATIVE VOLTAGE REQUIREMENTS</h4>
+<p>In many cases the load for a voltage divider requires both positive and negative voltages. Positive and negative voltages can be supplied from a single source voltage by connecting the ground (reference point) between two of the divider resistors. The exact point in the circuit at which the reference point is placed depends upon the voltages required by the loads.</p>
+<p>For example, a voltage divider can be designed to provide the voltage and current to three loads from a given source voltage.</p>
+<figure data-id="3-135" class="equation"></figure>
+<p>The circuit is drawn as shown in figure 3-66. Notice the placement of the ground reference point. The values for resistors R<sub>1</sub>, R<sub>3</sub>, and R<sub>4</sub> are computed exactly as was done in the last example. I<sub>R1</sub> is the bleeder current and can be calculated as follows:</p>
+<figure data-id="3-66">Voltage divider providing both positive and negative voltages.</figure>
+<figure data-id="3-136" class="equation"></figure>
+<p>Calculate the value of R<sub>1</sub>.</p>
+<figure data-id="3-137" class="equation"></figure>
+<p>Calculate the current through R<sub>2</sub> using Kirchhoff's current law.</p>
+<figure data-id="3-137a" class="equation"></figure>
+<p>(or 195mA leaving point A)</p>
+<p>Since E<sub>R2</sub> = E load 2, you can calculate the value of R<sub>2</sub>.</p>
+<figure data-id="3-138" class="equation"></figure>
+<p>Calculate the current through R<sub>3</sub>.</p>
+<figure data-id="3-138a" class="equation"></figure>
+<p>The voltage across R<sub>3</sub> (E<sub>R3</sub>) equals the difference between the voltage requirements of loads 3 and 2. </p>
+<figure data-id="3-139" class="equation"></figure>
+<p>Calculate the value of R<sub>3</sub.></p>
+<figure data-id="3-139a" class="equation"></figure>
+<p>Calculate the current through R<sub>4</sub>.</p>
+<figure data-id="3-139b" class="equation"></figure>
+<p>The voltage across E<sub>R4</sub> equals the source voltage (E<sub>s</sub>) minus the voltage requirement of load 3 and the voltage requirement of load 1. Remember Kirchhoff’s voltage law which states that the sum of the voltage drops and emfs around any closed loop is equal to zero.</p>
+<figure data-id="3-140" class="equation"></figure>
+<p>Calculate the value of R<sub>4</sub>.</p>
+<figure data-id="3-140a" class="equation"></figure>
+<p>With the calculations just explained, the values of the resistors used in the voltage/divider are as follows:</p>
+<figure data-id="3-141" class="equation"></figure>
+<p>From the information just calculated, any other circuit quantity, such as power, total current, or resistance of the load, could be calculated.</p>
+
+<h4>PRACTICAL APPLICATION OF VOLTAGE DIVIDERS</h4>
+<p>In actual practice the computed value of the bleeder resistor does not always come out to an even value. Since the rule-of-thumb for bleeder current is only an estimated value, the bleeder resistor can be of a value close to the computed value. (If the computed value of the resistance were 510 ohms, a 500- ohm resistor could be used.) Once the actual value of the bleeder resistor is selected, the bleeder current must be recomputed. <u>The voltage developed by the bleeder resistor must be equal to the voltage requirement of the load in parallel with the bleeder resistor</u>.</p>
+<p>The value of the remaining resistors in the voltage divider is computed from the current through the remaining resistors and the voltage across them. These values <u>must be used</u> to provide the required voltage and current to the loads.</p>
+<p>If the computed values for the divider resistors are not even values; series, parallel, or series-parallel networks can be used to provide the required resistance.</p>
+<p>Example: A voltage divider is required to supply two loads from a 190.5 volts source. Load 1 requires +45 volts and 210 milliamps; load 2 requires +165 volts and 100 milliamps.</p>
+<p>Calculate the bleeder current using the rule-of-thumb.</p>
+<figure data-id="3-142" class="equation"></figure>
+<p>Calculate the ohmic value of the bleeder resistor.</p>
+<figure data-id="3-142a" class="equation"></figure>
+<p>Since it would be difficult to find a resistor of 1451.6 ohms, a practical choice for R<sub>1</sub> is 1500 ohms. </p>
+<p>Calculate the actual bleeder current using the selected value for R<sub>1</sub>.</p>
+<figure data-id="3-143" class="equation"></figure>
+<p>Using this value for I<sub>R1</sub>, calculate the resistance needed for the next divider resistor. The current (I<sub>R2</sub>) is equal to the bleeder current plus the current used by load 1.</p>
+<figure data-id="3-144" class="equation"></figure>
+<p>The voltage across R<sub>2</sub> (E<sub>R2</sub>) is equal to the difference between the voltage requirements of loads 2 and 1, or 120 volts.</p>
+<p>Calculate the value of R<sub>2</sub>.</p>
+<figure data-id="3-145" class="equation"></figure>
+<p>The value of the final divider resistor is calculated with I<sub>R3</sub> (I<sub>R2</sub> + I load 2) equal to 340 mA and E<sub>R3</sub> (E<sub>s</sub> - E load 2) equal to 25.5V. </p>
+<figure data-id="3-146" class="equation"></figure>
+<p>A 75-ohm resistor may not be easily obtainable, so a network of resistors equal to 75 ohms can be used in place of R<sub>3</sub>.</p>
+<p>Any combination of resistor values adding up to 75 ohms could be placed in series to develop the required network. For example, if you had two 37.5-ohm resistors, you could connect them in series to get a network of 75 ohms. One 50-ohm and one 25-ohm resistor or seven 10-ohm and one 5-ohm resistor could also be used.</p>    
+<p>A parallel network could be constructed from two 150-ohm resistors or three 225-ohm resistors. Either of these parallel networks would also be a network of 75 ohms.</p>    
+<p>The network used in this example will be a series-parallel network using three 50-ohm resistors. </p>    
+<p>With the information given, you should be able to draw this voltage divider network.</p>    
+<p>Once the values for the various divider resistors have been selected, you can compute the power used by each resistor using the methods previously explained. When the power used by each resistor is known, the wattage rating required of each resistor determines the physical size and type needed for the circuit. This circuit is shown in figure 3-67.</p>
+<figure data-id="3-67">Practical example of a voltage divider.</figure>
+
+<i>
+    <p>Q53.  In figure 3-67, why is the value of R<sub>1</sub> calculated first?</p>
+    <p>Q54.  In figure 3-67, how is (a) the current through R<sub>2</sub> and (b) the voltage drop across R<sub>2</sub> computed?</p>
+    <p>Q55.  In figure 3-67, what is the power dissipated in R<sub>1</sub>?</p>
+    <p>Q56.  In figure 3-67,  what is the purpose of the series-parallel network R<sub>3</sub>, R<sub>4</sub>, and R<sub>5</sub>?</p>
+    <p>Q57.  In figure 3-67,  what should be the minimum wattage ratings of R<sub>3</sub> and R<sub>5</sub>?</p>
+    <p>Q58.  If the load requirement consists of both positive and negative voltages, what technique is used in the voltage divider to supply the loads from a single voltage source?</p>
+</i>
+
+<h3>EQUIVALENT CIRCUIT TECHNIQUES</h3>
+<p>The circuit solutions that you have studied up to this point have been obtained mainly through the use of formulas derived from Ohm’s law. As in many other fields of science, electricity has its share of special shortcut methods. Some of the special circuit analysis techniques are: THEVENIN’S THEOREM, which uses a process of circuit reduction to Thevenin’s equivalent circuit; and NORTON’S THEOREM, which is reduction of a circuit to Norton’s equivalent. Another method is called LOOP ANALYSIS. This uses Kirchhoff’s voltage law to simultaneously solve problems in parallel branches of a circuit. The use of these methods should be reserved until you have become thoroughly familiar with the methods covered thus far in this chapter. You may want to explore some of the special techniques later in your career.</p>
+
+<h3>ELECTRICAL SAFETY</h3>
+<p>Safety precautions must always be observed by persons working around electric circuits and equipment to avoid injury from electric shock. Detailed safety precautions are contained in NAVMAT P-5100, <i>Safety Precautions for Shore Activities</i> and OPNAVINST 5100-19, <i>Navy Safety Precautions for Forces Afloat</i>.</p>
+<p>The danger of shock from a 450-volt ac electrical service system is well recognized by operating personnel. This is shown by the relatively low number of reports of serious shock received from this voltage, despite its widespread use. On the other hand, a number of fatalities have been reported due to contact with low-voltage circuits. Despite a fairly widespread, but totally unfounded, popular belief to the contrary, low-voltage circuits (115 volts and below) are very dangerous and can cause death when the resistance of the body is lowered. Fundamentally, current, rather than voltage, is the measure of shock intensity. The passage of even a very small current through a vital part of the human body can cause DEATH. The voltage necessary to produce the fatal current is dependent upon the resistance of the body, contact conditions, the path through the body, etc. For example, when a 60-hertz alternating current, is passed through a human body from hand to hand or from hand to foot, and the current is gradually increased, it will cause the following effects: At about 1 milliampere (0.001 ampere), the shock can be felt; at about 10 milliamperes (0.01 ampere), the shock is of sufficient intensity to prevent voluntary control of the muscles; and at about 100 milliamperes (0.1 ampere) the shock is fatal if it lasts for 1 second or more. The above figures are the results of numerous investigations and are approximate because individuals differ in their resistance to electrical shock. It is most important to recognize that the resistance of the human body cannot be relied upon to prevent a fatal shock from 115 volts or less— FATALITIES FROM VOLTAGES AS LOW AS 30 VOLTS HAVE BEEN RECORDED. Tests have shown that body resistance under unfavorable conditions may be as low as 300 ohms, and possibly as low as 100 ohms from temple to temple if the skin is broken.</p>
+<p>Conditions aboard ship add to the chance of receiving an electrical shock. Aboard ship the body is likely to be in contact with the metal structure of the ship and the body resistance may be low because of perspiration or damp clothing. Extra care and awareness of electrical hazards aboard ship are needed.</p>    
+<p>Short circuits can be caused by accidentally placing or dropping a metal tool, rule, flashlight case, or other conducting article across an energized line. The arc and fire which result, even on relatively low- voltage circuits, may cause extensive damage to equipment and serious injury to personnel.</p>    
+<p>Since ship service power distribution systems are designed to be ungrounded, many persons believe it is safe to touch one conductor, since no electrical current would flow. This is not true, since the distribution system is not totally isolated from the hull of the ship. If one conductor of an ungrounded electrical system is touched while the body is in contact with the hull of the ship or other metal equipment enclosure, a fatal electric current may pass through the body. ALL LIVE ELECTRIC CIRCUITS SHALL BE TREATED AS POTENTIAL HAZARDS AT ALL TIMES.</p>
+
+<h4>DANGER SIGNALS</h4>
+<p>Personnel should constantly be on the alert for any signs which might indicate a malfunction of electric equipment. Besides the more obvious visual signs, the reaction of other senses, such as hearing, smell, and touch, should also make you aware of possible electrical malfunctions. Examples of signs which you must be alert for are: fire, smoke, sparks, arcing, or an unusual sound from an electric motor. Frayed and damaged cords or plugs; receptacles, plugs, and cords which feel warm to the touch; slight shocks felt when handling electrical equipment; unusually hot running electric motors and other electrical equipment; an odor of burning or overheated insulation; electrical equipment which either fails to operate or operates irregularly; and electrical equipment which produces excessive vibrations are also indications of malfunctions. When any of the above signs are noted, they are to be reported immediately to a qualified technician. DO NOT DELAY. Do not operate faulty equipment. Above all, do not attempt to make any repairs yourself if you are not qualified to do so. Stand clear of any suspected hazard and instruct others to do likewise.</p>
+<ul>
+    <li>Warning Signs—They have been placed for your protection. To disregard them is to invite personal injury as well as possible damage to equipment. Switches and receptacles with a temporary warning tag, indicating work is being performed, are not to be touched.</li>
+    <li>Working Near Electrical Equipment—When work must be performed in the immediate vicinity of electrical equipment, check with the technician responsible for the maintenance of the equipment so you can avoid any potential hazards of which you may not be immediately aware.</li>
+    <li>Authorized Personnel Only—Because of the danger of fire, damage to equipment, and injury to personnel, all repair and maintenance work on electrical equipment shall be done only by authorized persons. Keep your hands off of all equipment which you have not been specifically authorized to handle. Particularly stay clear of electrical equipment opened for inspection, testing, or servicing.</li>   
+    <li>Circuit Breakers and Fuses—Covers for all fuse boxes, junction boxes, switch boxes, and wiring accessories should be kept closed. Any cover which is not closed or is missing should be reported to the technician responsible for its maintenance. Failure to do so may result in injury to personnel or damage to equipment in the event accidental contact is made with exposed live circuits.</li>    
+</ul>
+
+<h4>ELECTRICAL FIRES</h4>
+<p>Carbon dioxide (CO<sub>2</sub>) is used in fighting electrical fires. It is nonconductive and, therefore, the safest to use in terms of electrical safety. It also offers the least likelihood of damaging equipment. However, if the discharge horn of a CO<sub>2</sub> extinguisher is allowed to accidentally touch an energized circuit, the horn may transmit a shock to the person handling the extinguisher.</p>    
+<p>The very qualities which cause CO<sub>2</sub> to be a valuable extinguishing agent also make it dangerous to life. When it replaces oxygen in the air to the extent that combustion cannot be sustained, respiration also cannot be sustained. Exposure of a person to an atmosphere of high concentration of CO<sub>2</sub> will cause suffocation.</p>
+
+<h3>FIRST AID FOR ELECTRIC SHOCK</h3>
+<p>A person who has stopped breathing is not necessarily dead, but is in immediate danger. Life is dependent upon oxygen, which is breathed into the lungs and then carried by the blood to every body cell. Since body cells cannot store oxygen, and since the blood can hold only a limited amount (and that only for a short time), death will surely result from continued lack of breathing.</p>    
+<p>However, the heart may continue to beat for some time after breathing has stopped, and the blood may still be circulated to the body cells. Since the blood will, for a short time, contain a small supply of oxygen, the body cells will not die immediately. For a very few minutes, there is some chance that the person’s life may be saved.</p>    
+<p>The process by which a person who has stopped breathing can be saved is called ARTIFICIAL VENTILATION (RESPIRATION).</p>    
+<p>The purpose of artificial ventilation is to force air out of the lungs and into the lungs, in rhythmic alternation, until natural breathing is reestablished. Artificial ventilation should be given only when natural breathing has stopped; it should NOT be given to any person who is breathing naturally. You shoul           d not assume that an individual who is unconscious due to electrical shock has stopped breathing. To tell  if someone suffering from an electrical shock is breathing, place your hands on the person’s sides, at the level of the lowest ribs. If the victim is breathing, you will usually be able to feel the movement.</p>    
+<p>Remember: DO NOT GIVE ARTIFICIAL VENTILATION TO A PERSON WHO IS BREATHING NATURALLY.</p>
+<p>Records show that seven out of ten victims of electric shock were revived when artificial respiration was started in <u>less than 3 minutes</u>. After 3 minutes, the chances of revival decrease rapidly.</p>
+<p>Once it has been determined that breathing has stopped, the person nearest the victim should start the artificial ventilation without delay and send others for assistance and medical aid. The only logical, permissible delay is that required to free the victim from contact with the electricity in the quickest, safest way. This step, while it must be taken quickly, must be done with great care; otherwise, there may be two victims instead of one. In the case of portable electric tools, lights, appliances, equipment, or portable outlet extensions, this should be done by turning off the supply switch or by removing the plug from its receptacle. If the switch or receptacle cannot be quickly located, the suspected electrical device may be pulled free of the victim. Other persons arriving on the scene must be clearly warned not to touch the suspected equipment until it is deenergized. Aid should be enlisted to unplug the device as soon as possible. The injured person should be pulled free of contact with stationary equipment (such as a bus bar) if the equipment cannot be quickly deenergized, or if considerations of military operation or unit survival prevent immediate shutdown of the circuits.</p>
+<p>This can be done quickly and safely by carefully applying the following procedures:</p>
+<ol>
+    <li>Protect yourself with dry insulating material.</li>
+    <li>Use a dry board, belt, clothing, or other available nonconductive material to free the victim from electrical contact. DO NOT TOUCH THE VICTIM UNTIL THE SOURCE OF ELECTRICITY HAS BEEN REMOVED.</li>
+</ol>
+<p>Once the victim has been removed from the electrical source, it should be determined, if the person is breathing. If the person is not breathing, a method of artificial ventilation is used.</p>    
+<p>Sometimes victims of electrical shock suffer cardiac arrest (heart stoppage) as well as loss of breathing. Artificial ventilation alone is not enough in cases where the heart has stopped. A technique known as Cardiopulmonary Resuscitation (CPR) has been developed to provide aid to a person who has stopped breathing and suffered a cardiac arrest. Because you most likely will be working in the field of electricity, the risk of electrical shock is higher than most other Navy occupations. You should, at your earliest opportunity, learn the technique of CPR.</p>
+<p>CPR is relatively easy to learn and is taught in courses available from the American Red Cross, some Navy Medical Departments, and in the <i>Standard First Aid Training Course</i> (NAVEDTRA 12081).</p>
+
+<i>
+    <p>Q59.  Is it considered safe for a person to touch any energized low-voltage conductor with the bare hand?</p>    
+    <p>Q60.  What should you do if you become aware of a possible malfunction in a piece of electrical equipment?</p>    
+    <p>Q61.  Who should perform CPR?</p>
+</i>
