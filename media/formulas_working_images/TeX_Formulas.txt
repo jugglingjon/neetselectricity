@@ -1912,3 +1912,243 @@ $$
         \end{array}
     $$
 </p>
+
+<p>
+    3-135
+    $$
+        \begin{array}{lll}
+        \text{Given:}\\
+        & \text{Load 1:} & E = -25V\\
+        && I = 300mA\\
+        &\\
+        & \text{Load 2:} & E = +50V\\
+        && I = 50mA\\
+        &\\
+        & \text{Load 3:} & E = +250V\\
+        && I = 100mA\\
+        &\\
+        && E_S = 310V
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-136
+    $$
+    \begin{array}{ll}
+    \text{Solution:}\\
+    & I_{R1} = 10 \text{%} \times I \text{ (load total)}\\
+    & I_{R1} = 10 \text{%} \times 300mA\\
+    & I_{R1} = 30mA
+    \end{array}
+    $$
+</p>
+
+<p>
+    3-137
+    $$
+        \begin{array}{ll}
+        \text{Solution:}\\
+        & R_1 = \dfrac{E_{R1}}{I_{R1}}\\
+        & R_1 = \dfrac{25V}{45mA}\\
+        & R_1 = 556&#8486;
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-137a
+    $$
+        \begin{array}{ll}
+        \text{At point A:}\\
+        & I_{R1} + I_{load1} + I_{R2} + I_{load2} + I_{load2} = 0\\
+        & 45mA + 300mA + I_{R2} - 50mA - 100mA = 0\\
+        & 345mA + I_{R2} - 150mA = 0\\
+        & 195mA + I_{R2} = 0\\
+        & I_{R2} = -195mA
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-138
+    $$
+        \begin{array}{ll}
+        \text{Solution:}\\
+        & R_2 = \dfrac{E_{R2}}{I_{R2}}\\
+        & R_2 = \dfrac{50V}{195mA}\\
+        & R_2 = 256&#8486;
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-138a
+    $$
+        \begin{aligned}
+        & I_{R3} = I_{R2} + I_{load2}\\
+        & I_{R3} = 195mA + 50mA\\
+        & I_{R3} = 245mA
+        \end{aligned}
+    $$
+</p>
+
+<p>
+    3-139
+    $$
+        \begin{array}{ll}
+        \text{Solution:}\\
+        & E_{R3} = E_{load3} - E_{load2}\\
+        & E_{R3} = 250V - 50V\\
+        & E_{R3} = 200V
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-139a
+    $$
+        \begin{array}{ll}
+        \text{Solution:}\\
+        & R_3 = \dfrac{E_{R3}}{I_{R3}}\\
+        & R_3 = \dfrac{200V}{245mA}\\
+        & R_3 = 816&#8486;
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-139b
+    $$
+        \begin{aligned}
+        & I_{R4} = I_{R3} + I_{load3}\\
+        & I_{R4} = 245mA + 100mA\\
+        & I_{R4} = 345mA
+        \end{aligned}
+    $$
+</p>
+
+<p>
+    3-140
+    $$
+        \begin{array}{ll}
+        \text{Solution:}\\
+        & E_{R4} = E_S - E_{load3} - E_{load1}\\
+        & E_{R4} = 310V - 250V - 25V\\
+        & E_{R4} = 35V
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-140a
+    $$
+        \begin{array}{ll}
+        \text{Solution:}\\
+        & R_4 = \dfrac{E_{R4}}{I_{R4}}\\
+        & R_4 = \dfrac{35V}{345mA}\\
+        & R_4 = 101.4&#8486;
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-141
+    $$
+        \begin{aligned}
+        & R_1 = 556&#8486;\\
+        & R_2 = 256&#8486;\\
+        & R_3 = 816&#8486;\\
+        & R_4 = 101&#8486;\\
+        \end{aligned}
+    $$
+</p>
+
+<p>
+    3-142
+    $$
+        \begin{array}{ll}
+        \text{Given:}\\
+        & I_{load1} = 210mA\\
+        & I_{load2} = 100mA\\
+        \text{Solution:}\\
+        & I_{R1} = 10 \text{%} \times (210mA + 100mA)\\
+        & I_{R1} = 31mA
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-142a
+    $$
+        \begin{array}{ll}
+        \text{Given:}\\
+        & E_{R1} = 45V \ (E_{load1})\\
+        & I_{R1} = 31mA\\
+        \text{Solution:}\\
+        & R_1 = \dfrac{E_{R1}}{I_{R1}}\\
+        & R_1 = \dfrac{45V}{31mA}\\
+        & R_1 = 1451.6&#8486;
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-143
+    $$
+        \begin{array}{ll}
+        \text{Given:}\\
+        & E_{R1} = 45V\\
+        & R_1 = 1.5k&#8486;\\
+        \text{Solution:}\\
+        & I_{R1} = \dfrac{E_{R1}}{R_1}\\
+        & I_{R1} = \dfrac{45V}{1.5k&#8486;}\\
+        & I_{R1} = 30mA
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-144
+    $$
+        \begin{array}{ll}
+        \text{Given:}\\
+        & I_{R1} = 30mA\\
+        & I_{load1} = 210mA\\
+        \text{Solution:}\\
+        & I_{R2} = I_{R1} + I_{load1}\\
+        & I_{R2} = 30mA + 210mA\\
+        & I_{R2} = 240mA
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-145
+    $$
+        \begin{array}{ll}
+        \text{Given:}\\
+        & E_{R2} = 120V\\
+        & I_{R2} = 240mA\\
+        \text{Solution:}\\
+        & R_2 = \dfrac{E_{R2}}{I_{R2}}\\
+        & R_2 = \dfrac{120V}{240mA}\\
+        & R_2 = 500&#8486;
+        \end{array}
+    $$
+</p>
+
+<p>
+    3-146
+    $$
+        \begin{array}{ll}
+        \text{Given:}\\
+        & E_{R3} = 25.5V\\
+        & I_{R3} = 340mA\\
+        \text{Solution:}\\
+        & R_3 = \dfrac{E_{R3}}{I_{R3}}\\
+        & R_3 = \dfrac{25.5V}{340mA}\\
+        & R_3 = 75&#8486;
+        \end{array}
+    $$
+</p>
