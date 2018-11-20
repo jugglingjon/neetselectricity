@@ -70,12 +70,12 @@ $$
     3-10
     $$
         \begin{array}{ll}
-        \text{Insert the values of the known}\\
-        \text{quantities: }\\
+        \text{Insert the values of the}\\
+        \text{known quantities: }\\
         & R = \dfrac{10 \text{ volts}}{1 \text{ ampere}}\\
         & R = 10 \text{ ohms}\\
-        \text{The basic formula can also be}\\
-        \text{used to solve for E: }\\
+        \text{The basic formula can also}\\
+        \text{be used to solve for E: }\\
         \text{Take the basic formula: }\\
         & I = \dfrac{E}{R}\\
         \text{Multiply both sides by R: }\\
@@ -138,34 +138,34 @@ $$
 <p>
     3-16
     $$   
-        \begin{array}{rl}
-        &P = \dfrac{E}{I}\\
-        &P = {1\text{ volt} \times 0.5 \text{ ampere}}\\
-        &P = {0.5 \text{ watt}}\\
-        \text{When E is increased to 2 volts:}\\
-        &I = \dfrac{E}{R}\\
-        &I = \dfrac{2\text{ volts}}{2 \text{ ohms}}\\
-        &I = {1 \text{ ampere}}\\
-        \end{array}
+        \begin{aligned}
+        & P = \dfrac{E}{I}\\
+        & P = {1\text{ volt} \times 0.5 \text{ ampere}}\\
+        & P = {0.5 \text{ watt}}\\
+        \text{When } & \text{E is increased to 2 volts:}\\
+        & I = \dfrac{E}{R}\\
+        & I = \dfrac{2\text{ volts}}{2 \text{ ohms}}\\
+        & I = {1 \text{ ampere}}\\
+        \end{aligned}
     $$
 </p>
 
 <p>
     3-17
     $$
-        \begin{array}{ll}
+        \begin{aligned}
         &P = {E \times I}\\
         &P = {2 \text{ volts} \times 1 \text{ ampere}}\\
         &P = {2 \text{ watts}}\\
-        \text{When E is increased to 3 volts:}\\
+        \text{When } & \text{E is increased to 3 volts:}\\
         &I = \dfrac{E}{R}\\
         &I = \dfrac{3 \text{ volts}}{2 \text{ ohms}}\\
         &I = {1.5 \text{ amperes}}\\
-        \text{and}\\
+        & \ \ \text{ and}\\
         &P = {E \times I}\\
         &P = {3 \text{ volts} \times 1.5 \text{ ampere}}\\
         &P = {4.5 \text{ watts}}\\
-        \end{array}
+        \end{aligned}
     $$
 </p>
 
@@ -173,17 +173,12 @@ $$
     3-18
     $$
         
-        \begin{array}{ll}
-        \text{Since:}\\
-        & I = \dfrac{E}{R}\\
-        \text{By substitution in:}\\
-        & P = {E \times I}\\
-        \text{You get:}\\ 
-        & P = {E \times \dfrac{E}{R}}\\
-        \text{Or:}\\ 
-        & P = {\dfrac{E \times E}{R}}\\
-        \text{Therefore:}\\ 
-        & P = \dfrac{E^2}{R}\\
+        \begin{array}{rl}
+        \text{Since:} & I = \dfrac{E}{R}\\
+        \text{By substituting in:} & P = {E \times I}\\
+        \text{You get:} & P = {E \times \dfrac{E}{R}}\\
+        \text{Or:} & P = {\dfrac{E \times E}{R}}\\
+        \text{Therefore:} & P = \dfrac{E^2}{R}\\
         \end{array}
     $$
 </p>
@@ -198,12 +193,12 @@ $$
 <p>
     3-20
     $$
-    \begin{array}{ll}
-    \text{Since:}\\ & E = {I \times R}\\
-    \text{By substitution in:}\\ & P = {E \times I}\\
-    \text{You get:}\\ & P = {I \times R \times I}\\
-    \text{Or:}\\ & P = {I \times I \times R}\\
-    \text{Therefore:}\\ & P = {I^2 \times R}\\
+    \begin{array}{rl}
+    \text{Since:} & E = {I \times R}\\
+    \text{By substituting in:} & P = {E \times I}\\
+    \text{You get:} & P = {I \times R \times I}\\
+    \text{Or:} & P = {I \times I \times R}\\
+    \text{Therefore:} & P = {I^2 \times R}\\
     \end{array}
     $$
 </p>
@@ -306,10 +301,12 @@ $$
         & R_2 = 10 \text{ ohms}\\
         & R_3 = 10 \text{ ohms}\\
         \text{Solution:}\\ & R_T = R_1 + R_2 + R_3\\
-        &\text{(Subtract } R_1 + R_2 \text{ from both sides of the equation.)}\\
+        &\text{(Subtract } R_1 + R_2 \text{ from}\\
+        &\;\;\;\;\text{ both sides of the equation.)}\\
         & R_T - R_1 - R_2 = R_3\\
         & R_3 = R_T - R_1 - R_2\\
-        & R_3 = 40 \text{ ohms} - 10 \text{ ohms} - 10 \text{ ohms}\\
+        & R_3 = 40 \text{ ohms} - 10 \text{ ohms}\\
+        & \;\;\;\;\;\;\;\; - 10 \text{ ohms}\\
         & R_3 = 40 \text{ ohms} - 20 \text{ ohms}\\
         & R_3 = 20 \text{ ohms}
         \end{array}
@@ -350,7 +347,7 @@ $$
 </p>
 
 <p>
-    3-23
+    3-32
     $$
         \begin{array}{ll}
         \text{Given:}\\
@@ -360,9 +357,9 @@ $$
         & I = 2 \text{ amps}\\
         \text{Solution:}\\
         & E_T = E_1 + E_2 + E_3\\
-        & E_1 = R_1 \times I_1 & (I_1 = \text{The current running through resistor} R_1)\\
-        & E_2 = R_2 \times I_2\\
-        & E_3 = R_3 \times I_3\\
+        & E_1 = R_1 \times I_1 & (I_1 = \text{The current}\\
+        & E_2 = R_2 \times I_2 & \;\;\;\;\text{running through}\\
+        & E_3 = R_3 \times I_3 & \;\;\;\;\text{ resistor} R_1)\\
         \end{array}
     $$
 </p>
@@ -510,7 +507,8 @@ $$
         \text{Solution (a):}\\
         & E_T = IR_T\\
         & R_T = R_1 + R_2 + R_3 + R_4\\
-        & R_T = 10 \text{ ohms} + 10 \text{ ohms} + 50 \text{ ohms} + 30 \text{ ohms}\\
+        & R_T = 10 \text{ ohms} + 10 \text{ ohms}\\
+        & \;\;\;\;\;\;\;\;+ 50 \text{ ohms} + 30 \text{ ohms}\\
         & R_T = 100 \text{ ohms}\\
         &\\
         & E_T = 0.5 \text{ amps} \times 100 \text{ ohms}\\
@@ -551,7 +549,8 @@ $$
         &\\
         \text{Solution (d):}\\
         & P_T = P_1 + P_2 + P_3 + P_4\\
-        & P_T = 2.5 \text{ watts} + 2.5 \text{ watts} + 12.5 \text{ watts} + 7.5 \text{ watts}\\
+        & P_T = 2.5 \text{ watts} + 2.5 \text{ watts}\\
+        & \;\;\;\;\;\;\;\;+ 12.5 \text{ watts} + 7.5 \text{ watts}\\
         & P_T = 25 \text{ watts}\\
         or\\
         & P_T = IE_T\\
@@ -626,7 +625,8 @@ $$
     3-48
     $$
         \begin{aligned}
-        &E_X + 15 \text{ volts} + 25 \text{ volts} - 50 \text{ volts} = 0\\
+        &E_X + 15 \text{ volts} + 25 \text{ volts}\\
+        & \;\;\;\;- 50 \text{ volts} = 0\\
         &E_X - 10 \text{ volts} = 0\\
         &E_X = 10 \text{ volts}\\
         &\\
@@ -647,7 +647,8 @@ $$
         & (I \times R_2) + (I \times R_1) + E_A + (I \times R_3) = 0\\
         &\\
         &\text{Substituting Values:}\\
-        & (I \times 10 \text{ ohms}) + (I \times 5 \text{ ohms}) + (-60 \text{ volts}) + (I \times 15 \text{ ohms}) = 0\\
+        & (I \times 10 \text{ ohms}) + (I \times 5 \text{ ohms})\\
+        & \;\;\;\;+ (-60 \text{ volts}) + (I \times 15 \text{ ohms}) = 0\\
         &\\
         &\text{Combining like terms:}\\
         & (I \times 30 \text{ ohms}) + (-60 \text{ volts}) = 0\\
@@ -667,7 +668,8 @@ $$
         & (I \times R_3) + E_A + (I \times R_1) + (I \times R_2) = 0\\
         &\\
         &\text{Substituting Values:}\\
-        & (I \times 15 \text{ ohms}) + 60 \text{ volts} + (I \times 5 \text{ ohms}) + (I \times 10 \text{ ohms}) = 0\\
+        & (I \times 15 \text{ ohms}) + 60 \text{ volts}\\
+        & \;\;\;\;+ (I \times 5 \text{ ohms}) + (I \times 10 \text{ ohms}) = 0\\
         &\\
         &\text{Combining like terms:}\\
         & (I \times 30 \text{ ohms}) + 60 \text{ volts} = 0\\
@@ -684,14 +686,18 @@ $$
         \begin{aligned}
         & E_2 + E_{R1} + E_1 + E_3 + E_{R2} = 0\\
         &\\
-        & 20 \text{ volts} + (I \times 60 \text{ ohms}) + (-180 \text{ volts}) 
-        + 40 \text{ volts} + (I \times 20 \text{ ohms}) = 0\\
-        & 20 \text{ volts} - 180 \text{ volts} + 40 \text{ volts} 
-        + (I \times 60 \text{ ohms}) + (I \times 20 \text{ ohms}) = 0\\
+        & 20 \text{ volts} + (I \times 60 \text{ ohms}) + (-180 \text{ volts})\\
+        & \;\;\;\;+ 40 \text{ volts} + (I \times 20 \text{ ohms}) = 0\\
+        &\\
+        & 20 \text{ volts} - 180 \text{ volts} + 40 \text{ volts}\\
+        & \;\;\;\;+ (I \times 60 \text{ ohms}) + (I \times 20 \text{ ohms}) = 0\\
+        &\\
         & -120 \text{ volts} + (I \times 80 \text{ ohms}) = 0\\
         &\\
         & I \times 80 \text{ ohms} = 120 \text{ volts}\\
+        &\\
         & I = \dfrac{120 \text{ volts}}{80 \text{ ohms}}\\
+        &\\
         & I = 1.5 \text{ amps}
         \end{aligned}
     $$
@@ -716,8 +722,10 @@ $$
     $$
         \begin{array}{ll}
         \text{Given:}
-        & R_2 = 30,000 \text{ ohms } (30 \text{k&#8486;})\\
-        & I_{R2} = 4.5 \text{ milliamps} (4.5 \text{mA or} 0.0045 \text{ amps})\\
+        & R_2 = 30,000 \text{ ohms }\\
+        & \;\;\;\;\;\;\;\;(30 \text{k&#8486;})\\
+        & I_{R2} = 4.5 \text{ milliamps}\\
+        &\;\;\;\;\;\;\;\;(4.5 \text{mA or } 0.0045 \text{ amps})\\
         \text{Solution:}\\
         & E = IR\\
         & E_{R2} = 0.0045 \text{ amp} \times 30,000 \text{ ohms}\\
@@ -770,9 +778,11 @@ $$
         \text{Solution:}\\
         & I = \dfrac{E}{R}\\
         & E_S = E_{R1} = E_{R2}\\
+        &\\
         & I_{R1} = \dfrac{E_{R1}}{R_1}\\
         & I_{R1} = \dfrac{50 \text{ volts}}{10 \text{ ohms}}\\
         & I_{R1} = 5 \text{ amps}\\
+        &\\
         & I_{R2} = \dfrac{50 \text{ volts}}{10 \text{ ohms}}\\
         & I_{R2} = 5 \text{ amps}\\
         \end{array}
@@ -797,12 +807,15 @@ $$
         \text{Solution:}\\
         & I = \dfrac{E}{R}\\
         & E_S = E_{R1} = E_{R2}\\
+        &\\
         & I_{R1} = \dfrac{E_{R1}}{R_1}\\
         & I_{R1} = \dfrac{50 \text{ volts}}{10 \text{ ohms}}\\
         & I_{R1} = 5 \text{ amps}\\
+        &\\
         & I_{R2} = \dfrac{E_{R2}}{R_2}\\
         & I_{R2} = \dfrac{50 \text{ volts}}{20 \text{ ohms}}\\
         & I_{R2} = 2.5 \text{ amps}\\
+        &\\
         & I_T = I_{R1} + I_{R2}\\
         & I_T = 5 \text{ amps} + 2.5 \text{ amps}\\
         & I_T = 7.5 \text{ amps}
@@ -821,18 +834,19 @@ $$
         \text{Solution:}\\
         & I = \dfrac{E}{R}\\
         & E_S = E_{R1} = E_{R2}\\
+        &\\
         & I_{R1} = \dfrac{E_{R1}}{R_1}\\
         & I_{R1} = \dfrac{50 \text{ volts}}{10 \text{ ohms}}\\
         & I_{R1} = 5 \text{ amps}\\
-
+        &\\
         & I_{R2} = \dfrac{E_{R2}}{R_2}\\
         & I_{R2} = \dfrac{50 \text{ volts}}{10 \text{ ohms}}\\
         & I_{R2} = 5 \text{ amps}\\
-
+        &\\
         & I_{R3} = \dfrac{E_{R3}}{R_3}\\
         & I_{R3} = \dfrac{50 \text{ volts}}{10 \text{ ohms}}\\
         & I_{R3} = 5 \text{ amps}\\
-
+        &\\
         & I_T = I_{R1} + I_{R2} + I_{R3}\\
         & I_T = 5 \text{ amps} + 5 \text{ amps} + 5 \text{ amps}\\
         & I_T = 15 \text{ amps}
@@ -865,7 +879,8 @@ $$
         \text{Solution:}\\
         & I_a + I_b +...I_n = 0\\
         & I_1 + I_2 + I_3 + I_4 = 0\\
-        & 10 \text{ amps} + (-3 \text{ amps}) + I_3 + (-5 \text{ amps}) = 0\\
+        & 10 \text{ amps} + (-3 \text{ amps}) + I_3\\
+        & \;\;\;\;+ (-5 \text{ amps}) = 0\\
         & I_3 + 2 \text{ amps} = 0\\
         & I_3 = -2 \text{ amps}
         \end{array}
@@ -883,7 +898,8 @@ $$
         \text{Solution:}\\
         & I_a + I_b +...I_n = 0\\
         & I_1 + I_2 + I_3 + I_4 = 0\\
-        & 6 \text{ amps} + (-3 \text{ amps}) + I_3 + (-5 \text{ amps}) = 0\\
+        & 6 \text{ amps} + (-3 \text{ amps}) + I_3\\
+        & \;\;\;\; + (-5 \text{ amps}) = 0\\
         & I_3 + (-2 \text{ amps}) = 0\\
         & I_3 = -2 \text{ amps}
         \end{array}
@@ -1354,7 +1370,8 @@ $$
         & P_{R5} = 1800W\\
         \text{Solution:}\\
         & P_T = P_1 + P_2 + P_3 + P_4 + P_5\\
-        & P_T = 1620W + 1080W + 1800W + 1800W + 1800W\\
+        & P_T = 1620W + 1080W + 1800W\\
+        & \;\;\;\;\;\;\;\; + 1800W + 1800W\\
         & P_T = 8100W\\
         & P_T = 8.1kW\\
         \end{array}
@@ -1432,7 +1449,8 @@ $$
     & I_T = 3A\\
     & R_1 = 8&#8486;\\
     & R_{eq1} = 12&#8486;\\
-    & \text{(Current through each part of a series is equal to total current.)}\\
+    & \text{(Current through each part of}\\
+    & \;\;\text{ a series is equal to total current.)}\\
     \text{Solution:}\\
     & E_{R1} = I_1 \times R_1\\
     & E_{R1} = 3A \times 8&#8486;\\
@@ -1703,20 +1721,20 @@ $$
     $$
         \begin{array}{lll}
         \text{Given:}\\
-        & \text{Load 1:} & E = 90V\\
-        & & I = 10mA\\
+        \;\;\text{ Load 1:} & E = 90V\\
+        & I = 10mA\\
         &\\
-        & \text{Load 2:} & E = 150V\\
-        & & I = 10mA\\
+        \;\;\text{ Load 2:} & E = 150V\\
+        & I = 10mA\\
         &\\
-        & \text{Load 3:} & E = 175V\\
-        & & I = 30mA\\
+        \;\;\text{ Load 3:} & E = 175V\\
+        & I = 30mA\\
         &\\
-        & & E_S = 285V\\
+        & E_S = 285V\\
         \text{Solution:}\\
-        & & I_{R1} = 10 \text{%} \times I \text{ (load total)}\\
-        & & I_{R1} = 10 \text{%} \times (10mA + 10mA + 30mA)\\
-        & & I_{R1} = 5mA\\
+        & I_{R1} = 10 \text{%} \times I \text{ (load total)}\\
+        & I_{R1} = 10 \text{%} \times (10mA + 10mA + 30mA)\\
+        & I_{R1} = 5mA\\
         \end{array}
     $$
 </p>
@@ -1959,14 +1977,14 @@ $$
 <p>
     3-137a
     $$
-        \begin{array}{ll}
-        \text{At point A:}\\
+        \begin{aligned}
+        \text{At} & \text{ point A:}\\
         & I_{R1} + I_{load1} + I_{R2} + I_{load2} + I_{load2} = 0\\
         & 45mA + 300mA + I_{R2} - 50mA - 100mA = 0\\
         & 345mA + I_{R2} - 150mA = 0\\
         & 195mA + I_{R2} = 0\\
         & I_{R2} = -195mA
-        \end{array}
+        \end{aligned}
     $$
 </p>
 
