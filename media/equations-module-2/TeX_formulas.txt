@@ -1,0 +1,196 @@
+$$
+    \require{cancel}
+$$
+
+<p>
+    5-1
+    $$
+        E_p = \dfrac{N_s}{N_p}\\
+        \begin{array}{ll}
+        \text{Where:}\\
+        & N_p = \text{number of turns in primary}\\
+        & E_p = \text{voltage applied in the primary}\\
+        & N_s = \text{number of turns applied in the secondary}\\
+        & E_S = \text{voltage applied in the secondary}
+        \end{array}
+    $$
+    
+</p>
+
+<p>
+    5-2
+    $$
+        E_p N_S = E_s N_p
+    $$
+</p>
+
+<p>
+    5-3
+    $$
+        \begin{array}{ll}
+        \text{Transposing for } E_s: & E_s = \dfrac{E_p N_s}{N_p}\\
+        &\\
+        \text{Transposing for } E_p: & E_p = \dfrac{E_s N_p}{N_s}\\
+        \end{array}
+    $$
+</p>
+
+<p>
+    5-4
+    $$
+        \begin{array}{ll}
+        \text{Given:}\\
+        & N_p = 200 \text{ turns}\\
+        & N_s = 50 \text{ turns}\\
+        & E_p = 120 \text{ volts}\\
+        & E_s = \text{? volts}\\
+        \text{Solution:}\\
+        & E_s = \dfrac{E_p N_s}{N_p}\\
+        \text{Substitution:}\\
+        & E_s = \dfrac{12 \text{ volts} \times 50 \text{ turns}}{200 \text{ turns}}\\
+        & E_s = 30 \text{ volts}
+        \end{array}
+    $$
+</p>
+
+<p>
+    5-5
+    $$
+        \begin{array}{ll}
+        \text{Given:}\\
+        & N_p = 200 \text{ turns}\\
+        & N_p = 100 \text{ turns}\\
+        & E_p = 5 \text{ volts}\\
+        & E_s = 1 \text{ volt}\\
+        & N_s = \text{? turns}\\
+        \text{Solution:}\\
+        & E_p N_s = E_s N_p\\
+        \text{Transposing for } N_s: \\
+        & N_s = \dfrac{E_s N_p}{E_p}\\
+        \text{Substitution:}\\
+        & N_s = \dfrac{1 \text{ volt} \times 100 \text{ turns}}{5 \text{ volts}}\\
+        & N_s = 80 \text{ turns}
+        \end{array}
+    $$
+</p>
+
+<p>
+    5-6
+    $$
+        I_p N_p = I_s N_s\\
+        \begin{array}{ll}
+        \text{Where:}
+        & I_p N_p = \text{ampere-turns in the primary winding}\\
+        & I_s N_s = \text{ampere-turns in the secondary winding}
+        \end{array}
+    $$
+</p>
+
+<p>
+    5-7
+    $$
+        \begin{array}{ll}
+        & \dfrac{N_p}{N_s} = \dfrac{I_s}{I_p}\\
+        \text{Since:}\\
+        & E_p = \dfrac{E_s N_p}{N_s}\\
+        \text{Then:}\\
+        & \dfrac{E_p}{E_s} = \dfrac{N_p}{N_s}\\
+        \text{And:}\\
+        & \dfrac{E_p}{E_s} = \dfrac{I_s}{I_p}\\
+        \text{Where:}\\
+        & E_p = \text{voltage applied in the primary in volts}\\
+        & E_s = \text{voltage applied in the secondary in volts}\\
+        & I_p = \text{current in the primary in amperes}\\
+        & I_s = \text{current in the secondary in amperes}\\
+        \end{array}
+    $$
+</p>
+
+<p>
+    5-8
+    $$
+        \begin{array}{ll}
+        \text{Given:} & E_p = 6V \text{ (assumed)}\\
+        & E_s = 1V\\
+        & I_p = 200mA \text{ or } 0.2A\\
+        & I_s = \text{?}\\
+        \text{Solution:}\\
+        & \dfrac{E_p}{E_s} = \dfrac{I_s}{I_p}\\
+        \text{Transposing for } I_s:\\
+        & I_s = \dfrac{E_p I_p}{E_s}\\
+        \text{Substitution:}\\
+        & I_s = \dfrac{6V \times 0.2A}{1V}\\
+        & I_s = 1.2A
+        \end{array}
+    $$
+</p>
+
+<p>
+    5-9
+    $$
+        \dfrac{N_p}{N_s}
+    $$
+</p>
+
+<p>
+    5-10
+    $$
+        \begin{array}{ll}
+        \text{Given:}\\
+        & N_p = 1 \text{ turn (assumed)}\\
+        & N_s = 12 \text{ turns}\\
+        \text{Solution:}\\
+        & \dfrac{N_p}{N_s} = \dfrac{I_s}{I_p}\\
+        \text{Transposing for } I_p:\\
+        & I_p = \dfrac{N_s I_s}{N_p}\\
+        \text{Substitution:}\\
+        & I_p = \dfrac{12 \text{ turns} \times 3A}{1 \text{ turn}}\\
+        & I_p = 36A
+        \end{array}
+    $$
+</p>
+
+<p>
+    5-11
+    $$
+        \begin{array}{ll}
+        \text{As a formula:}\\
+        & P_s = P_p - P_L\\
+        \text{Where:}\\
+        & P_p = \text{power delivered to the load by the source}\\
+        & P_s = \text{power delivered to the load by the secondary}\\
+        & P_L = \text{power losses in the transformer}
+        \end{array}
+    $$
+</p>
+
+<p>
+    5-12
+    $$
+        \text{Efficiency(in %)} = \dfrac{P_{out}}{P_{in}} \times 100 \text{%}\\
+        \begin{array}{ll}
+        \text{Where:}\\
+        & P_{out} = \text{total output power delivered to the load}\\
+        & P_{in} = \text{total input power}
+        \end{array}
+    $$
+</p>
+
+<p>
+    5-13
+    $$
+        \begin{array}{ll}
+        \text{Solution:}\\
+        & \text{Efficiency} = \dfrac{P_{out}}{P_{in}} \times 100 \text{%}\\
+        & \text{Efficiency} = \dfrac{610W}{650W} \times 100 \text{%}\\
+        & \text{Efficiency} = 93.83 \text{%}\\
+        \end{array}
+    $$
+</p>
+
+<p>
+    5-14
+    $$
+        \dfrac{N_p}{N_s} = \sqrt{\dfrac{Z_p}{Z_s}}
+    $$
+</p>
