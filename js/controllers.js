@@ -201,7 +201,7 @@ app.controller('chapterController', function($scope,$compile,$http) {
 
 				// $(this).prepend('<span>Figure '+figure+'</span> &mdash; ');
 				// $(this).wrapInner('<figcaption></figcaption>');
-				var imageUrl='media/equation-'+figure+'.jpg';
+				var imageUrl='media/equation-'+figure+'.png';
 				var img=$('<img src="'+imageUrl+'">');
 				$(this).prepend(img);
 				
