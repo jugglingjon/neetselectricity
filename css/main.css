@@ -112,7 +112,7 @@ h6 {
   background-color: #296fa7;
 }
 footer {
-  padding: .5rem 0;
+  padding: 0.5rem 0;
   background: #373b42;
   color: white;
 }
@@ -171,7 +171,7 @@ footer a i::before {
 }
 .utility-menu {
   margin-bottom: 2rem;
-  padding: .5rem 2rem .5rem .5rem;
+  padding: 0.5rem 2rem 0.5rem 0.5rem;
   background-color: #f8f8f8;
   border-bottom: 1px solid #d7d7d7;
   zoom: 1;
@@ -188,7 +188,7 @@ footer a i::before {
   margin-right: 1rem;
   font-style: italic;
   line-height: 34px;
-  font-size: .9rem;
+  font-size: 0.9rem;
   top: 3px;
   position: relative;
 }
@@ -233,14 +233,14 @@ footer a i::before {
 }
 .portal h3,
 .quiz-area h3 {
-  margin-bottom: .5rem;
-  padding-bottom: .5rem;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
   border-bottom: 1px solid rgba(46, 125, 187, 0.4);
 }
 .portal h4,
 .quiz-area h4 {
-  margin-bottom: .5rem;
-  padding-bottom: .5rem;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
   border-bottom: 1px solid #dcdcdc;
 }
 .portal h5,
@@ -283,7 +283,7 @@ footer a i::before {
 .portal figure,
 .quiz-area figure {
   max-width: 40%;
-  border-radius: .25rem;
+  border-radius: 0.25rem;
   border: 1px solid #dcdcdc;
   padding: 0;
   margin: 0 20px 20px 20px;
@@ -295,8 +295,8 @@ footer a i::before {
 .quiz-area figure figcaption {
   background-color: #ececec;
   color: #424242;
-  border-radius: 0 0 .25rem .25rem;
-  padding: .5rem 1rem;
+  border-radius: 0 0 0.25rem 0.25rem;
+  padding: 0.5rem 1rem;
 }
 .portal figure figcaption span,
 .quiz-area figure figcaption span {
@@ -334,7 +334,13 @@ footer a i::before {
 .quiz-area figure.equation {
   float: none !important;
   margin: 0 auto !important;
+  max-width: inherit !important;
   border: 0 !important;
+  text-align: center;
+}
+.portal figure.equation img,
+.quiz-area figure.equation img {
+  zoom: 40%;
 }
 @media only screen and (max-width: 767px) {
   .portal figure,
@@ -375,7 +381,7 @@ footer a i::before {
 }
 #figureModal .modal-body img {
   width: 100%;
-  border-radius: .25rem;
+  border-radius: 0.25rem;
 }
 header,
 header *,
@@ -386,8 +392,7 @@ header *,
 }
 header {
   height: 4rem;
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
+  box-sizing: content-box;
   position: fixed;
   top: 0;
   width: 100%;
@@ -535,10 +540,9 @@ header .topicNav-area .topicNav-wrapper #topicNav li.current::before {
   top: 3px;
   bottom: 3px;
   border: 1px solid #ffffff;
-  border-radius: .25rem;
+  border-radius: 0.25rem;
   content: '';
-  -webkit-box-shadow: 0 0 4px 0 #2e7dbb;
-          box-shadow: 0 0 4px 0 #2e7dbb;
+  box-shadow: 0 0 4px 0 #2e7dbb;
   pointer-events: none;
   background-color: #2e7dbb;
 }
@@ -560,16 +564,16 @@ header .topicNav-area .topicNav-wrapper #topicNav li a {
 }
 header .topicNav-area .topicNav-wrapper #topicNav li a .chapter-number {
   position: absolute;
-  left: .85rem;
+  left: 0.85rem;
   font-weight: bold;
 }
 header .topicNav-area .topicNav-wrapper #topicNav li a .chapter-percent {
   position: absolute;
-  right: .5rem;
+  right: 0.5rem;
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  border-radius: .25rem;
+  border-radius: 0.25rem;
   color: #2e7cbc;
   padding: 3px 4px;
   opacity: 0.7;
@@ -655,12 +659,12 @@ header .topicNav-area .topicNav-wrapper #topicNav li.even {
 .quiz-area .quiz,
 .test-area .quiz {
   margin-bottom: 2rem;
-  border-radius: .25rem;
+  border-radius: 0.25rem;
   padding-left: 3rem;
 }
 .quiz-area .quiz .quiz-question,
 .test-area .quiz .quiz-question {
-  padding: .5rem 0;
+  padding: 0.5rem 0;
   font-weight: bold;
 }
 .quiz-area .quiz .quiz-question span,
@@ -672,11 +676,11 @@ header .topicNav-area .topicNav-wrapper #topicNav li.even {
 .test-area .quiz .quiz-answers .quiz-answer {
   display: block;
   position: relative;
-  padding: .5rem 1rem .5rem 2.5rem;
-  margin-bottom: .5rem;
+  padding: 0.5rem 1rem 0.5rem 2.5rem;
+  margin-bottom: 0.5rem;
   border: 1px solid #9c9c9c;
   color: #404040;
-  border-radius: .25rem;
+  border-radius: 0.25rem;
 }
 .quiz-area .quiz .quiz-answers .quiz-answer span,
 .test-area .quiz .quiz-answers .quiz-answer span {
@@ -697,7 +701,7 @@ header .topicNav-area .topicNav-wrapper #topicNav li.even {
   top: 0px;
   bottom: 0px;
   width: 2rem;
-  border-radius: .25rem 0 0 .25rem;
+  border-radius: 0.25rem 0 0 0.25rem;
   background: #b5b5b5;
 }
 .quiz-area .quiz .quiz-answers .quiz-answer.selected,
