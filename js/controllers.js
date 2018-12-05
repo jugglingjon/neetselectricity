@@ -11,7 +11,7 @@ app.controller('chapterController', function($scope,$compile,$http) {
 	$scope.startChapter = 1;
 	$scope.chapterID=$scope.startChapter;
 
-	var namespace='NEETSElectricityChapters';
+	var namespace='NEETSElectricityChaptersA';
 
 	//load questions data file
 	$http.get('chapterQuestions.json').then(function(response){
@@ -33,7 +33,7 @@ app.controller('chapterController', function($scope,$compile,$http) {
 
 	$scope.initTest = function(){
 		$scope.testing=true;
-		$http.get('testSHORT.json').then(function(response){
+		$http.get('test.json').then(function(response){
 			
 
 			$scope.allTestData=response.data;
@@ -75,7 +75,7 @@ app.controller('chapterController', function($scope,$compile,$http) {
 			outputClass+='test-incorrect ';
 		}
 
-		if($scope.currentTestData.questions[questionIndex].selected){
+		if($scope.currentTestData.questions[questionIndex].selected >= 0){
 			if($scope.currentTestData.questions[questionIndex].selected===answerIndex){
 				outputClass+='selected ';
 			}

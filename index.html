@@ -93,9 +93,12 @@
 				<div class="quiz" ng-repeat="question in currentTestData.questions" data-index="{{$index}}">
 					<div class="quiz-question">
 						<span>{{currentTestIndex+1}}-{{$index+1}}. </span>{{question.question}}
+						<div class="quiz-question-image" ng-show="question.image">
+							<img src="media/{{question.image}}">
+						</div>
 					</div>
 					<div class="quiz-answers" >
-						<a href="#" ng-repeat="answer in question.answers" class="quiz-answer" ng-class="answerClass($parent.$index,$index)" ng-click="testSelectAnswer($event,$parent.$index,$index)"><span>{{numbersToLetters[$index]}}</span>{{answer.answer}}</a>
+						<a href="#" ng-repeat="answer in question.answers" class="quiz-answer" ng-class="answerClass($parent.$index,$index)" ng-click="testSelectAnswer($event,$parent.$index,$index)"><span>{{numbersToLetters[$index]}}</span>{{answer.answer}}<img src="media/{{answer.image}}" ng-show="answer.image"></a>
 					</div>
 				</div>
 
