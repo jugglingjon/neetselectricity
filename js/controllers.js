@@ -84,6 +84,115 @@ app.controller('chapterController', function($scope,$compile,$http) {
 		return outputClass;
 	}
 
+	function uuidv4() {
+		return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+			var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
+			return v.toString(16);
+		});
+	}
+
+	$scope.sendCert = function(){
+		// if(device==null){
+		// 	var device={
+		// 		manufacturer: 'Apple',
+		// 		model: 'iphone',
+		// 		platform: 'iOS',
+		// 		version: '11.1'
+		// 	};
+		// }
+		var guid=uuidv4();
+		var deviceType=($(window).width()>500)?'Tablet':'Phone';
+// 		var txt=`<?xml version="1.0" encoding="utf-8"?>
+// <course_completion>
+// 	<Course_Completion_ID>${guid}</Course_Completion_ID>
+// 	<DODID>${$scope.dodid}</DODID>
+// 	<Course_Number>NRTC-NAVEDTRA-14256A-TEST</Course_Number>
+// 	<Pre_Test_Score>0</Pre_Test_Score>
+// 	<Post_Test_Score>${$scope.score}</Post_Test_Score>
+// 	<Completion_Date>${moment().format()}</Completion_Date>
+// 	<Device_Information>
+// 		<Device_Manufacturer>${device.manufacturer}</Device_Manufacturer>
+// 		<Device_Model>${device.model}</Device_Model>
+// 		<Device_Type>${deviceType}</Device_Type>
+// 		<Device_OS_Name>${device.platform}</Device_OS_Name>
+// 		<Device_OS_Version>${device.version}</Device_OS_Version>
+// 	</Device_Information>
+// </course_completion>`;
+		var txt=`<?xml version="1.0" encoding="utf-8"?>
+<course_completion>
+	<Course_Completion_ID>${guid}</Course_Completion_ID>
+	<DODID>1234567890</DODID>
+	<Course_Number>NRTC-NAVEDTRA-14256A-TEST</Course_Number>
+	<Pre_Test_Score>0</Pre_Test_Score>
+	<Post_Test_Score>${$scope.score}</Post_Test_Score>
+	<Completion_Date>${moment().format()}</Completion_Date>
+	<Device_Information>
+		<Device_Manufacturer>${device.manufacturer}</Device_Manufacturer>
+		<Device_Model>${device.model}</Device_Model>
+		<Device_Type>${deviceType}</Device_Type>
+		<Device_OS_Name>${device.platform}</Device_OS_Name>
+		<Device_OS_Version>${device.version}</Device_OS_Version>
+	</Device_Information>
+</course_completion>`;
+		console.log(txt);
+
+
+
+		var base64 = Base64.encode(txt);
+		var blobx = b64toBlob(base64, 'text/xml');
+
+		var zip = new JSZip();
+		zip.file(guid+'.xml',blobx);
+
+		zip.generateAsync({type:"blob"}).then(function (blob) {
+			var reader = new FileReader();
+			reader.readAsDataURL(blob); 
+			reader.onloadend = function() {
+				base64data = reader.result;                
+				//console.log(base64data);
+				console.log( base64data.substr(base64data.indexOf(',')+1) );
+				var b64string = 'base64:'+guid+'.ldk//'+ base64data.substr(base64data.indexOf(',')+1);
+
+				cordova.plugins.email.open({
+				    to:      'NTMPS.NAVY.ADDRESS.HERE@NAVY.mil',
+				    subject: 'Completion Certificate',
+				    body:    'NRTC-NAVEDTRA-14256A-TEST\n\nDo not change the subject line of this email. Changing the subject line may prevent credit for completing this course.',
+				    attachments: [b64string]
+				});
+			}
+			
+		});
+		return false;
+
+	}
+
+	$scope.gradeTest = function(){
+		var fullset=[];
+		for(key in $scope.allTestData){
+			$.each($scope.allTestData[key].questions,function(){
+				fullset.push(this);
+			});
+		}
+
+		var correct=0;
+		var total=fullset.length;
+
+		for(var i=0;i<fullset.length;i++){
+			if(fullset[i].selected){
+				if(fullset[i].answers[fullset[i].selected].correct){
+					correct++;
+				}
+			}
+			
+		}
+		console.log(correct,total,correct/total);
+		$scope.score=correct/total;
+		$scope.passed = ($scope.score>=.8)?true:false;
+		$scope.score=Math.floor($scope.score*100);
+		$('#gradeModal').modal({backdrop: 'static'});
+
+	}
+
 	$scope.gradeTest = function(){
 		var fullset=[];
 		for(key in $scope.allTestData){
