@@ -16,5 +16,30 @@
 		"title": "Direct Current",
 		"correctCount":0,
 		"correctPercent":0
+	},
+	"A1":{
+		"title": "Glossary",
+		"correctCount": 0,
+		"correctPercent": 0
+	},
+	"A2":{
+		"title": "Laws of Exponents",
+		"correctCount": 0,
+		"correctPercent": 0
+	},
+	"A3":{
+		"title": "Square and Square Roots",
+		"correctCount": 0,
+		"correctPercent": 0
+	},
+	"A4":{
+		"title": "Comparison of Units in Electric and Magnetic Circuits; and Carbon Resistor Size Comparison by Wattage Rating",
+		"correctCount": 0,
+		"correctPercent": 0
+	},
+	"A5":{
+		"title": "Useful Formulas for DC Circuits",
+		"correctCount": 0,
+		"correctPercent": 0
 	}
 }

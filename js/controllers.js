@@ -11,7 +11,7 @@ app.controller('chapterController', function($scope,$compile,$http) {
 	$scope.startChapter = 1;
 	$scope.chapterID=$scope.startChapter;
 
-	var namespace='NEETSElectricityChaptersA';
+	var namespace='NEETSElectricityChaptersC';
 
 	//load questions data file
 	$http.get('chapterQuestions.json').then(function(response){

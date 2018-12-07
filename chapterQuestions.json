@@ -5295,12 +5295,24 @@
 			}]
 		}]
 	},
-	"A1": {
-		"title": "References",
+	"A1":{
+		"title": "Glossary",
 		"questions": []
 	},
-	"A2": {
-		"title": "The Metric System and Equivalents",
+	"A2":{
+		"title": "Laws of Exponents",
+		"questions": []
+	},
+	"A3":{
+		"title": "Square and Square Roots",
+		"questions": []
+	},
+	"A4":{
+		"title": "Comparison of Units in Electric and Magnetic Circuits; and Carbon Resistor Size Comparison by Wattage Rating",
+		"questions": []
+	},
+	"A5":{
+		"title": "Useful Formulas for DC Circuits",
 		"questions": []
 	}
 }

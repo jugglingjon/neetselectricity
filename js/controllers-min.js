@@ -27,7 +27,7 @@ return $(e.target).addClass("selected").siblings().removeClass("selected"),s.cur
 //open starting chapter
 s.openChapter(s.chapterID)}s.version="1.1",s.numbersToLetters={0:"A",1:"B",2:"C",3:"D"},
 //initialize chapter at 1
-s.startChapter=1,s.chapterID=s.startChapter;var i="NEETSElectricityChaptersA";
+s.startChapter=1,s.chapterID=s.startChapter;var i="NEETSElectricityChaptersC";
 //load questions data file
 t.get("chapterQuestions.json").then(function(e){s.questions=e.data,
 //check local storage, init with that data if available, otherwise JSON file
