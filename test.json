@@ -1,2060 +1,2653 @@
 {
-	"1":{
+	"1": {
 		"title": "Matter, Energy, and Electricity",
-		"questions": [
-			{
-				"id": "1-1",
-				"question": "   Matter can be found in which of the following forms?",
-				"answers":[
-					{"answer": "Solid"},
-					{"answer": "Liquid"},
-					{"answer": "Gaseous"},
-					{"answer": "Each of the above"}
-				]
-			},
-			{
-				"id": "1-2",
-				"question": "   A substance that CANNOT be reduced to a simpler substance by chemical means is called a/an",
-				"answers":[
-					{"answer": "Element"},
-					{"answer": "Mixture"},
-					{"answer": "Compound"},
-					{"answer": "Solution"}
-				]
-			},
-			{
-				"id": "1-3",
-				"question": "   A molecule is the smallest possible particle that retains the characteristic of which of the following substances?",
-				"answers":[
-					{"answer": "An element"},
-					{"answer": "A mixture"},
-					{"answer": "A compound"},
-					{"answer": "A solution"}
-				]
-			},
-			{
-				"id": "1-4",
-				"question": " An atom is the smallest possible particle that retains the characteristic of which of the following substances?",
-				"answers":[
-					{"answer": "An element"},
-					{"answer": "A mixture"},
-					{"answer": "A compound"},
-					{"answer": "A solution"}
-				]
-			},
-			{
-				"id": "1-5",
-				"question": "   What subatomic particle has a negative charge and a small mass?",
-				"answers":[
-					{"answer": "Proton"},
-					{"answer": "Electron"},
-					{"answer": "Positron"},
-					{"answer": "Neutron"}
-				]
-			},
-			{
-				"id": "1-6",
-				"question": "   What subatomic particle has a positive charge and a large mass?",
-				"answers":[
-					{"answer": "Proton"},
-					{"answer": "Electron"},
-					{"answer": "Positron"},
-					{"answer": "Neutron"}
-				]
-			},
-			{
-				"id": "1-7",
-				"question": "   What subatomic particle has no charge?",
-				"answers":[
-					{"answer": "Proton"},
-					{"answer": "Electron"},
-					{"answer": "Positron"},
-					{"answer": "Neutron"}
-				]
-			},
-			{
-				"id": "1-8",
-				"question": "   When light is represented as a tiny packet of energy, what are these packets of energy called?",
-				"answers":[
-					{"answer": "Angstroms"},
-					{"answer": "Photons"},
-					{"answer": "Wavelengths"},
-					{"answer": "Frequencies"}
-				]
-			},
-			{
-				"id": "1-9",
-				"question": "   If light energy collides with an orbiting electron, what happens to the electron?",
-				"answers":[
-					{"answer": "The electron will move around the same orbit faster"},
-					{"answer": "The electron will jump to an orbit further from the nucleus"},
-					{"answer": "The electron will jump to an orbit closer to the nucleus"},
-					{"answer": "The electron will merge with the nucleus"}
-				]
-			},
-			{
-				"id": "1-10",
-				"question": "  After the action described in question 1-9 occurs, the electron will return to the condition it had before being acted upon by the light. When the electron returns to this condition, which of the following actions occurs?",
-				"answers":[
-					{"answer": "The nucleus becomes lighter"},
-					{"answer": "The atom becomes an ion"},
-					{"answer": "Light energy is emitted"},
-					{"answer": "The valence of the atom changes"}
-				]
-			},
-			{
-				"id": "1-11",
-				"question": " The number of electrons in the outermost shell of an atom determines which of the following characteristics of the atom?",
-				"answers":[
-					{"answer": "Valence"},
-					{"answer": "Atomic weight"},
-					{"answer": "Atomic number"},
-					{"answer": "Number of shells"}
-				]
-			},
-			{
-				"id": "1-12",
-				"question": " When an atom gains or loses an electron, which of the following terms applies?",
-				"answers":[
-					{"answer": "Unbalanced"},
-					{"answer": "Lightened"},
-					{"answer": "Neutral"},
-					{"answer": "Ionized"}
-				]
-			},
-			{
-				"id": "1-13",
-				"question": " What is the main difference between conductors, semiconductors, and insulators?",
-				"answers":[
-					{"answer": "The temperature differences"},
-					{"answer": "The physical state of their mass"},
-					{"answer": "The number of free electrons"},
-					{"answer": "The designations of the outer shells"}
-				]
-			},
-			{
-				"id": "1-14",
-				"question": " A substance with an excess of electrons is considered to be in what electrical state?",
-				"answers":[
-					{"answer": "Neutral"},
-					{"answer": "Positive"},
-					{"answer": "Negative"},
-					{"answer": "Discharged"}
-				]
-			},
-			{
-				"id": "1-15",
-				"question": " Which of following actions describes the easiest way to accumulate a static electric charge?",
-				"answers":[
-					{"answer": "Friction between two conductors"},
-					{"answer": "Friction between two insulators"},
-					{"answer": "Pressure between two conductors"},
-					{"answer": "Pressure between two insulators"}
-				]
-			},
-			{
-				"id": "1-16",
-				"question": " An atom that contains 6 protons and 5 electrons has what electrical charge?",
-				"answers":[
-					{"answer": "Positive"},
-					{"answer": "Negative"},
-					{"answer": "Neutral"},
-					{"answer": "Intermediate"}
-				]
-			},
-			{
-				"id": "1-17",
-				"question": " How do \"like\" and \"unlike\" charges react to one another?",
-				"answers":[
-					{"answer": "Unlike charges repel each other, like charges repel each other"},
-					{"answer": "Unlike charges attract each other, like charges attract each other"},
-					{"answer": "Unlike charges repel each other, like charges attract each other"},
-					{"answer": "Unlike charges attract each other, like charges repel each other"}
-				]
-			},
-			{
-				"id": "1-18",
-				"question": " What is/are the term(s) applied to the space between and around charged bodies in which their influence is felt?",
-				"answers":[
-					{"answer": "Electric field of force"},
-					{"answer": "Electrostatic field"},
-					{"answer": "Dielectric field"},
-					{"answer": "Each of the above"}
-				]
-			},
-			{
-				"id": "1-19",
-				"question": " Electrostatic lines of force are drawn in which of the following manners?",
-				"answers":[
-					{"answer": "Entering negative charge, entering positive charge"},
-					{"answer": "Entering negative charge, leaving positive charge"},
-					{"answer": "Leaving negative charge, leaving positive charge"},
-					{"answer": "Leaving negative charge, entering positive charge"}
-				]
-			},
-			{
-				"id": "1-20",
-				"question": " Which of the following devices use magnetism?",
-				"answers":[
-					{"answer": "Batteries"},
-					{"answer": "Light bulbs"},
-					{"answer": "High-fidelity speakers"},
-					{"answer": "Each of the above"}
-				]
-			},
-			{
-				"id": "1-21",
-				"question": " Magnetic materials have which of the following qualities?",
-				"answers":[
-					{"answer": "They are attracted by magnets"},
-					{"answer": "They can be magnetized"},
-					{"answer": "Both 1 and 2 above"},
-					{"answer": "They are electrical insulators"}
-				]
-			},
-			{
-				"id": "1-22",
-				"question": " Ferromagnetic materials have which of the following qualities?",
-				"answers":[
-					{"answer": "They are all alloys"},
-					{"answer": "They all contain nickel"},
-					{"answer": "They make very weak magnets"},
-					{"answer": "They are relatively easy to magnetize"}
-				]
-			},
-			{
-				"id": "1-23",
-				"question": " A material with low reluctance and high permeability such as iron or soft steel is used to make what type of magnet?",
-				"answers":[
-					{"answer": "Temporary"},
-					{"answer": "Permanent"},
-					{"answer": "Residual"},
-					{"answer": "Natural"}
-				]
-			},
-			{
-				"id": "1-24",
-				"question": " The ability of a material to retain magnetism is called",
-				"answers":[
-					{"answer": "permeability"},
-					{"answer": "retentivity"},
-					{"answer": "reluctance"},
-					{"answer": "ionization"}
-				]
-			},
-			{
-				"id": "1-25",
-				"question": " The law of magnetic poles states which of the following relationships?",
-				"answers":[
-					{"answer": "Like poles attract, unlike poles attract"},
-					{"answer": "Like poles attract, unlike poles repel"},
-					{"answer": "Like poles repel, unlike poles repel"},
-					{"answer": "Like poles repel, unlike poles attract"}
-				]
-			},
-			{
-				"id": "1-26",
-				"question": " The north indicating pole of a compass needle is attracted to which of the following poles of the earth?",
-				"answers":[
-					{"answer": "The geographic north pole"},
-					{"answer": "The magnetic north pole"},
-					{"answer": "The geographic south pole"},
-					{"answer": "The magnetic south pole"}
-				]
-			},
-			{
-				"id": "1-27",
-				"question": " Weber's theory of magnetism assumes that magnetic material is composed of",
-				"answers":[
-					{"answer": "tiny molecular magnets"},
-					{"answer": "domains of magnetic influence"},
-					{"answer": "large blocks of material acting as magnets"},
-					{"answer": "atoms with electrons spinning different directions"}
-				]
-			},
-			{
-				"id": "1-28",
-				"question": " According to the domain theory, if an atom with 26 electrons has 20 electrons spinning counterclock-wise, the atom is considered to be",
-				"answers":[
-					{"answer": "Charged"},
-					{"answer": "Insulated"},
-					{"answer": "Neutralized"},
-					{"answer": "Magnetized"}
-				]
-			},
-			{
-				"id": "1-29",
-				"question": " If a glass plate is placed over a magnet and iron filings are sprinkled over the glass, a pattern will be visible. What does this pattern indicate?",
-				"answers":[
-					{"answer": "The magnetic field"},
-					{"answer": "The electrostatic field"},
-					{"answer": "The piezoelectric effect"},
-					{"answer": "The chemical reaction of the magnet and the filings"}
-				]
-			},
-			{
-				"id": "1-30",
-				"question": " An imaginary line used to illustrate a magnetic effect is known as a/an",
-				"answers":[
-					{"answer": "Magnetic pole"},
-					{"answer": "Force field pole"},
-					{"answer": "Magnetic line of force"},
-					{"answer": "Electrostatic line of force"}
-				]
-			},
-			{
-				"id": "1-31",
-				"question": " Which of the following is NOT a property of magnetic lines of force?",
-				"answers":[
-					{"answer": "They form closed loops around the magnet"},
-					{"answer": "They leave the magnetic material at right angles to the surface"},
-					{"answer": "They cross each other at right angles"},
-					{"answer": "They leave the north pole and enter the south pole of the magnet"}
-				]
-			},
-			{
-				"id": "1-32",
-				"question": " A magnetic shield or screen used to protect a delicate instrument should be made of which of the following materials?",
-				"answers":[
-					{"answer": "Plastic"},
-					{"answer": "Copper"},
-					{"answer": "Soft iron"},
-					{"answer": "Aluminum"}
-				]
-			},
-			{
-				"id": "1-33",
-				"question": " Bar magnets should be stored in which of the following manners?",
-				"answers":[
-					{"answer": "Separately"},
-					{"answer": "In pairs at 90 degree angles"},
-					{"answer": "In pairs with north poles together"},
-					{"answer": "In pairs with a north pole and a south pole together"}
-				]
-			},
-			{
-				"id": "1-34",
-				"question": " What is the term applied to the ability to do work?",
-				"answers":[
-					{"answer": "Power"},
-					{"answer": "Energy"},
-					{"answer": "Voltage"},
-					{"answer": "Current"}
-				]
-			},
-			{
-				"id": "1-35",
-				"question": " An object that is in motion has what type of energy?",
-				"answers":[
-					{"answer": "Kinetic"},
-					{"answer": "Magnetic"},
-					{"answer": "Newtonian"},
-					{"answer": "Potential"}
-				]
-			},
-			{
-				"id": "1-36",
-				"question": " A book sitting on a shelf has what kind of energy?",
-				"answers":[
-					{"answer": "Kinetic"},
-					{"answer": "Potential"},
-					{"answer": "Newtonian"},
-					{"answer": "Magnetic"}
-				]
-			},
-			{
-				"id": "1-37",
-				"question": " Which of the following term(s) apply(ies) to the difference of potential between two bodies?",
-				"answers":[
-					{"answer": "Voltage"},
-					{"answer": "Electromotive force"},
-					{"answer": "Both 1 and 2 above"},
-					{"answer": "Current"}
-				]
-			},
-			{
-				"id": "1-38",
-				"question": " Which of the following terms is equal to \"2.1 kV?\"",
-				"answers":[
-					{"answer": "210 V"},
-					{"answer": "2100 V"},
-					{"answer": "21,000 V"},
-					{"answer": "2.1 x 106 V"}
-				]
-			},
-			{
-				"id": "1-39",
-				"question": " 250µV is equal to which of the following terms?",
-				"answers":[
-					{"answer": ".25 mV"},
-					{"answer": ".00025 V"},
-					{"answer": "250 x 10-6 V"},
-					{"answer": "All of the above"}
-				]
-			},
-			{
-				"id": "1-40",
-				"question": " What is the general term that describes a device which supplies a voltage?",
-				"answers":[
-					{"answer": "A voltage source"},
-					{"answer": "A voltage supply"},
-					{"answer": "A voltage generator"},
-					{"answer": "A voltage producer"}
-				]
-			},
-			{
-				"id": "1-41",
-				"question": " In addition to friction, magnetism, and chemical action, which of the following methods can be used to produce a voltage?",
-				"answers":[
-					{"answer": "Pressure"},
-					{"answer": "Heat"},
-					{"answer": "Light"},
-					{"answer": "Each of the above"}
-				]
-			},
-			{
-				"id": "1-42",
-				"question": "  Which is the voltage producing method for a Radio receiver's oscillator?",
-				"answers":[
-					{"answer": "Heat"},
-					{"answer": "Pressure"},
-					{"answer": "Magnetism"},
-					{"answer": "Chemical action"}
-				]
-			},
-			{
-				"id": "1-43",
-				"question": "  Which is the voltage producing method for a Thermocouple?",
-				"answers":[
-					{"answer": "Heat"},
-					{"answer": "Pressure"},
-					{"answer": "Magnetism"},
-					{"answer": "Chemical action"}
-				]
-			},
-			{
-				"id": "1-44",
-				"question": "  Which is the voltage producing method for an Automobile battery?",
-				"answers":[
-					{"answer": "Heat"},
-					{"answer": "Pressure"},
-					{"answer": "Magnetism"},
-					{"answer": "Chemical action"}
-				]
-			},
-			{
-				"id": "1-46",
-				"question": "  Which is the voltage producing method for an Automobile generator?",
-				"answers":[
-					{"answer": "Heat"},
-					{"answer": "Pressure"},
-					{"answer": "Magnetism"},
-					{"answer": "Chemical action"}
-				]
-			},
-			{
-				"id": "1-47",
-				"question": "  Which is the voltage producing method for a Flashlight cell?",
-				"answers":[
-					{"answer": "Heat"},
-					{"answer": "Pressure"},
-					{"answer": "Magnetism"},
-					{"answer": "Chemical action"}
-				]
-			},
-			{
-				"id": "1-47",
-				"question": "  Current in an electric circuit is caused by which of the following actions?",
-				"answers":[
-					{"answer": "Electrons moving from negative to positive"},
-					{"answer": "Electrons moving from positive to negative"},
-					{"answer": "Protons moving from negative to positive"},
-					{"answer": "Protons moving from positive to negative"}
-				]
-			},
-			{
-				"id": "1-48",
-				"question": " When directed drift takes place, at what speed does the effect take place?",
-				"answers":[
-					{"answer": "100,000 miles per hour"},
-					{"answer": "186,000 miles per second"},
-					{"answer": "300,000 meters per hour"},
-					{"answer": "500,000 meters per second"}
-				]
-			},
-			{
-				"id": "1-49",
-				"question": " If the voltage in a circuit increases, what happens to the current?",
-				"answers":[
-					{"answer": "Current increases"},
-					{"answer": "Current decreases"},
-					{"answer": "Current remains the same"},
-					{"answer": "Current fluctuates rapidly"}
-				]
-			},
-			{
-				"id": "1-50",
-				"question": " Which of the following values is equal to 100mA?",
-				"answers":[
-					{"answer": "1.0 ampere"},
-					{"answer": "10.0 amperes"},
-					{"answer": "0.10 ampere"},
-					{"answer": "0.01 ampere"}
-				]
-			},
-			{
-				"id": "1-51",
-				"question": " What symbol is used to represent the ohm?",
-				"answers":[
-					{"answer": "   A"},
-					{"answer": "  O"},
-					{"answer": "  µ"},
-					{"answer": "  n"}
-				]
-			},
-			{
-				"id": "1-52",
-				"question": " If low weight is the major factor, which of the following materials should be used as a conductor?",
-				"answers":[
-					{"answer": "Aluminum"},
-					{"answer": "Copper"},
-					{"answer": "Silver"},
-					{"answer": "Gold"}
-				]
-			},
-			{
-				"id": "1-53",
-				"question": " What material is MOST widely used as a conductor in electrical equipment?",
-				"answers":[
-					{"answer": "Aluminum"},
-					{"answer": "Copper"},
-					{"answer": "Silver"},
-					{"answer": "Gold"}
-				]
-			},
-			{
-				"id": "1-54",
-				"question": " Resistance of a conductor will increase with which of the following changes to the cross-sectional area and length of the conductor?",
-				"answers":[
-					{"answer": "Cross-sectional area is increased, length is increased"},
-					{"answer": "Cross-sectional area is increased, length is decreased"},
-					{"answer": "Cross-sectional area is decreased, length is increased"},
-					{"answer": "Cross-sectional area is decreased, length is decreased"}
-				]
-			},
-			{
-				"id": "1-55",
-				"question": " A material whose resistance decreases as the temperature increases has what temperature coefficient?",
-				"answers":[
-					{"answer": "Positive"},
-					{"answer": "Negative"},
-					{"answer": "Zero"},
-					{"answer": "Neutral"}
-				]
-			},
-			{
-				"id": "1-56",
-				"question": " A material whose resistance remains constant as the temperature increases has what temperature coefficient?",
-				"answers":[
-					{"answer": "Positive"},
-					{"answer": "Negative"},
-					{"answer": "Zero"},
-					{"answer": "Neutral"}
-				]
-			},
-			{
-				"id": "1-57",
-				"question": " Which of the following units is NOT a unit of conductance?",
-				"answers":[
-					{"answer": "Siemens"},
-					{"answer": "S"},
-					{"answer": "G"},
-					{"answer": "Ohm"}
-				]
-			},
-			{
-				"id": "1-58",
-				"question": " Resistance bears which, if any, of the following relationships to conductance?",
-				"answers":[
-					{"answer": "A direct relationship"},
-					{"answer": "A reciprocal relationship"},
-					{"answer": "An inverse square relationship"},
-					{"answer": "None"}
-				]
-			},
-			{
-				"id": "1-59",
-				"question": " Which of the following schematic symbols is used to represent a resistor?",
-				"answers":[
-					{"image": "test-1-59-1.png"},
-					{"image": "test-1-59-2.png"},
-					{"image": "test-1-59-3.png"},
-					{"image": "test-1-59-4.png"}
-				]
-			},
-			{
-				"id": "1-60",
-				"question": " How is the ability of a resistor to dissipate heat indicated?",
-				"answers":[
-					{"answer": "By the wattage rating"},
-					{"answer": "By the voltage rating"},
-					{"answer": "By the resistance rating"},
-					{"answer": "By the tolerance"}
-				]
-			},
-			{
-				"id": "1-61",
-				"question": "  Carbon resistors have which of the following disadvantages?",
-				"answers":[
-					{"answer": "A high cost factor"},
-					{"answer": "An extremely large physical size"},
-					{"answer": "The resistance value changes with age"},
-					{"answer": "A limited range of resistance values"}
-				]
-			},
-			{
-				"id": "1-62",
-				"question": " Which of the following types of resistors will overcome the disadvantages of a carbon resistor?",
-				"answers":[
-					{"answer": "Rheostat"},
-					{"answer": "Potentiometer"},
-					{"answer": "Molded composition"},
-					{"answer": "Wirewound resistor"}
-				]
-			},
-			{
-				"id": "1-63",
-				"question": " What is the total number of connections on (a) a rheostat and (b) a potentiometer?",
-				"answers":[
-					{"answer": "(a) Two , (b) two"},
-					{"answer": "(a) Two , (b) three"},
-					{"answer": "(a) Three , (b) two"},
-					{"answer": "(a) Three , (b) three"}
-				]
-			},
-			{
-				"id": "1-64",
-				"question": " Which, if any, of the following types of variable resistors is used to control a large amount of current?",
-				"answers":[
-					{"answer": "Rheostat"},
-					{"answer": "Potentiometer"},
-					{"answer": "Wirewound potentiometer"},
-					{"answer": "None of the above"}
-				]
-			},
-			{
-				"id": "1-65",
-				"question": " A carbon resistor is color-coded orange, orange, orange. What is the resistance value of this resistor?",
-				"answers":[
-					{"answer": "2.2 kn"},
-					{"answer": "3.3 kn"},
-					{"answer": "33.0 kn"},
-					{"answer": "  440.0 kn"}
-				]
-			},
-			{
-				"id": "1-66",
-				"question": " What are the allowable limits of ohmic value in a resistor color coded blue, green, yellow, gold?",
-				"answers":[
-					{"answer": "  682.5 kn to 617.5 kn"},
-					{"answer": "  715.0 kn to 585.0 kn"},
-					{"answer": "7.98 Mn to 7.22 Mn"},
-					{"answer": "8.36 Mn to  6.84 Mn"}
-				]
-			},
-			{
-				"id": "1-67",
-				"question": " Of the following, which color of the fifth band on a resistor indicates the LEAST chance of failure?",
-				"answers":[
-					{"answer": "Red"},
-					{"answer": "Brown"},
-					{"answer": "Yellow"},
-					{"answer": "Orange"}
-				]
-			},
-			{
-				"id": "1-68",
-				"image":"test-1-6970.png",
-				"question": " What is the ohmic value of the resistor?",
-				"answers":[
-					{"answer": "8n"},
-					{"answer": "79n"},
-					{"answer": "  790n"},
-					{"answer": "  800n"}
-				]
-			},
-			{
-				"id": "1-69",
-				"image":"test-1-6970.png",
-				"question": " What is the specified tolerance of the resistor?",
-				"answers":[
-					{"answer": "1%"},
-					{"answer": "5%"},
-					{"answer": "  10%"},
-					{"answer": "  20%"}
-				]
-			},
-			{
-				"id": "1-70",
-				"image":"test-1-6970.png",
-				"question": " What is the specified reliability of the resistor?",
-				"answers":[
-					{"answer": "  1.0%"},
-					{"answer": "  0.1%"},
-					{"answer": "  0.01%"},
-					{"answer": "  0.001%"}
-				]
-			}
-		]
+		"questions": [{
+			"id": "1-1",
+			"question": "   Matter can be found in which of the following forms?",
+			"answers": [{
+				"answer": "Solid"
+			}, {
+				"answer": "Liquid"
+			}, {
+				"answer": "Gaseous"
+			}, {
+				"answer": "Each of the above",
+				"correct": true
+			}]
+		}, {
+			"id": "1-2",
+			"question": "   A substance that CANNOT be reduced to a simpler substance by chemical means is called a/an",
+			"answers": [{
+				"answer": "Element",
+				"correct": true
+			}, {
+				"answer": "Mixture"
+			}, {
+				"answer": "Compound"
+			}, {
+				"answer": "Solution"
+			}]
+		}, {
+			"id": "1-3",
+			"question": "   A molecule is the smallest possible particle that retains the characteristic of which of the following substances?",
+			"answers": [{
+				"answer": "An element"
+			}, {
+				"answer": "A mixture"
+			}, {
+				"answer": "A compound",
+				"correct": true
+			}, {
+				"answer": "A solution"
+			}]
+		}, {
+			"id": "1-4",
+			"question": " An atom is the smallest possible particle that retains the characteristic of which of the following substances?",
+			"answers": [{
+				"answer": "An element",
+				"correct": true
+			}, {
+				"answer": "A mixture"
+			}, {
+				"answer": "A compound"
+			}, {
+				"answer": "A solution"
+			}]
+		}, {
+			"id": "1-5",
+			"question": "   What subatomic particle has a negative charge and a small mass?",
+			"answers": [{
+				"answer": "Proton"
+			}, {
+				"answer": "Electron",
+				"correct": true
+			}, {
+				"answer": "Positron"
+			}, {
+				"answer": "Neutron"
+			}]
+		}, {
+			"id": "1-6",
+			"question": "   What subatomic particle has a positive charge and a large mass?",
+			"answers": [{
+				"answer": "Proton",
+				"correct": true
+			}, {
+				"answer": "Electron"
+			}, {
+				"answer": "Positron"
+			}, {
+				"answer": "Neutron"
+			}]
+		}, {
+			"id": "1-7",
+			"question": "   What subatomic particle has no charge?",
+			"answers": [{
+				"answer": "Proton"
+			}, {
+				"answer": "Electron"
+			}, {
+				"answer": "Positron"
+			}, {
+				"answer": "Neutron",
+				"correct": true
+			}]
+		}, {
+			"id": "1-8",
+			"question": "   When light is represented as a tiny packet of energy, what are these packets of energy called?",
+			"answers": [{
+				"answer": "Angstroms"
+			}, {
+				"answer": "Photons",
+				"correct": true
+			}, {
+				"answer": "Wavelengths"
+			}, {
+				"answer": "Frequencies"
+			}]
+		}, {
+			"id": "1-9",
+			"question": "   If light energy collides with an orbiting electron, what happens to the electron?",
+			"answers": [{
+				"answer": "The electron will move around the same orbit faster"
+			}, {
+				"answer": "The electron will jump to an orbit further from the nucleus",
+				"correct": true
+			}, {
+				"answer": "The electron will jump to an orbit closer to the nucleus"
+			}, {
+				"answer": "The electron will merge with the nucleus"
+			}]
+		}, {
+			"id": "1-10",
+			"question": "  After the action described in question 1-9 occurs, the electron will return to the condition it had before being acted upon by the light. When the electron returns to this condition, which of the following actions occurs?",
+			"answers": [{
+				"answer": "The nucleus becomes lighter"
+			}, {
+				"answer": "The atom becomes an ion"
+			}, {
+				"answer": "Light energy is emitted",
+				"correct": true
+			}, {
+				"answer": "The valence of the atom changes"
+			}]
+		}, {
+			"id": "1-11",
+			"question": " The number of electrons in the outermost shell of an atom determines which of the following characteristics of the atom?",
+			"answers": [{
+				"answer": "Valence",
+				"correct": true
+			}, {
+				"answer": "Atomic weight"
+			}, {
+				"answer": "Atomic number"
+			}, {
+				"answer": "Number of shells"
+			}]
+		}, {
+			"id": "1-12",
+			"question": " When an atom gains or loses an electron, which of the following terms applies?",
+			"answers": [{
+				"answer": "Unbalanced"
+			}, {
+				"answer": "Lightened"
+			}, {
+				"answer": "Neutral"
+			}, {
+				"answer": "Ionized",
+				"correct": true
+			}]
+		}, {
+			"id": "1-13",
+			"question": " What is the main difference between conductors, semiconductors, and insulators?",
+			"answers": [{
+				"answer": "The temperature differences"
+			}, {
+				"answer": "The physical state of their mass"
+			}, {
+				"answer": "The number of free electrons",
+				"correct": true
+			}, {
+				"answer": "The designations of the outer shells"
+			}]
+		}, {
+			"id": "1-14",
+			"question": " A substance with an excess of electrons is considered to be in what electrical state?",
+			"answers": [{
+				"answer": "Neutral"
+			}, {
+				"answer": "Positive"
+			}, {
+				"answer": "Negative",
+				"correct": true
+			}, {
+				"answer": "Discharged"
+			}]
+		}, {
+			"id": "1-15",
+			"question": " Which of following actions describes the easiest way to accumulate a static electric charge?",
+			"answers": [{
+				"answer": "Friction between two conductors"
+			}, {
+				"answer": "Friction between two insulators",
+				"correct": true
+			}, {
+				"answer": "Pressure between two conductors"
+			}, {
+				"answer": "Pressure between two insulators"
+			}]
+		}, {
+			"id": "1-16",
+			"question": " An atom that contains 6 protons and 5 electrons has what electrical charge?",
+			"answers": [{
+				"answer": "Positive",
+				"correct": true
+			}, {
+				"answer": "Negative"
+			}, {
+				"answer": "Neutral"
+			}, {
+				"answer": "Intermediate"
+			}]
+		}, {
+			"id": "1-17",
+			"question": " How do \"like\" and \"unlike\" charges react to one another?",
+			"answers": [{
+				"answer": "Unlike charges repel each other, like charges repel each other"
+			}, {
+				"answer": "Unlike charges attract each other, like charges attract each other"
+			}, {
+				"answer": "Unlike charges repel each other, like charges attract each other"
+			}, {
+				"answer": "Unlike charges attract each other, like charges repel each other",
+				"correct": true
+			}]
+		}, {
+			"id": "1-18",
+			"question": " What is/are the term(s) applied to the space between and around charged bodies in which their influence is felt?",
+			"answers": [{
+				"answer": "Electric field of force"
+			}, {
+				"answer": "Electrostatic field"
+			}, {
+				"answer": "Dielectric field"
+			}, {
+				"answer": "Each of the above",
+				"correct": true
+			}]
+		}, {
+			"id": "1-19",
+			"question": " Electrostatic lines of force are drawn in which of the following manners?",
+			"answers": [{
+				"answer": "Entering negative charge, entering positive charge"
+			}, {
+				"answer": "Entering negative charge, leaving positive charge",
+				"correct": true
+			}, {
+				"answer": "Leaving negative charge, leaving positive charge"
+			}, {
+				"answer": "Leaving negative charge, entering positive charge"
+			}]
+		}, {
+			"id": "1-20",
+			"question": " Which of the following devices use magnetism?",
+			"answers": [{
+				"answer": "Batteries"
+			}, {
+				"answer": "Light bulbs"
+			}, {
+				"answer": "High-fidelity speakers",
+				"correct": true
+			}, {
+				"answer": "Each of the above"
+			}]
+		}, {
+			"id": "1-21",
+			"question": " Magnetic materials have which of the following qualities?",
+			"answers": [{
+				"answer": "They are attracted by magnets"
+			}, {
+				"answer": "They can be magnetized"
+			}, {
+				"answer": "Both 1 and 2 above",
+				"correct": true
+			}, {
+				"answer": "They are electrical insulators"
+			}]
+		}, {
+			"id": "1-22",
+			"question": " Ferromagnetic materials have which of the following qualities?",
+			"answers": [{
+				"answer": "They are all alloys"
+			}, {
+				"answer": "They all contain nickel"
+			}, {
+				"answer": "They make very weak magnets"
+			}, {
+				"answer": "They are relatively easy to magnetize",
+				"correct": true
+			}]
+		}, {
+			"id": "1-23",
+			"question": " A material with low reluctance and high permeability such as iron or soft steel is used to make what type of magnet?",
+			"answers": [{
+				"answer": "Temporary",
+				"correct": true
+			}, {
+				"answer": "Permanent"
+			}, {
+				"answer": "Residual"
+			}, {
+				"answer": "Natural"
+			}]
+		}, {
+			"id": "1-24",
+			"question": " The ability of a material to retain magnetism is called",
+			"answers": [{
+				"answer": "permeability"
+			}, {
+				"answer": "retentivity",
+				"correct": true
+			}, {
+				"answer": "reluctance"
+			}, {
+				"answer": "ionization"
+			}]
+		}, {
+			"id": "1-25",
+			"question": " The law of magnetic poles states which of the following relationships?",
+			"answers": [{
+				"answer": "Like poles attract, unlike poles attract"
+			}, {
+				"answer": "Like poles attract, unlike poles repel"
+			}, {
+				"answer": "Like poles repel, unlike poles repel"
+			}, {
+				"answer": "Like poles repel, unlike poles attract",
+				"correct": true
+			}]
+		}, {
+			"id": "1-26",
+			"question": " The north indicating pole of a compass needle is attracted to which of the following poles of the earth?",
+			"answers": [{
+				"answer": "The geographic north pole"
+			}, {
+				"answer": "The magnetic north pole",
+				"correct": true
+			}, {
+				"answer": "The geographic south pole"
+			}, {
+				"answer": "The magnetic south pole"
+			}]
+		}, {
+			"id": "1-27",
+			"question": " Weber's theory of magnetism assumes that magnetic material is composed of",
+			"answers": [{
+				"answer": "tiny molecular magnets",
+				"correct": true
+			}, {
+				"answer": "domains of magnetic influence"
+			}, {
+				"answer": "large blocks of material acting as magnets"
+			}, {
+				"answer": "atoms with electrons spinning different directions"
+			}]
+		}, {
+			"id": "1-28",
+			"question": " According to the domain theory, if an atom with 26 electrons has 20 electrons spinning counterclock-wise, the atom is considered to be",
+			"answers": [{
+				"answer": "Charged"
+			}, {
+				"answer": "Insulated"
+			}, {
+				"answer": "Neutralized"
+			}, {
+				"answer": "Magnetized",
+				"correct": true
+			}]
+		}, {
+			"id": "1-29",
+			"question": " If a glass plate is placed over a magnet and iron filings are sprinkled over the glass, a pattern will be visible. What does this pattern indicate?",
+			"answers": [{
+				"answer": "The magnetic field",
+				"correct": true
+			}, {
+				"answer": "The electrostatic field"
+			}, {
+				"answer": "The piezoelectric effect"
+			}, {
+				"answer": "The chemical reaction of the magnet and the filings"
+			}]
+		}, {
+			"id": "1-30",
+			"question": " An imaginary line used to illustrate a magnetic effect is known as a/an",
+			"answers": [{
+				"answer": "Magnetic pole"
+			}, {
+				"answer": "Force field pole"
+			}, {
+				"answer": "Magnetic line of force",
+				"correct": true
+			}, {
+				"answer": "Electrostatic line of force"
+			}]
+		}, {
+			"id": "1-31",
+			"question": " Which of the following is NOT a property of magnetic lines of force?",
+			"answers": [{
+				"answer": "They form closed loops around the magnet"
+			}, {
+				"answer": "They leave the magnetic material at right angles to the surface"
+			}, {
+				"answer": "They cross each other at right angles",
+				"correct": true
+			}, {
+				"answer": "They leave the north pole and enter the south pole of the magnet"
+			}]
+		}, {
+			"id": "1-32",
+			"question": " A magnetic shield or screen used to protect a delicate instrument should be made of which of the following materials?",
+			"answers": [{
+				"answer": "Plastic"
+			}, {
+				"answer": "Copper"
+			}, {
+				"answer": "Soft iron",
+				"correct": true
+			}, {
+				"answer": "Aluminum"
+			}]
+		}, {
+			"id": "1-33",
+			"question": " Bar magnets should be stored in which of the following manners?",
+			"answers": [{
+				"answer": "Separately"
+			}, {
+				"answer": "In pairs at 90 degree angles"
+			}, {
+				"answer": "In pairs with north poles together"
+			}, {
+				"answer": "In pairs with a north pole and a south pole together",
+				"correct": true
+			}]
+		}, {
+			"id": "1-34",
+			"question": " What is the term applied to the ability to do work?",
+			"answers": [{
+				"answer": "Power"
+			}, {
+				"answer": "Energy",
+				"correct": true
+			}, {
+				"answer": "Voltage"
+			}, {
+				"answer": "Current"
+			}]
+		}, {
+			"id": "1-35",
+			"question": " An object that is in motion has what type of energy?",
+			"answers": [{
+				"answer": "Kinetic",
+				"correct": true
+			}, {
+				"answer": "Magnetic"
+			}, {
+				"answer": "Newtonian"
+			}, {
+				"answer": "Potential"
+			}]
+		}, {
+			"id": "1-36",
+			"question": " A book sitting on a shelf has what kind of energy?",
+			"answers": [{
+				"answer": "Kinetic"
+			}, {
+				"answer": "Potential",
+				"correct": true
+			}, {
+				"answer": "Newtonian"
+			}, {
+				"answer": "Magnetic"
+			}]
+		}, {
+			"id": "1-37",
+			"question": " Which of the following term(s) apply(ies) to the difference of potential between two bodies?",
+			"answers": [{
+				"answer": "Voltage"
+			}, {
+				"answer": "Electromotive force"
+			}, {
+				"answer": "Both 1 and 2 above",
+				"correct": true
+			}, {
+				"answer": "Current"
+			}]
+		}, {
+			"id": "1-38",
+			"question": " Which of the following terms is equal to \"2.1 kV?\"",
+			"answers": [{
+				"answer": "210 V"
+			}, {
+				"answer": "2100 V",
+				"correct": true
+			}, {
+				"answer": "21,000 V"
+			}, {
+				"answer": "2.1 x 106 V"
+			}]
+		}, {
+			"id": "1-39",
+			"question": " 250µV is equal to which of the following terms?",
+			"answers": [{
+				"answer": ".25 mV"
+			}, {
+				"answer": ".00025 V"
+			}, {
+				"answer": "250 x 10-6 V"
+			}, {
+				"answer": "All of the above",
+				"correct": true
+			}]
+		}, {
+			"id": "1-40",
+			"question": " What is the general term that describes a device which supplies a voltage?",
+			"answers": [{
+				"answer": "A voltage source",
+				"correct": true
+			}, {
+				"answer": "A voltage supply"
+			}, {
+				"answer": "A voltage generator"
+			}, {
+				"answer": "A voltage producer"
+			}]
+		}, {
+			"id": "1-41",
+			"question": " In addition to friction, magnetism, and chemical action, which of the following methods can be used to produce a voltage?",
+			"answers": [{
+				"answer": "Pressure"
+			}, {
+				"answer": "Heat"
+			}, {
+				"answer": "Light"
+			}, {
+				"answer": "Each of the above",
+				"correct": true
+			}]
+		}, {
+			"id": "1-42",
+			"question": "  Which is the voltage producing method for a Radio receiver's oscillator?",
+			"answers": [{
+				"answer": "Heat"
+			}, {
+				"answer": "Pressure",
+				"correct": true
+			}, {
+				"answer": "Magnetism"
+			}, {
+				"answer": "Chemical action"
+			}]
+		}, {
+			"id": "1-43",
+			"question": "  Which is the voltage producing method for a Thermocouple?",
+			"answers": [{
+				"answer": "Heat",
+				"correct": true
+			}, {
+				"answer": "Pressure"
+			}, {
+				"answer": "Magnetism"
+			}, {
+				"answer": "Chemical action"
+			}]
+		}, {
+			"id": "1-44",
+			"question": "  Which is the voltage producing method for an Automobile battery?",
+			"answers": [{
+				"answer": "Heat"
+			}, {
+				"answer": "Pressure"
+			}, {
+				"answer": "Magnetism"
+			}, {
+				"answer": "Chemical action",
+				"correct": true
+			}]
+		}, {
+			"id": "1-46",
+			"question": "  Which is the voltage producing method for an Automobile generator?",
+			"answers": [{
+				"answer": "Heat"
+			}, {
+				"answer": "Pressure"
+			}, {
+				"answer": "Magnetism",
+				"correct": true
+			}, {
+				"answer": "Chemical action"
+			}]
+		}, {
+			"id": "1-47",
+			"question": "  Which is the voltage producing method for a Flashlight cell?",
+			"answers": [{
+				"answer": "Heat"
+			}, {
+				"answer": "Pressure"
+			}, {
+				"answer": "Magnetism"
+			}, {
+				"answer": "Chemical action",
+				"correct": true
+			}]
+		}, {
+			"id": "1-47",
+			"question": "  Current in an electric circuit is caused by which of the following actions?",
+			"answers": [{
+				"answer": "Electrons moving from negative to positive",
+				"correct": true
+			}, {
+				"answer": "Electrons moving from positive to negative"
+			}, {
+				"answer": "Protons moving from negative to positive"
+			}, {
+				"answer": "Protons moving from positive to negative"
+			}]
+		}, {
+			"id": "1-48",
+			"question": " When directed drift takes place, at what speed does the effect take place?",
+			"answers": [{
+				"answer": "100,000 miles per hour"
+			}, {
+				"answer": "186,000 miles per second",
+				"correct": true
+			}, {
+				"answer": "300,000 meters per hour"
+			}, {
+				"answer": "500,000 meters per second"
+			}]
+		}, {
+			"id": "1-49",
+			"question": " If the voltage in a circuit increases, what happens to the current?",
+			"answers": [{
+				"answer": "Current increases",
+				"correct": true
+			}, {
+				"answer": "Current decreases"
+			}, {
+				"answer": "Current remains the same"
+			}, {
+				"answer": "Current fluctuates rapidly"
+			}]
+		}, {
+			"id": "1-50",
+			"question": " Which of the following values is equal to 100mA?",
+			"answers": [{
+				"answer": "1.0 ampere"
+			}, {
+				"answer": "10.0 amperes"
+			}, {
+				"answer": "0.10 ampere",
+				"correct": true
+			}, {
+				"answer": "0.01 ampere"
+			}]
+		}, {
+			"id": "1-51",
+			"question": " What symbol is used to represent the ohm?",
+			"answers": [{
+				"answer": "   A"
+			}, {
+				"answer": "  O"
+			}, {
+				"answer": "  µ"
+			}, {
+				"answer": "  Ω",
+				"correct": true
+			}]
+		}, {
+			"id": "1-52",
+			"question": " If low weight is the major factor, which of the following materials should be used as a conductor?",
+			"answers": [{
+				"answer": "Aluminum",
+				"correct": true
+			}, {
+				"answer": "Copper"
+			}, {
+				"answer": "Silver"
+			}, {
+				"answer": "Gold"
+			}]
+		}, {
+			"id": "1-53",
+			"question": " What material is MOST widely used as a conductor in electrical equipment?",
+			"answers": [{
+				"answer": "Aluminum"
+			}, {
+				"answer": "Copper",
+				"correct": true
+			}, {
+				"answer": "Silver"
+			}, {
+				"answer": "Gold"
+			}]
+		}, {
+			"id": "1-54",
+			"question": " Resistance of a conductor will increase with which of the following changes to the cross-sectional area and length of the conductor?",
+			"answers": [{
+				"answer": "Cross-sectional area is increased, length is increased"
+			}, {
+				"answer": "Cross-sectional area is increased, length is decreased"
+			}, {
+				"answer": "Cross-sectional area is decreased, length is increased",
+				"correct": true
+			}, {
+				"answer": "Cross-sectional area is decreased, length is decreased"
+			}]
+		}, {
+			"id": "1-55",
+			"question": " A material whose resistance decreases as the temperature increases has what temperature coefficient?",
+			"answers": [{
+				"answer": "Positive"
+			}, {
+				"answer": "Negative",
+				"correct": true
+			}, {
+				"answer": "Zero"
+			}, {
+				"answer": "Neutral"
+			}]
+		}, {
+			"id": "1-56",
+			"question": " A material whose resistance remains constant as the temperature increases has what temperature coefficient?",
+			"answers": [{
+				"answer": "Positive"
+			}, {
+				"answer": "Negative"
+			}, {
+				"answer": "Zero",
+				"correct": true
+			}, {
+				"answer": "Neutral"
+			}]
+		}, {
+			"id": "1-57",
+			"question": " Which of the following units is NOT a unit of conductance?",
+			"answers": [{
+				"answer": "Siemens"
+			}, {
+				"answer": "S"
+			}, {
+				"answer": "G"
+			}, {
+				"answer": "Ohm",
+				"correct": true
+			}]
+		}, {
+			"id": "1-58",
+			"question": " Resistance bears which, if any, of the following relationships to conductance?",
+			"answers": [{
+				"answer": "A direct relationship"
+			}, {
+				"answer": "A reciprocal relationship",
+				"correct": true
+			}, {
+				"answer": "An inverse square relationship"
+			}, {
+				"answer": "None"
+			}]
+		}, {
+			"id": "1-59",
+			"question": " Which of the following schematic symbols is used to represent a resistor?",
+			"answers": [{
+				"image": "test-1-59-1.png"
+			}, {
+				"image": "test-1-59-2.png"
+			}, {
+				"image": "test-1-59-3.png"
+			}, {
+				"image": "test-1-59-4.png",
+				"correct": true
+			}]
+		}, {
+			"id": "1-60",
+			"question": " How is the ability of a resistor to dissipate heat indicated?",
+			"answers": [{
+				"answer": "By the wattage rating",
+				"correct": true
+			}, {
+				"answer": "By the voltage rating"
+			}, {
+				"answer": "By the resistance rating"
+			}, {
+				"answer": "By the tolerance"
+			}]
+		}, {
+			"id": "1-61",
+			"question": "  Carbon resistors have which of the following disadvantages?",
+			"answers": [{
+				"answer": "A high cost factor"
+			}, {
+				"answer": "An extremely large physical size"
+			}, {
+				"answer": "The resistance value changes with age",
+				"correct": true
+			}, {
+				"answer": "A limited range of resistance values"
+			}]
+		}, {
+			"id": "1-62",
+			"question": " Which of the following types of resistors will overcome the disadvantages of a carbon resistor?",
+			"answers": [{
+				"answer": "Rheostat"
+			}, {
+				"answer": "Potentiometer"
+			}, {
+				"answer": "Molded composition"
+			}, {
+				"answer": "Wirewound resistor",
+				"correct": true
+			}]
+		}, {
+			"id": "1-63",
+			"question": " What is the total number of connections on (a) a rheostat and (b) a potentiometer?",
+			"answers": [{
+				"answer": "(a) Two , (b) two"
+			}, {
+				"answer": "(a) Two , (b) three",
+				"correct": true
+			}, {
+				"answer": "(a) Three , (b) two"
+			}, {
+				"answer": "(a) Three , (b) three"
+			}]
+		}, {
+			"id": "1-64",
+			"question": " Which, if any, of the following types of variable resistors is used to control a large amount of current?",
+			"answers": [{
+				"answer": "Rheostat",
+				"correct": true
+			}, {
+				"answer": "Potentiometer"
+			}, {
+				"answer": "Wirewound potentiometer"
+			}, {
+				"answer": "None of the above"
+			}]
+		}, {
+			"id": "1-65",
+			"question": " A carbon resistor is color-coded orange, orange, orange. What is the resistance value of this resistor?",
+			"answers": [{
+				"answer": "2.2 kn"
+			}, {
+				"answer": "3.3 kn"
+			}, {
+				"answer": "33.0 kn",
+				"correct": true
+			}, {
+				"answer": "  440.0 kn"
+			}]
+		}, {
+			"id": "1-66",
+			"question": " What are the allowable limits of ohmic value in a resistor color coded blue, green, yellow, gold?",
+			"answers": [{
+				"answer": "  682.5 kn to 617.5 kn",
+				"correct": true
+			}, {
+				"answer": "  715.0 kn to 585.0 kn"
+			}, {
+				"answer": "7.98 Mn to 7.22 Mn"
+			}, {
+				"answer": "8.36 Mn to  6.84 Mn"
+			}]
+		}, {
+			"id": "1-67",
+			"question": " Of the following, which color of the fifth band on a resistor indicates the LEAST chance of failure?",
+			"answers": [{
+				"answer": "Red"
+			}, {
+				"answer": "Brown"
+			}, {
+				"answer": "Yellow",
+				"correct": true
+			}, {
+				"answer": "Orange"
+			}]
+		}, {
+			"id": "1-68",
+			"image": "test-1-6970.png",
+			"question": " What is the ohmic value of the resistor?",
+			"answers": [{
+				"answer": "8Ω"
+			}, {
+				"answer": "79Ω"
+			}, {
+				"answer": "  790Ω",
+				"correct": true
+			}, {
+				"answer": "  800Ω"
+			}]
+		}, {
+			"id": "1-69",
+			"image": "test-1-6970.png",
+			"question": " What is the specified tolerance of the resistor?",
+			"answers": [{
+				"answer": "1%"
+			}, {
+				"answer": "5%",
+				"correct": true
+			}, {
+				"answer": "  10%"
+			}, {
+				"answer": "  20%"
+			}]
+		}, {
+			"id": "1-70",
+			"image": "test-1-6970.png",
+			"question": " What is the specified reliability of the resistor?",
+			"answers": [{
+				"answer": "  1.0%"
+			}, {
+				"answer": "  0.1%",
+				"correct": true
+			}, {
+				"answer": "  0.01%"
+			}, {
+				"answer": "  0.001%"
+			}]
+		}]
 	},
-	"2":{
+	"2": {
 		"title": "Batteries",
-		"questions": [
-			{
-				"id": "2-1",
-				"question":"  Which of the following is the purpose of an electrical cell?",
-				"answers":[
-					{"answer":"To change mechanical energy to electrical energy"},
-					{"answer":"To change chemical energy to electrical energy"},
-					{"answer":"To change electrical energy to mechanical energy"},
-					{"answer":"To change electrical energy to chemical energy"}
-				]
-			},
-			{
-				"id": "2-2",
-				"question":"  What are the three basic parts of a cell?",
-				"answers":[
-					{"answer":"Electrodes, electrolyte, container"},
-					{"answer":"Electrodes, acid, water"},
-					{"answer":"Anode, cathode, ions"},
-					{"answer":"Anode, load, depolarizer"}
-				]
-			},
-			{
-				"id": "2-3",
-				"question":"  Which phrase describes the Electrolyte part of a cell?",
-				"answers":[
-					{"answer":"Negative electrode "},
-					{"answer":"Positive electrode "},
-					{"answer":"Solution acting upon the electrode"},
-					{"answer":"Mounting for the electrode"}
-				]
-			},
-			{
-				"id": "2-4",
-				"question":"  Which phrase describes the Container part of a cell?",
-				"answers":[
-					{"answer":"Negative electrode "},
-					{"answer":"Positive electrode "},
-					{"answer":"Solution acting upon the electrode"},
-					{"answer":"Mounting for the electrode"}
-				]
-			},
-			{
-				"id": "2-5",
-				"question":"  Which phrase describes the Anode part of a cell?",
-				"answers":[
-					{"answer":"Negative electrode "},
-					{"answer":"Positive electrode "},
-					{"answer":"Solution acting upon the electrode"},
-					{"answer":"Mounting for the electrode"}
-				]
-			},
-			{
-				"id": "2-6",
-				"question":"  Which phrase describes the Cathode part of a cell?",
-				"answers":[
-					{"answer":"Negative electrode "},
-					{"answer":"Positive electrode "},
-					{"answer":"Solution acting upon the electrode"},
-					{"answer":"Mounting for the electrode"}
-				]
-			},
-			{
-				"id": "2-7",
-				"question":"  What term is given to the process that takes place inside a cell?",
-				"answers":[
-					{"answer":"Electromagnetic action"},
-					{"answer":"Piezoelectric action"},
-					{"answer":"Electromechanical action"},
-					{"answer":"Electrochemical action"}
-				]
-			},
-			{
-				"id": "2-8",
-				"question":"  With respect to recharging a primary or secondary cell, of the following statements, which one is correct?",
-				"answers":[
-					{"answer":"The secondary cell can be recharged by passing current through it in the proper direction"},
-					{"answer":"The primary cell can be recharged by passing current through it in the proper direction"},
-					{"answer":"The secondary cell can only be recharged by changing the electrodes"},
-					{"answer":"The primary cell can only be recharged by changing the electrolyte"}
-				]
-			},
-			{
-				"id": "2-9",
-				"question":"  What determines the amount of current that a cell can deliver to the external circuit?",
-				"answers":[
-					{"answer":"The internal resistance of the cell only"},
-					{"answer":"The resistance of the external load only"},
-					{"answer":"The circuit resistance and the internal resistance of the cell"},
-					{"answer":"The circuit capacitance and number of free electrons in the load"}
-				]
-			},
-			{
-				"id": "2-10",
-				"question":"Which of the following actions will lower the internal resistance of a cell?",
-				"answers":[
-					{"answer":"Decreasing the size of the electrodes"},
-					{"answer":"Increasing the size of the electrodes"},
-					{"answer":"Increasing the spacing between the electrodes"},
-					{"answer":"Increasing the resistance of the electrolyte"}
-				]
-			},
-			{
-				"id": "2-11",
-				"question":"What causes negative ions to be attracted to the cathode of a primary cell while the cell is discharging?",
-				"answers":[
-					{"answer":"A negative charge caused by a loss of electrons"},
-					{"answer":"A negative charge caused by an excess of electrons"},
-					{"answer":"A positive charge caused by a loss of electrons"},
-					{"answer":"A positive charge caused by an excess of electrons"}
-				]
-			},
-			{
-				"id": "2-12",
-				"question":"What causes hydrogen to be attracted to the anode of a primary cell when the cell is discharging?",
-				"answers":[
-					{"answer":"A negative charge caused by a loss of electrons"},
-					{"answer":"A negative charge caused by an excess of electrons"},
-					{"answer":"A positive charge caused by a loss of electrons"},
-					{"answer":"A positive charge caused by an excess of electrons"}
-				]
-			},
-			{
-				"id": "2-13",
-				"question":"What causes the cathode to be \"eaten away\" in the primary cell while the cell is discharging?",
-				"answers":[
-					{"answer":"The material of the cathode combines with the negative ions to form a new substance."},
-					{"answer":"The material of the cathode dissolves in the electrolyte."},
-					{"answer":"The material of the cathode leaves the negative terminal of the cell and goes through the load to the anode."},
-					{"answer":"Bacteria in the electrolyte erodes the material in the cathode."}
-				]
-			},
-			{
-				"id": "2-14",
-				"question":"The primary cell is completely discharged when which of the following conditions exists?",
-				"answers":[
-					{"answer":"The cathode is completely eaten away"},
-					{"answer":"The active ingredient in the electrolyte is used up"},
-					{"answer":"The voltage of the cell is reduced to zero"},
-					{"answer":"Each of the above"}
-				]
-			},
-			{
-				"id": "2-15",
-				"question":"In a zinc-carbon primary cell, what is the function of the carbon electrode?",
-				"answers":[
-					{"answer":"To generate electrons"},
-					{"answer":"To supply a return path for current"},
-					{"answer":"To speed electrolysis"},
-					{"answer":"To collect hydrogen"}
-				]
-			},
-			{
-				"id": "2-16",
-				"question":"The lead-acid cell is an example of which of the following types of cells?",
-				"answers":[
-					{"answer":"The dry cell"},
-					{"answer":"The voltaic cell"},
-					{"answer":"The primary cell"},
-					{"answer":"The secondary cell"}
-				]
-			},
-			{
-				"id": "2-17",
-				"question":"In a fully charged lead-acid cell, what is the composition of the anode, cathode, and electrolyte respectively?",
-				"answers":[
-					{"answer":"Zinc, carbon, and water"},
-					{"answer":"Carbon, lead, sulfuric acid and water"},
-					{"answer":"Lead peroxide, sponge lead, sulfuric acid, and water"},
-					{"answer":"Nickel, cadmium, potassium hydroxide, and water"}
-				]
-			},
-			{
-				"id": "2-18",
-				"question":"Which of the following actions will recharge a secondary cell?",
-				"answers":[
-					{"answer":"Adding more water to the electrolyte"},
-					{"answer":"Adding more active ingredient to the electrolyte"},
-					{"answer":"Connecting the negative terminal of a voltage source to the cathode of the cell and the positive terminal of the voltage source to the anode of the cell"},
-					{"answer":"Connecting the negative terminal of a voltage source to the anode of the cell and the positive terminal of the voltage source to the cathode of the cell"}
-				]
-			},
-			{
-				"id": "2-19",
-				"image": "test-2-1920.png",
-				"question":"The cell is discharging.",
-				"answers":[
-					{"answer":"A, C, E, H"},
-					{"answer":"A, D, E, G"},
-					{"answer":"B, C, F, G"},
-					{"answer":"B, D, F, H"}
-				]
-			},
-			{
-				"id": "2-20",
-				"image": "test-2-1920.png",
-				"question":"The cell is charging.",
-				"answers":[
-					{"answer":"A, C, F, H"},
-					{"answer":"B, C, F, H"},
-					{"answer":"A, D, F, G"},
-					{"answer":"B, D, F, G"}
-				]
-			},
-			{
-				"id": "2-21",
-				"question":"When all the lead sulfate in a lead-acid cell is converted to sulfuric acid, lead peroxide, and sponge lead, what is the condition of the cell?",
-				"answers":[
-					{"answer":"Fully charged"},
-					{"answer":"Discharged"},
-					{"answer":"Sulfated"},
-					{"answer":"Unusable"}
-				]
-			},
-			{
-				"id": "2-22",
-				"question":"Polarization has what effects on an electrical cell?",
-				"answers":[
-					{"answer":"Decreases internal resistance, thereby increasing the output voltage"},
-					{"answer":"Decreases internal resistance, thereby decreasing the output voltage"},
-					{"answer":"Increases internal resistance, thereby increasing the output voltage"},
-					{"answer":"Increases internal resistance, thereby decreasing the output voltage"}
-				]
-			},
-			{
-				"id": "2-23",
-				"question":"Which of the following methods is used to control polarization in a cell?",
-				"answers":[
-					{"answer":"Venting the cell"},
-					{"answer":"Heating the electrolyte"},
-					{"answer":"Adding mercury to the electrode material"},
-					{"answer":"Using an electrolyte that absorbs oxygen"}
-				]
-			},
-			{
-				"id": "2-24",
-				"question":"Which of the following is caused by local action in a cell?",
-				"answers":[
-					{"answer":"Shelf life is reduced"},
-					{"answer":"Hydrogen is generated in large quantities"},
-					{"answer":"Impurities rise to the surface of the electrolyte"},
-					{"answer":"Mercury coating of the zinc electrode is worn away"}
-				]
-			},
-			{
-				"id": "2-25",
-				"question":"In a dry cell, what is the consistency of the electrolyte?",
-				"answers":[
-					{"answer":"Solid"},
-					{"answer":"Liquid"},
-					{"answer":"Paste"},
-					{"answer":"Powder"}
-				]
-			},
-			{
-				"id": "2-26",
-				"question":"What serves as the cathode in a common type of dry cell?",
-				"answers":[
-					{"answer":"Carbon electrode"},
-					{"answer":"Zinc container"},
-					{"answer":"Steel cover"},
-					{"answer":"Nickel terminal"}
-				]
-			},
-			{
-				"id": "2-27",
-				"question":"How should the dry cell be stored to obtain maximum shelf life?",
-				"answers":[
-					{"answer":"In a dark container"},
-					{"answer":"In a heated cabinet"},
-					{"answer":"In a ventilated area"},
-					{"answer":"In a refrigerated space"}
-				]
-			},
-			{
-				"id": "2-28",
-				"question":"The blotting paper in a dry cell serves which of the following purposes?",
-				"answers":[
-					{"answer":"Separates the paste from the zinc"},
-					{"answer":"Permits the electrolyte from the paste to filter through to the zinc slowly"},
-					{"answer":"Both 1 and 2 above"},
-					{"answer":"Keeps the electrolyte dry"}
-				]
-			},
-			{
-				"id": "2-29",
-				"question":"Of the following characteristics, which one describes the mercury cell?",
-				"answers":[
-					{"answer":"It is physically one of the largest cells"},
-					{"answer":"It has a very stable output voltage"},
-					{"answer":"It is designed to be rechargeable"},
-					{"answer":"It produces a large amount of current but has a short shelf life"}
-				]
-			},
-			{
-				"id": "2-30",
-				"question":"Which of the following describes the shorting of a cell?",
-				"answers":[
-					{"answer":"Decreasing the length of a cell"},
-					{"answer":"Connecting the anode and cathode together without a load"},
-					{"answer":"Using the cell below its full potential"},
-					{"answer":"Providing a recharge voltage that is not sufficient to recharge the cell"}
-				]
-			},
-			{
-				"id": "2-31",
-				"question":"What is/are the advantages(s) of using a manganese-dioxide-alkaline- zinc cell over the zinc-carbon cell?",
-				"answers":[
-					{"answer":"Better voltage stability"},
-					{"answer":"Longer storage life"},
-					{"answer":"Operates over a wide temperature range"},
-					{"answer":"All the above"}
-				]
-			},
-			{
-				"id": "2-32",
-				"question":"What is the common name for manganese- dioxide-alkaline-zinc cell?",
-				"answers":[
-					{"answer":"Alkaline cell"},
-					{"answer":"Long-life cell"},
-					{"answer":"Moz cell"},
-					{"answer":"Manganese-dioxide cell"}
-				]
-			},
-			{
-				"id": "2-33",
-				"question":"Which of the following factors should be considered when selecting a primary cell as a power source?",
-				"answers":[
-					{"answer":"Power requirement"},
-					{"answer":"Type of electrolyte used"},
-					{"answer":"Container material"},
-					{"answer":"All of the above"}
-				]
-			},
-			{
-				"id": "2-34",
-				"question":"Of the following types of cells, which one is a primary cell?",
-				"answers":[
-					{"answer":"Nickel cadmium"},
-					{"answer":"Silver zinc"},
-					{"answer":"Lithium organic"},
-					{"answer":"Silver cadmium"}
-				]
-			},
-			{
-				"id": "2-35",
-				"question":"Which of the following is/are the difference(s) in the construction of a NICAD cell as compared to a lead-acid cell?",
-				"answers":[
-					{"answer":"The electrolyte used"},
-					{"answer":"The material of the anode"},
-					{"answer":"The material of the cathode"},
-					{"answer":"All of the above"}
-				]
-			},
-			{
-				"id": "2-36",
-				"question":"What is the most common use of a silver- zinc cell?",
-				"answers":[
-					{"answer":"Flashlight batteries"},
-					{"answer":"Automobile batteries"},
-					{"answer":"Aircraft storage batteries"},
-					{"answer":"Emergency equipment batteries"}
-				]
-			},
-			{
-				"id": "2-37",
-				"question":"In addition to the nickel-cadmium and silver-zinc cells, which of the following cells uses potassium hydroxide as the active ingredient in the electrolyte?",
-				"answers":[
-					{"answer":"Lead-acid cell"},
-					{"answer":"Silver-cadmium"},
-					{"answer":"Lithium-inorganic cell"},
-					{"answer":"Magnesium-manganese dioxide cell"}
-				]
-			},
-			{
-				"id": "2-38",
-				"question":"What is the minimum number of cells necessary to form a battery?",
-				"answers":[
-					{"answer":"One"},
-					{"answer":"Two"},
-					{"answer":"Three"},
-					{"answer":"Four"}
-				]
-			},
-			{
-				"id": "2-39",
-				"image": "test-2-3940.png",
-				"question":"What type of connection is used to combine the cells? (EACH CELL IS 1.5 VOLTS AND HAS A CAPACITY OF 1/8 AMPERE.)",
-				"answers":[
-					{"answer":"Series"},
-					{"answer":"Parallel"},
-					{"answer":"Series-parallel"}
-				]
-			},
-			{
-				"id": "2-40",
-				"image": "test-2-3940.png",
-				"question":"What is the (a) voltage output and (b) current capacity of the circuit? (EACH CELL IS 1.5 VOLTS AND HAS A CAPACITY OF 1/8 AMPERE.)",
-				"answers":[
-					{"answer":"(a) 1.5 volts, (b) 1/8 ampere"},
-					{"answer":"(a) 1.5 volts. (b) 5/8 ampere"},
-					{"answer":"(a) 7.5 volts. (b) 1/8 ampere"},
-					{"answer":"(a) 7.5 volts, (b) 5/8 ampere"}
-				]
-			},
-			{
-				"id": "2-41",
-				"image": "test-2-4142.png",
-				"question":"What type of connection is used to combine the cells? EACH CELL IS 1.5 VOLTS AND HAS A CAPACITY OF 1/8 AMPERE.",
-				"answers":[
-					{"answer":"Series"},
-					{"answer":"Parallel"},
-					{"answer":"Series-parallel"}
-				]
-			},
-			{
-				"id": "2-42",
-				"image": "test-2-4142.png",
-				"question":"What is the (a) voltage output and (b) current capacity of the circuit? EACH CELL IS 1.5 VOLTS AND HAS A CAPACITY OF 1/8 AMPERE.",
-				"answers":[
-					{"answer":"(a) 1.5 volts, (b) 1/8 ampere"},
-					{"answer":"(a) 1.5 volts, (b) 5/8 ampere"},
-					{"answer":"(a) 7.5 volts, (b) 1/8 ampere"},
-					{"answer":"(a) 7.5 volts, (b) 5/8 ampere"}
-				]
-			},
-			{
-				"id": "2-43",
-				"question":"Which of the following diagrams shows the proper connections for obtaining 6 volts at 1/4 ampere? (Each cell is 1.5 volts and has a capacity of 1/8 amp.)",
-				"answers":[
-					{"image":"test-2-43-1.png"},
-					{"image":"test-2-43-2.png"},
-					{"image":"test-2-43-3.png"},
-					{"image":"test-2-43-4.png"}
-				]
-			},
-			{
-				"id": "2-44",
-				"image": "test-2-4445.png",
-				"question":"What type of connection is used to combine the cells? (EACH CELL EQUALS 1.5 VOLTS AND HAS A CAPACITY OF 1/8 AMPERE)",
-				"answers":[
-					{"answer":"Series"},
-					{"answer":"Parallel"},
-					{"answer":"Series-parallel"}
-				]
-			},
-			{
-				"id": "2-45",
-				"image": "test-2-4445.png",
-				"question":"What is the (a) voltage output and(b) current capacity of the circuit? (EACH CELL EQUALS 1.5 VOLTS AND HAS A CAPACITY OF 1/8 AMPERE)",
-				"answers":[
-					{"answer":"(a) 1.5 volts, (b) 1.5 amperes"},
-					{"answer":"(a) 4.5 volts, (b) 1/2 ampere"},
-					{"answer":"(a) 9 volts, (b) 1/4 ampere"},
-					{"answer":"(a) 18 volts, (b) 1/8 ampere"}
-				]
-			},
-			{
-				"id": "2-46",
-				"question":"What is the first step in performing maintenance on a secondary-cell battery?",
-				"answers":[
-					{"answer":"Check the level of the electrolyte"},
-					{"answer":"Check the technical manual for information on the specific type of battery"},
-					{"answer":"Check the terminals for cleanliness and good electrical connection"},
-					{"answer":"Check the battery case for cleanliness and evidence of damage"}
-				]
-			},
-			{
-				"id": "2-47",
-				"question":"When a hydrometer is used to check the specific gravity of the electrolyte in a battery, to what level should the electrolyte be drawn?",
-				"answers":[
-					{"answer":"Enough to just wet the float"},
-					{"answer":"Enough so the float will rise without entering the suction bulb"},
-					{"answer":"Enough so the top one-third of the float will rise into the suction bulb"},
-					{"answer":"Enough so the float is completely covered by the electrolyte"}
-				]
-			},
-			{
-				"id": "2-48",
-				"question":"To flush a hydrometer, which of the following liquids should be used?",
-				"answers":[
-					{"answer":"Sulfuric acid"},
-					{"answer":"Salt water"},
-					{"answer":"Fresh water"},
-					{"answer":"A solution of baking soda and water"}
-				]
-			},
-			{
-				"id": "2-49",
-				"question":"If the electrolyte level in a battery is low, what should be added to the electrolyte to bring it to the proper level?",
-				"answers":[
-					{"answer":"Tap water"},
-					{"answer":"Sulfuric acid"},
-					{"answer":"Potassium hydroxide"},
-					{"answer":"Distilled water"}
-				]
-			},
-			{
-				"id": "2-50",
-				"question":"Which one of the following safety precautions for batteries is NOT correct?",
-				"answers":[
-					{"answer":"Terminals should be electrically connected together before transporting a battery"},
-					{"answer":"Care should be taken to prevent the spilling of electrolyte"},
-					{"answer":"Smoking, open flames, and electrical sparks are prohibited around charging batteries"},
-					{"answer":"Protective clothing, such as rubber apron, rubber gloves, and face shield, should be worn when working on batteries"}
-				]
-			},
-			{
-				"id": "2-51",
-				"question":"If electrolyte comes in contact with the skin, what first aid treatment should be given immediately to the affected area?",
-				"answers":[
-					{"answer":"Cover with petroleum jelly"},
-					{"answer":"Wrap with a sterile bandage"},
-					{"answer":"Apply an antiseptic lotion"},
-					{"answer":"Flush with fresh water"}
-				]
-			},
-			{
-				"id": "2-52",
-				"question":"A battery with a capacity of 600 ampere-hours should provide 3 amperes for a maximum of how many hours?",
-				"answers":[
-					
-					{"answer":"  100 hr"},
-					{"answer":"  200 hr"},
-					{"answer":"  300 hr"},
-					{"answer":"600 hr"}
-				]
-			}, 
-			{
-				"id": "2-53",
-				"question":"A battery is rated according to a 20-hour rate of discharge at 300 ampere-hours. Which of the following currents is the maximum current that will allow the battery to deliver its rated capacity?",
-				"answers":[
-					{"answer":"15 amperes"},
-					{"answer":"20 amperes"},
-					{"answer":"25 amperes"},
-					{"answer":"30 amperes"}
-				]
-			},
-			{
-				"id": "2-54",
-				"question":"Which of the following types of routine charges follows the nameplate data in restoring a battery to its charged condition during the ordinary cycle of operation?",
-				"answers":[
-					{"answer":"Initial"},
-					{"answer":"Floating"},
-					{"answer":"Normal"},
-					{"answer":"Fast"}
-				]
-			},
-			{
-				"id": "2-55",
-				"question":"Which is the best description of an Initial charge?",
-				"answers":[
-					{"answer":"Used in emergency "},
-					{"answer":"Used periodically as part of a maintenance routine"},
-					{"answer":"Used to keep a battery at full charge while the battery is idle"},
-					{"answer":"Used after electrolyte is added to a dry-shipped battery"}
-				]
-			},
-			{
-				"id": "2-56",
-				"question":"Which is the best description of an Equalizing charge?",
-				"answers":[
-					{"answer":"Used in emergency "},
-					{"answer":"Used periodically as part of a maintenance routine"},
-					{"answer":"Used to keep a battery at full charge while the battery is idle"},
-					{"answer":"Used after electrolyte is added to a dry-shipped battery"}
-				]
-			},
-			{
-				"id": "2-57",
-				"question":"Which is the best description of a Floating charge?",
-				"answers":[
-					{"answer":"Used in emergency "},
-					{"answer":"Used periodically as part of a maintenance routine"},
-					{"answer":"Used to keep a battery at full charge while the battery is idle"},
-					{"answer":"Used after electrolyte is added to a dry-shipped battery"}
-				]
-			},
-			{
-				"id": "2-58",
-				"question":"Which is the best description of a Fast charge?",
-				"answers":[
-					{"answer":"Used in emergency "},
-					{"answer":"Used periodically as part of a maintenance routine"},
-					{"answer":"Used to keep a battery at full charge while the battery is idle"},
-					{"answer":"Used after electrolyte is added to a dry-shipped battery"}
-				]
-			},
-			{
-				"id": "2-59",
-				"question":"If violent gassing occurs during the charging of a battery, which of the following actions should be taken?",
-				"answers":[
-					{"answer":"Increase the room ventilation"},
-					{"answer":"Decrease the room temperature"},
-					{"answer":"Increase the charging rate"},
-					{"answer":"Decrease the charging rate"}
-				]
-			},
-			{
-				"id": "2-60",
-				"question":"If a battery is being charged at the proper rate, which, if any of the following types of gassing should occur?",
-				"answers":[
-					{"answer":"Steady gassing"},
-					{"answer":"Intermittent gassing"},
-					{"answer":"Violent gassing"},
-					{"answer":"None"}
-				]
-			}
-		]
+		"questions": [{
+			"id": "2-1",
+			"question": "  Which of the following is the purpose of an electrical cell?",
+			"answers": [{
+				"answer": "To change mechanical energy to electrical energy"
+			}, {
+				"answer": "To change chemical energy to electrical energy",
+				"correct": true
+			}, {
+				"answer": "To change electrical energy to mechanical energy"
+			}, {
+				"answer": "To change electrical energy to chemical energy"
+			}]
+		}, {
+			"id": "2-2",
+			"question": "  What are the three basic parts of a cell?",
+			"answers": [{
+				"answer": "Electrodes, electrolyte, container",
+				"correct": true
+			}, {
+				"answer": "Electrodes, acid, water"
+			}, {
+				"answer": "Anode, cathode, ions"
+			}, {
+				"answer": "Anode, load, depolarizer"
+			}]
+		}, {
+			"id": "2-3",
+			"question": "  Which phrase describes the Electrolyte part of a cell?",
+			"answers": [{
+				"answer": "Negative electrode "
+			}, {
+				"answer": "Positive electrode "
+			}, {
+				"answer": "Solution acting upon the electrode",
+				"correct": true
+			}, {
+				"answer": "Mounting for the electrode"
+			}]
+		}, {
+			"id": "2-4",
+			"question": "  Which phrase describes the Container part of a cell?",
+			"answers": [{
+				"answer": "Negative electrode "
+			}, {
+				"answer": "Positive electrode "
+			}, {
+				"answer": "Solution acting upon the electrode"
+			}, {
+				"answer": "Mounting for the electrode",
+				"correct": true
+			}]
+		}, {
+			"id": "2-5",
+			"question": "  Which phrase describes the Anode part of a cell?",
+			"answers": [{
+				"answer": "Negative electrode "
+			}, {
+				"answer": "Positive electrode ",
+				"correct": true
+			}, {
+				"answer": "Solution acting upon the electrode"
+			}, {
+				"answer": "Mounting for the electrode"
+			}]
+		}, {
+			"id": "2-6",
+			"question": "  Which phrase describes the Cathode part of a cell?",
+			"answers": [{
+				"answer": "Negative electrode ",
+				"correct": true
+			}, {
+				"answer": "Positive electrode "
+			}, {
+				"answer": "Solution acting upon the electrode"
+			}, {
+				"answer": "Mounting for the electrode"
+			}]
+		}, {
+			"id": "2-7",
+			"question": "  What term is given to the process that takes place inside a cell?",
+			"answers": [{
+				"answer": "Electromagnetic action"
+			}, {
+				"answer": "Piezoelectric action"
+			}, {
+				"answer": "Electromechanical action"
+			}, {
+				"answer": "Electrochemical action",
+				"correct": true
+			}]
+		}, {
+			"id": "2-8",
+			"question": "  With respect to recharging a primary or secondary cell, of the following statements, which one is correct?",
+			"answers": [{
+				"answer": "The secondary cell can be recharged by passing current through it in the proper direction",
+				"correct": true
+			}, {
+				"answer": "The primary cell can be recharged by passing current through it in the proper direction"
+			}, {
+				"answer": "The secondary cell can only be recharged by changing the electrodes"
+			}, {
+				"answer": "The primary cell can only be recharged by changing the electrolyte"
+			}]
+		}, {
+			"id": "2-9",
+			"question": "  What determines the amount of current that a cell can deliver to the external circuit?",
+			"answers": [{
+				"answer": "The internal resistance of the cell only"
+			}, {
+				"answer": "The resistance of the external load only"
+			}, {
+				"answer": "The circuit resistance and the internal resistance of the cell",
+				"correct": true
+			}, {
+				"answer": "The circuit capacitance and number of free electrons in the load"
+			}]
+		}, {
+			"id": "2-10",
+			"question": "Which of the following actions will lower the internal resistance of a cell?",
+			"answers": [{
+				"answer": "Decreasing the size of the electrodes"
+			}, {
+				"answer": "Increasing the size of the electrodes",
+				"correct": true
+			}, {
+				"answer": "Increasing the spacing between the electrodes"
+			}, {
+				"answer": "Increasing the resistance of the electrolyte"
+			}]
+		}, {
+			"id": "2-11",
+			"question": "What causes negative ions to be attracted to the cathode of a primary cell while the cell is discharging?",
+			"answers": [{
+				"answer": "A negative charge caused by a loss of electrons"
+			}, {
+				"answer": "A negative charge caused by an excess of electrons"
+			}, {
+				"answer": "A positive charge caused by a loss of electrons",
+				"correct": true
+			}, {
+				"answer": "A positive charge caused by an excess of electrons"
+			}]
+		}, {
+			"id": "2-12",
+			"question": "What causes hydrogen to be attracted to the anode of a primary cell when the cell is discharging?",
+			"answers": [{
+				"answer": "A negative charge caused by a loss of electrons"
+			}, {
+				"answer": "A negative charge caused by an excess of electrons",
+				"correct": true
+			}, {
+				"answer": "A positive charge caused by a loss of electrons"
+			}, {
+				"answer": "A positive charge caused by an excess of electrons"
+			}]
+		}, {
+			"id": "2-13",
+			"question": "What causes the cathode to be \"eaten away\" in the primary cell while the cell is discharging?",
+			"answers": [{
+				"answer": "The material of the cathode combines with the negative ions to form a new substance.",
+				"correct": true
+			}, {
+				"answer": "The material of the cathode dissolves in the electrolyte."
+			}, {
+				"answer": "The material of the cathode leaves the negative terminal of the cell and goes through the load to the anode."
+			}, {
+				"answer": "Bacteria in the electrolyte erodes the material in the cathode."
+			}]
+		}, {
+			"id": "2-14",
+			"question": "The primary cell is completely discharged when which of the following conditions exists?",
+			"answers": [{
+				"answer": "The cathode is completely eaten away"
+			}, {
+				"answer": "The active ingredient in the electrolyte is used up"
+			}, {
+				"answer": "The voltage of the cell is reduced to zero"
+			}, {
+				"answer": "Each of the above",
+				"correct": true
+			}]
+		}, {
+			"id": "2-15",
+			"question": "In a zinc-carbon primary cell, what is the function of the carbon electrode?",
+			"answers": [{
+				"answer": "To generate electrons"
+			}, {
+				"answer": "To supply a return path for current",
+				"correct": true
+			}, {
+				"answer": "To speed electrolysis"
+			}, {
+				"answer": "To collect hydrogen"
+			}]
+		}, {
+			"id": "2-16",
+			"question": "The lead-acid cell is an example of which of the following types of cells?",
+			"answers": [{
+				"answer": "The dry cell"
+			}, {
+				"answer": "The voltaic cell"
+			}, {
+				"answer": "The primary cell"
+			}, {
+				"answer": "The secondary cell",
+				"correct": true
+			}]
+		}, {
+			"id": "2-17",
+			"question": "In a fully charged lead-acid cell, what is the composition of the anode, cathode, and electrolyte respectively?",
+			"answers": [{
+				"answer": "Zinc, carbon, and water"
+			}, {
+				"answer": "Carbon, lead, sulfuric acid and water"
+			}, {
+				"answer": "Lead peroxide, sponge lead, sulfuric acid, and water",
+				"correct": true
+			}, {
+				"answer": "Nickel, cadmium, potassium hydroxide, and water"
+			}]
+		}, {
+			"id": "2-18",
+			"question": "Which of the following actions will recharge a secondary cell?",
+			"answers": [{
+				"answer": "Adding more water to the electrolyte"
+			}, {
+				"answer": "Adding more active ingredient to the electrolyte"
+			}, {
+				"answer": "Connecting the negative terminal of a voltage source to the cathode of the cell and the positive terminal of the voltage source to the anode of the cell",
+				"correct": true
+			}, {
+				"answer": "Connecting the negative terminal of a voltage source to the anode of the cell and the positive terminal of the voltage source to the cathode of the cell"
+			}]
+		}, {
+			"id": "2-19",
+			"image": "test-2-1920.png",
+			"question": "The cell is discharging.",
+			"answers": [{
+				"answer": "A, C, E, H",
+				"correct": true
+			}, {
+				"answer": "A, D, E, G"
+			}, {
+				"answer": "B, C, F, G"
+			}, {
+				"answer": "B, D, F, H"
+			}]
+		}, {
+			"id": "2-20",
+			"image": "test-2-1920.png",
+			"question": "The cell is charging.",
+			"answers": [{
+				"answer": "A, C, F, H"
+			}, {
+				"answer": "B, C, F, H"
+			}, {
+				"answer": "A, D, F, G"
+			}, {
+				"answer": "B, D, F, G",
+				"correct": true
+			}]
+		}, {
+			"id": "2-21",
+			"question": "When all the lead sulfate in a lead-acid cell is converted to sulfuric acid, lead peroxide, and sponge lead, what is the condition of the cell?",
+			"answers": [{
+				"answer": "Fully charged",
+				"correct": true
+			}, {
+				"answer": "Discharged"
+			}, {
+				"answer": "Sulfated"
+			}, {
+				"answer": "Unusable"
+			}]
+		}, {
+			"id": "2-22",
+			"question": "Polarization has what effects on an electrical cell?",
+			"answers": [{
+				"answer": "Decreases internal resistance, thereby increasing the output voltage"
+			}, {
+				"answer": "Decreases internal resistance, thereby decreasing the output voltage"
+			}, {
+				"answer": "Increases internal resistance, thereby increasing the output voltage"
+			}, {
+				"answer": "Increases internal resistance, thereby decreasing the output voltage",
+				"correct": true
+			}]
+		}, {
+			"id": "2-23",
+			"question": "Which of the following methods is used to control polarization in a cell?",
+			"answers": [{
+				"answer": "Venting the cell",
+				"correct": true
+			}, {
+				"answer": "Heating the electrolyte"
+			}, {
+				"answer": "Adding mercury to the electrode material"
+			}, {
+				"answer": "Using an electrolyte that absorbs oxygen"
+			}]
+		}, {
+			"id": "2-24",
+			"question": "Which of the following is caused by local action in a cell?",
+			"answers": [{
+				"answer": "Shelf life is reduced",
+				"correct": true
+			}, {
+				"answer": "Hydrogen is generated in large quantities"
+			}, {
+				"answer": "Impurities rise to the surface of the electrolyte"
+			}, {
+				"answer": "Mercury coating of the zinc electrode is worn away"
+			}]
+		}, {
+			"id": "2-25",
+			"question": "In a dry cell, what is the consistency of the electrolyte?",
+			"answers": [{
+				"answer": "Solid"
+			}, {
+				"answer": "Liquid"
+			}, {
+				"answer": "Paste",
+				"correct": true
+			}, {
+				"answer": "Powder"
+			}]
+		}, {
+			"id": "2-26",
+			"question": "What serves as the cathode in a common type of dry cell?",
+			"answers": [{
+				"answer": "Carbon electrode"
+			}, {
+				"answer": "Zinc container",
+				"correct": true
+			}, {
+				"answer": "Steel cover"
+			}, {
+				"answer": "Nickel terminal"
+			}]
+		}, {
+			"id": "2-27",
+			"question": "How should the dry cell be stored to obtain maximum shelf life?",
+			"answers": [{
+				"answer": "In a dark container"
+			}, {
+				"answer": "In a heated cabinet"
+			}, {
+				"answer": "In a ventilated area"
+			}, {
+				"answer": "In a refrigerated space",
+				"correct": true
+			}]
+		}, {
+			"id": "2-28",
+			"question": "The blotting paper in a dry cell serves which of the following purposes?",
+			"answers": [{
+				"answer": "Separates the paste from the zinc"
+			}, {
+				"answer": "Permits the electrolyte from the paste to filter through to the zinc slowly"
+			}, {
+				"answer": "Both 1 and 2 above",
+				"correct": true
+			}, {
+				"answer": "Keeps the electrolyte dry"
+			}]
+		}, {
+			"id": "2-29",
+			"question": "Of the following characteristics, which one describes the mercury cell?",
+			"answers": [{
+				"answer": "It is physically one of the largest cells"
+			}, {
+				"answer": "It has a very stable output voltage",
+				"correct": true
+			}, {
+				"answer": "It is designed to be rechargeable"
+			}, {
+				"answer": "It produces a large amount of current but has a short shelf life"
+			}]
+		}, {
+			"id": "2-30",
+			"question": "Which of the following describes the shorting of a cell?",
+			"answers": [{
+				"answer": "Decreasing the length of a cell"
+			}, {
+				"answer": "Connecting the anode and cathode together without a load",
+				"correct": true
+			}, {
+				"answer": "Using the cell below its full potential"
+			}, {
+				"answer": "Providing a recharge voltage that is not sufficient to recharge the cell"
+			}]
+		}, {
+			"id": "2-31",
+			"question": "What is/are the advantages(s) of using a manganese-dioxide-alkaline- zinc cell over the zinc-carbon cell?",
+			"answers": [{
+				"answer": "Better voltage stability"
+			}, {
+				"answer": "Longer storage life"
+			}, {
+				"answer": "Operates over a wide temperature range"
+			}, {
+				"answer": "All the above",
+				"correct": true
+			}]
+		}, {
+			"id": "2-32",
+			"question": "What is the common name for manganese- dioxide-alkaline-zinc cell?",
+			"answers": [{
+				"answer": "Alkaline cell",
+				"correct": true
+			}, {
+				"answer": "Long-life cell"
+			}, {
+				"answer": "Moz cell"
+			}, {
+				"answer": "Manganese-dioxide cell"
+			}]
+		}, {
+			"id": "2-33",
+			"question": "Which of the following factors should be considered when selecting a primary cell as a power source?",
+			"answers": [{
+				"answer": "Power requirement",
+				"correct": true
+			}, {
+				"answer": "Type of electrolyte used"
+			}, {
+				"answer": "Container material"
+			}, {
+				"answer": "All of the above"
+			}]
+		}, {
+			"id": "2-34",
+			"question": "Of the following types of cells, which one is a primary cell?",
+			"answers": [{
+				"answer": "Nickel cadmium"
+			}, {
+				"answer": "Silver zinc"
+			}, {
+				"answer": "Lithium organic",
+				"correct": true
+			}, {
+				"answer": "Silver cadmium"
+			}]
+		}, {
+			"id": "2-35",
+			"question": "Which of the following is/are the difference(s) in the construction of a NICAD cell as compared to a lead-acid cell?",
+			"answers": [{
+				"answer": "The electrolyte used"
+			}, {
+				"answer": "The material of the anode"
+			}, {
+				"answer": "The material of the cathode"
+			}, {
+				"answer": "All of the above",
+				"correct": true
+			}]
+		}, {
+			"id": "2-36",
+			"question": "What is the most common use of a silver- zinc cell?",
+			"answers": [{
+				"answer": "Flashlight batteries"
+			}, {
+				"answer": "Automobile batteries"
+			}, {
+				"answer": "Aircraft storage batteries"
+			}, {
+				"answer": "Emergency equipment batteries",
+				"correct": true
+			}]
+		}, {
+			"id": "2-37",
+			"question": "In addition to the nickel-cadmium and silver-zinc cells, which of the following cells uses potassium hydroxide as the active ingredient in the electrolyte?",
+			"answers": [{
+				"answer": "Lead-acid cell"
+			}, {
+				"answer": "Silver-cadmium",
+				"correct": true
+			}, {
+				"answer": "Lithium-inorganic cell"
+			}, {
+				"answer": "Magnesium-manganese dioxide cell"
+			}]
+		}, {
+			"id": "2-38",
+			"question": "What is the minimum number of cells necessary to form a battery?",
+			"answers": [{
+				"answer": "One",
+				"correct": true
+			}, {
+				"answer": "Two"
+			}, {
+				"answer": "Three"
+			}, {
+				"answer": "Four"
+			}]
+		}, {
+			"id": "2-39",
+			"image": "test-2-3940.png",
+			"question": "What type of connection is used to combine the cells? (EACH CELL IS 1.5 VOLTS AND HAS A CAPACITY OF 1/8 AMPERE.)",
+			"answers": [{
+				"answer": "Series"
+			}, {
+				"answer": "Parallel",
+				"correct": true
+			}, {
+				"answer": "Series-parallel"
+			}]
+		}, {
+			"id": "2-40",
+			"image": "test-2-3940.png",
+			"question": "What is the (a) voltage output and (b) current capacity of the circuit? (EACH CELL IS 1.5 VOLTS AND HAS A CAPACITY OF 1/8 AMPERE.)",
+			"answers": [{
+				"answer": "(a) 1.5 volts, (b) 1/8 ampere"
+			}, {
+				"answer": "(a) 1.5 volts. (b) 5/8 ampere",
+				"correct": true
+			}, {
+				"answer": "(a) 7.5 volts. (b) 1/8 ampere"
+			}, {
+				"answer": "(a) 7.5 volts, (b) 5/8 ampere"
+			}]
+		}, {
+			"id": "2-41",
+			"image": "test-2-4142.png",
+			"question": "What type of connection is used to combine the cells? EACH CELL IS 1.5 VOLTS AND HAS A CAPACITY OF 1/8 AMPERE.",
+			"answers": [{
+				"answer": "Series",
+				"correct": true
+			}, {
+				"answer": "Parallel"
+			}, {
+				"answer": "Series-parallel"
+			}]
+		}, {
+			"id": "2-42",
+			"image": "test-2-4142.png",
+			"question": "What is the (a) voltage output and (b) current capacity of the circuit? EACH CELL IS 1.5 VOLTS AND HAS A CAPACITY OF 1/8 AMPERE.",
+			"answers": [{
+				"answer": "(a) 1.5 volts, (b) 1/8 ampere"
+			}, {
+				"answer": "(a) 1.5 volts, (b) 5/8 ampere"
+			}, {
+				"answer": "(a) 7.5 volts, (b) 1/8 ampere",
+				"correct": true
+			}, {
+				"answer": "(a) 7.5 volts, (b) 5/8 ampere"
+			}]
+		}, {
+			"id": "2-43",
+			"question": "Which of the following diagrams shows the proper connections for obtaining 6 volts at 1/4 ampere? (Each cell is 1.5 volts and has a capacity of 1/8 amp.)",
+			"answers": [{
+				"image": "test-2-43-1.png"
+			}, {
+				"image": "test-2-43-2.png"
+			}, {
+				"image": "test-2-43-3.png"
+			}, {
+				"image": "test-2-43-4.png",
+				"correct": true
+			}]
+		}, {
+			"id": "2-44",
+			"image": "test-2-4445.png",
+			"question": "What type of connection is used to combine the cells? (EACH CELL EQUALS 1.5 VOLTS AND HAS A CAPACITY OF 1/8 AMPERE)",
+			"answers": [{
+				"answer": "Series"
+			}, {
+				"answer": "Parallel"
+			}, {
+				"answer": "Series-parallel",
+				"correct": true
+			}]
+		}, {
+			"id": "2-45",
+			"image": "test-2-4445.png",
+			"question": "What is the (a) voltage output and(b) current capacity of the circuit? (EACH CELL EQUALS 1.5 VOLTS AND HAS A CAPACITY OF 1/8 AMPERE)",
+			"answers": [{
+				"answer": "(a) 1.5 volts, (b) 1.5 amperes"
+			}, {
+				"answer": "(a) 4.5 volts, (b) 1/2 ampere"
+			}, {
+				"answer": "(a) 9 volts, (b) 1/4 ampere",
+				"correct": true
+			}, {
+				"answer": "(a) 18 volts, (b) 1/8 ampere"
+			}]
+		}, {
+			"id": "2-46",
+			"question": "What is the first step in performing maintenance on a secondary-cell battery?",
+			"answers": [{
+				"answer": "Check the level of the electrolyte"
+			}, {
+				"answer": "Check the technical manual for information on the specific type of battery",
+				"correct": true
+			}, {
+				"answer": "Check the terminals for cleanliness and good electrical connection"
+			}, {
+				"answer": "Check the battery case for cleanliness and evidence of damage"
+			}]
+		}, {
+			"id": "2-47",
+			"question": "When a hydrometer is used to check the specific gravity of the electrolyte in a battery, to what level should the electrolyte be drawn?",
+			"answers": [{
+				"answer": "Enough to just wet the float"
+			}, {
+				"answer": "Enough so the float will rise without entering the suction bulb",
+				"correct": true
+			}, {
+				"answer": "Enough so the top one-third of the float will rise into the suction bulb"
+			}, {
+				"answer": "Enough so the float is completely covered by the electrolyte"
+			}]
+		}, {
+			"id": "2-48",
+			"question": "To flush a hydrometer, which of the following liquids should be used?",
+			"answers": [{
+				"answer": "Sulfuric acid"
+			}, {
+				"answer": "Salt water"
+			}, {
+				"answer": "Fresh water",
+				"correct": true
+			}, {
+				"answer": "A solution of baking soda and water"
+			}]
+		}, {
+			"id": "2-49",
+			"question": "If the electrolyte level in a battery is low, what should be added to the electrolyte to bring it to the proper level?",
+			"answers": [{
+				"answer": "Tap water"
+			}, {
+				"answer": "Sulfuric acid"
+			}, {
+				"answer": "Potassium hydroxide"
+			}, {
+				"answer": "Distilled water",
+				"correct": true
+			}]
+		}, {
+			"id": "2-50",
+			"question": "Which one of the following safety precautions for batteries is NOT correct?",
+			"answers": [{
+				"answer": "Terminals should be electrically connected together before transporting a battery",
+				"correct": true
+			}, {
+				"answer": "Care should be taken to prevent the spilling of electrolyte"
+			}, {
+				"answer": "Smoking, open flames, and electrical sparks are prohibited around charging batteries"
+			}, {
+				"answer": "Protective clothing, such as rubber apron, rubber gloves, and face shield, should be worn when working on batteries"
+			}]
+		}, {
+			"id": "2-51",
+			"question": "If electrolyte comes in contact with the skin, what first aid treatment should be given immediately to the affected area?",
+			"answers": [{
+				"answer": "Cover with petroleum jelly"
+			}, {
+				"answer": "Wrap with a sterile bandage"
+			}, {
+				"answer": "Apply an antiseptic lotion"
+			}, {
+				"answer": "Flush with fresh water",
+				"correct": true
+			}]
+		}, {
+			"id": "2-52",
+			"question": "A battery with a capacity of 600 ampere-hours should provide 3 amperes for a maximum of how many hours?",
+			"answers": [{
+				"answer": "  100 hr"
+			}, {
+				"answer": "  200 hr",
+				"correct": true
+			}, {
+				"answer": "  300 hr"
+			}, {
+				"answer": "600 hr"
+			}]
+		}, {
+			"id": "2-53",
+			"question": "A battery is rated according to a 20-hour rate of discharge at 300 ampere-hours. Which of the following currents is the maximum current that will allow the battery to deliver its rated capacity?",
+			"answers": [{
+				"answer": "15 amperes",
+				"correct": true
+			}, {
+				"answer": "20 amperes"
+			}, {
+				"answer": "25 amperes"
+			}, {
+				"answer": "30 amperes"
+			}]
+		}, {
+			"id": "2-54",
+			"question": "Which of the following types of routine charges follows the nameplate data in restoring a battery to its charged condition during the ordinary cycle of operation?",
+			"answers": [{
+				"answer": "Initial"
+			}, {
+				"answer": "Floating"
+			}, {
+				"answer": "Normal",
+				"correct": true
+			}, {
+				"answer": "Fast"
+			}]
+		}, {
+			"id": "2-55",
+			"question": "Which is the best description of an Initial charge?",
+			"answers": [{
+				"answer": "Used in emergency "
+			}, {
+				"answer": "Used periodically as part of a maintenance routine"
+			}, {
+				"answer": "Used to keep a battery at full charge while the battery is idle"
+			}, {
+				"answer": "Used after electrolyte is added to a dry-shipped battery",
+				"correct": true
+			}]
+		}, {
+			"id": "2-56",
+			"question": "Which is the best description of an Equalizing charge?",
+			"answers": [{
+				"answer": "Used in emergency "
+			}, {
+				"answer": "Used periodically as part of a maintenance routine",
+				"correct": true
+			}, {
+				"answer": "Used to keep a battery at full charge while the battery is idle"
+			}, {
+				"answer": "Used after electrolyte is added to a dry-shipped battery"
+			}]
+		}, {
+			"id": "2-57",
+			"question": "Which is the best description of a Floating charge?",
+			"answers": [{
+				"answer": "Used in emergency "
+			}, {
+				"answer": "Used periodically as part of a maintenance routine"
+			}, {
+				"answer": "Used to keep a battery at full charge while the battery is idle",
+				"correct": true
+			}, {
+				"answer": "Used after electrolyte is added to a dry-shipped battery"
+			}]
+		}, {
+			"id": "2-58",
+			"question": "Which is the best description of a Fast charge?",
+			"answers": [{
+				"answer": "Used in emergency ",
+				"correct": true
+			}, {
+				"answer": "Used periodically as part of a maintenance routine"
+			}, {
+				"answer": "Used to keep a battery at full charge while the battery is idle"
+			}, {
+				"answer": "Used after electrolyte is added to a dry-shipped battery"
+			}]
+		}, {
+			"id": "2-59",
+			"question": "If violent gassing occurs during the charging of a battery, which of the following actions should be taken?",
+			"answers": [{
+				"answer": "Increase the room ventilation"
+			}, {
+				"answer": "Decrease the room temperature"
+			}, {
+				"answer": "Increase the charging rate"
+			}, {
+				"answer": "Decrease the charging rate",
+				"correct": true
+			}]
+		}, {
+			"id": "2-60",
+			"question": "If a battery is being charged at the proper rate, which, if any of the following types of gassing should occur?",
+			"answers": [{
+				"answer": "Steady gassing",
+				"correct": true
+			}, {
+				"answer": "Intermittent gassing"
+			}, {
+				"answer": "Violent gassing"
+			}, {
+				"answer": "None"
+			}]
+		}]
 	},
-	"3":{
+	"3": {
 		"title": "Direct Current",
-		"questions": [
-			{
-				"id": "3-1",
-					"image":"test-3-0103.png",
-				   "question": "What parts of the circuit represent the (a) source and (b) load?",
-				   "answers":[
-					{"answer": "(a) Es, (b) S1"},
-					{"answer": "(a) Es, (b) R1"},
-					{"answer": "(a) S1, (b) R1"},
-					{"answer": "(a) S1, (b) Es"}
-				]
-			},
-			{
-				"id": "3-2",
-					"image":"test-3-0103.png",
-				   "question": "Which of the following terms describes the circuit condition?",
-				   "answers":[
-					{"answer": "Partially shorted"},
-					{"answer": "Partially open"},
-					{"answer": "Shorted"},
-					{"answer": "Open"}
-				]
-			},
-			{
-				"id": "3-3",
-					"image":"test-3-0103.png",
-				   "question": "Which of the following terms describes the figure 3A?",
-				   "answers":[
-					{"answer": "Parts layout"},
-					{"answer": "Exploded view"},
-					{"answer": "Wiring diagram"},
-					{"answer": "Schematic diagram"}
-				]
-			},
-			{
-				"id": "3-4",
-				   "question": "If circuit voltage is held constant, circuit current will react in what manner as the resistance (a) increases, and (b) decreases?",
-				   "answers":[
-					{"answer": "(a) Increase (b) decrease"},
-					{"answer": "(a) Increase (b) increase"},
-					{"answer": "(a) Decrease (b) decrease"},
-					{"answer": "(a) Decrease (b) increase"}
-				]
-			},
-			{
-				"id": "3-5",
-				   "question": "If circuit resistance is held constant, circuit current will react in what manner as the voltage (a) increases, and (b) decreases?",
-				   "answers":[
-					{"answer": "(a) Increase (b) decrease"},
-					{"answer": "(a) Increase (b) increase"},
-					{"answer": "(a) Decrease (b) decrease"},
-					{"answer": "(a) Decrease (b) increase"}
-				]
-			},
-			{
-				"id": "3-6",
-				   "question": "According to Ohm's law, what formula should be used to calculate circuit voltage if resistance and current value are known?",
-				   "answers":[
-					{"image": "test-3-06-1.png"},
-					{"image": "test-3-06-2.png"},
-					{"image": "test-3-06-3.png"},
-					{"image": "test-3-06-4.png"}
-				]
-			},
-			{
-				"id": "3-7",
-				"image":"test-3-0708.png",
-				   "question": "If the current is 15 amperes, what is the value of the voltage?",
-				   "answers":[
-					{"answer": "50 v"},
-					{"answer": "75 v"},
-					{"answer": " 100 v"},
-					{"answer": " 150 v"}
-				]
-			},
-			{
-				"id": "3-8",
-				"image":"test-3-0708.png",
-				   "question": "If the voltage is 200 volts, what is the value of the current?",
-				   "answers":[
-					{"answer": "  10 A"},
-					{"answer": "  20 A"},
-					{"answer": "  30 A"},
-					{"answer": "  40 A"}
-				]
-			},
-			{
-				"id": "3-9",
-				   "question": "Which of the following terms applies to the rate at which an electrical force causes motion?",
-				   "answers":[
-					{"answer": "Power"},
-					{"answer": "Energy"},
-					{"answer": "Inertia"},
-					{"answer": "Each of the above"}
-				]
-			},
-			{
-				"id": "3-10",
-				 "question": "Which of the following circuit quantities can be varied ONLY by varying one of the other circuit quantities?",
-				 "answers":[
-					{"answer": "voltage"},
-					{"answer": "Current"},
-					{"answer": "Resistance"},
-					{"answer": "Each of the above"}
-				]
-			},
-			{
-				"id": "3-11",
-				 "question": "Which of the following is a correct formula for determining power in an electrical circuit?",
-				 "answers":[
-					{"image": "test-3-11-1.png"},
-					{"image": "test-3-11-2.png"},
-					{"image": "test-3-11-3.png"},
-					{"answer": "Each of the above"}
-				]
-			},
-			{
-				"id": "3-12",
-				 "question": "What is the current in a circuit with 15 ohms of resistance that uses 135 watts of power?",
-				 "answers":[
-					{"answer": "  10 A"},
-					{"answer": "  15 A"},
-					{"answer": "3 A"},
-					{"answer": "9 A"}
-				]
-			},
-			{
-				"id": "3-13",
-				 "question": "What is the total power used by a 15-ohm resistor with 4 amps of current?",
-				 "answers":[
-					{"answer": "60 W"},
-					{"answer": "  240 W"},
-					{"answer": "  360 W"},
-					{"answer": "  900 W"}
-				]
-			},
-			{
-				"id": "3-14",
-				 "question": "What type of resistor should be used in question 3-13?",
-				 "answers":[
-					{"answer": "Carbon"},
-					{"answer": "Wirewound"},
-					{"answer": "Precision"},
-					{"answer": "Composition"}
-				]
-			},
-			{
-				"id": "3-15",
-				 "question": "How much total energy is converted by a l-horsepower motor in 10 hours?",
-				 "answers":[
-					{"answer": "  7.46 kWh"},
-					{"answer": "  8.32 kWh"},
-					{"answer": "  8.59 kWh"},
-					{"answer": "  9.32 kWh"}
-				]
-			},
-			{
-				"id": "3-16",
-				 "question": "If the energy used by the motor in question 3-15 is 9.5 kWh, what is the efficiency of the motor?",
-				 "answers":[
-					{"answer": ".981"},
-					{"answer": ".904"},
-					{"answer": ".876"},
-					{"answer": ".785"}
-				]
-			},
-			{
-				"id": "3-17",
-				"image": "test-3-1723.png",
-				 "question": "What is the total circuit resistance (R)?",
-				 "answers":[
-					{"answer": "20n"},
-					{"answer": "60n"},
-					{"answer": "  180n"},
-					{"answer": "  240n"}
-				]
-			},
-			{
-				"id": "3-18",
-				"image": "test-3-1723.png",
-				 "question": "If the circuit current is 3 amps, what is the source voltage (Es)?",
-				 "answers":[
-					{"answer": "60 v"},
-					{"answer": " 180 v"},
-					{"answer": " 540 v"},
-					{"answer": " 720 v"}
-				]
-			},
-			{
-				"id": "3-19",
-				"image": "test-3-1723.png",
-				 "question": "What is the total voltage dropped by each resistor in question 3-18?",
-				 "answers":[
-					{"answer": "20 v"},
-					{"answer": "60 v"},
-					{"answer": " 180 v"},
-					{"answer": " 540 v"}
-				]
-			},
-			{
-				"id": "3-20",
-				"image": "test-3-1723.png",
-				 "question": "If the current decreases to 2 amps, what is the total voltage drop across each resistor?",
-				 "answers":[
-					{"answer": "120 v"},
-					{"answer": "230 v"},
-					{"answer": "310 v"},
-					{"answer": "400 v"}
-				]
-			},
-			{
-				"id": "3-21",
-				"image": "test-3-1723.png",
-				 "question": "What would have to be done to the circuit to cause the current to decrease to 2 amps?",
-				 "answers":[
-					{"answer": "The source voltage would have to be increased"},
-					{"answer": "The source voltage would have to be decreased"},
-					{"answer": "The resistance of R1 would have to be decreased"},
-					{"answer": "One of the resistors would have to be removed from the circuit"}
-				]
-			},
-			{
-				"id": "3-22",
-				"image": "test-3-1723.png",
-				 "question": "If the circuit current is 2 amps, what is the total power used by each resistor?",
-				 "answers":[
-					{"answer": "  240 W"},
-					{"answer": "  460 W"},
-					{"answer": "  620 W"},
-					{"answer": "  800 W"}
-				]
-			},
-			{
-				"id": "3-23",
-				"image": "test-3-1723.png",
-				 "question": "What is the total power used in the circuit if Es = 360 v?",
-				 "answers":[
-					{"answer": "720 W"},
-					{"answer": "  1380 W"},
-					{"answer": "  1860 W"},
-					{"answer": "  2400 W"}
-				]
-			},
-			{
-				"id": "3-24",
-				 "question": "When Kirchoff's voltage law is used to assign polarities to the voltage drop across a resistor, which of the following references is used to indicate the end of the resistor that the current enters?",
-				 "answers":[
-					{"answer": "Ground"},
-					{"answer": "Neutral"},
-					{"answer": "Negative"},
-					{"answer": "Positive"}
-				]
-			},
-			{
-				"id": "3-25",
-				"image":"test-3-2526.png",
-				 "question": "What is the effective source voltage?",
-				 "answers":[
-					{"answer": " 15 v"},
-					{"answer": " 25 v"},
-					{"answer": " 50 v"},
-					{"answer": " 75 v"}
-				]
-			},
-			{
-				"id": "3-26",
-				"image":"test-3-2526.png",
-				 "question": "What is the total amount and direction of current through R 3?",
-				 "answers":[
-					{"answer": "1.0 A from Y to X"},
-					{"answer": "1.0 A from X to Y"},
-					{"answer": ".33 A from Y to X"},
-					{"answer": ".33 A from X to Y"}
-				]
-			},
-			{
-				"id": "3-27",
-				 "question": "Which of the following terms applies to a circuit in which there is NO complete path for current?",
-				 "answers":[
-					{"answer": "Open"},
-					{"answer": "Short"},
-					{"answer": "Closed"},
-					{"answer": "Grounded"}
-				]
-			},
-			{
-				"id": "3-28",
-				 "question": "A circuit in which the resistance is almost zero ohms is referred to by which of the following terms?",
-				 "answers":[
-					{"answer": "Open"},
-					{"answer": "Short"},
-					{"answer": "Closed"},
-					{"answer": "Broken"}
-				]
-			},
-			{
-				"id": "3-29",
-				"image":"test-3-2932.png",
-				 "question": "If R2 has a short circuit, what will most likely happen to the circuit?",
-				 "answers":[
-					{"answer": "R1 will be destroyed"},
-					{"answer": "Es will increase"},
-					{"answer": "v will indicate O volts"},
-					{"answer": "S1 will automatically open"}
-				]
-			},
-			{
-				"id": "3-30",
-				"image":"test-3-2932.png",
-				 "question": "What is the total voltage drop across Ri when the switch is closed?",
-				 "answers":[
-					{"answer": "2.5 v"},
-					{"answer": "6.5 v"},
-					{"answer": "97.5 v"},
-					{"answer": " 100.0 v"}
-				]
-			},
-			{
-				"id": "3-31",
-				"image":"test-3-2932.png",
-				 "question": "What will the meter indicate with (a) S1 open, and (b) S1 closed?",
-				 "answers":[
-					{"answer": " (a) 100 v (b) 100 v"},
-					{"answer": " (a)  97.5 v  (b) 100 v"},
-					{"answer": " (a) 100 v (b)  97.5 v"},
-					{"answer": " (a)  97.5 v  (b)  97.5 v"}
-				]
-			},
-			{
-				"id": "3-32",
-				"image":"test-3-2932.png",
-				 "question": "To achieve maximum power transfer in the circuit, which of the following conditions must be met?",
-				 "answers":[
-					{"answer": "Ri = RL"},
-					{"answer": "Is = IL"},
-					{"answer": "Es = EL"},
-					{"answer": "Ks = KL"}
-				]
-			},
-			{
-				"id": "3-33",
-				 "question": "Maximum power is transferred from a source to a load when the value of the load resistance is of what value when compared to the source resistance?",
-				 "answers":[
-					{"answer": "Equal"},
-					{"answer": "Twice"},
-					{"answer": "One-half"},
-					{"answer": "Several times"}
-				]
-			},
-			{
-				"id": "3-34",
-				 "question": "When maximum power is transferred from a source to a load, what is the efficiency of power transfer?",
-				 "answers":[
-					{"answer": "  5%"},
-					{"answer": "  25%"},
-					{"answer": "  50%"},
-					{"answer": "  95%"}
-				]
-			},
-			{
-				"id": "3-35",
-				 "question": "A circuit consists of three resistors connected in parallel. R1 = 30 ohms, R2 = 15 ohms, and R 3 = 10 ohms. If the current through R2 = 4 amperes, what is the total source voltage?",
-				 "answers":[
-					{"answer": "   20 v"},
-					{"answer": "   60 v"},
-					{"answer": " 120 v"},
-					{"answer": " 220 v"}
-				]
-			},
-			{
-				"id": "3-36",
-				 "question": "What is the relationship of total current to the current through a component in (a) a series circuit, and (b) a parallel circuit?",
-				 "answers":[
-					{"answer": "(a) Divides (b) divides"},
-					{"answer": "(a) Divides (b) equals"},
-					{"answer": "(a) Equals (b) equals"},
-					{"answer": "(a) Equals (b) divides"}
-				]
-			},
-			{
-				"id": "3-37",
-				 "question": "If a current has a negative polarity when Kirchoff's current law is applied, which of the following, statements is true of the current?",
-				 "answers":[
-					{"answer": "It is from a battery"},
-					{"answer": "It is from a generator"},
-					{"answer": "It is entering a junction"},
-					{"answer": "It is leaving a junction"}
-				]
-			},
-			{
-				"id": "3-38",
-				 "question": "Three equal resistors are connected in parallel and each resistor has an ohmic value of 300 ohms. What is the equivalent resistance of the circuit?",
-				 "answers":[
-					{"answer": "  100n"},
-					{"answer": "  150n"},
-					{"answer": "  600n"},
-					{"answer": "  900n"}
-				]
-			},
-			{
-				"id": "3-39",
-				 "question": "Three resistors with ohmic values of 120 ohms, 60 ohms, and 40 ohms are connected in parallel. What is the equivalent resistance of the circuit?",
-				 "answers":[
-					{"answer": "  10n"},
-					{"answer": "  20n"},
-					{"answer": "  30n"},
-					{"answer": "  40n"}
-				]
-			},
-			{
-				"id": "3-40",
-				 "question": "Two resistors with ohmic values of 90 ohms and 45 ohms are connected in parallel. What is the equivalent resistance of the circuit?",
-				 "answers":[
-					{"answer": "  10n"},
-					{"answer": "  20n"},
-					{"answer": "  30n"},
-					{"answer": "  40n"}
-				]
-			},
-			{
-				"id": "3-41",
-				 "question": "Which of the following terms describes a single resistor that represents a complex circuit?",
-				 "answers":[
-					{"answer": "Equal resistor"},
-					{"answer": "Phantom resistor"},
-					{"answer": "Schematic resistor"},
-					{"answer": "Equivalent resistor"}
-				]
-			},
-			{
-				"id": "3-42",
-				"image":"test-3-4246.png",
-				 "question": "What is the value of Es?",
-				 "answers":[
-					{"answer": " 336 v"},
-					{"answer": " 300 v"},
-					{"answer": " 240 v"},
-					{"answer": " 120 v"}
-				]
-			},
-			{
-				"id": "3-43",
-				"image":"test-3-4246.png",
-				 "question": "What is the value of current through R2?",
-				 "answers":[
-					{"answer": "1 A"},
-					{"answer": "2 A"},
-					{"answer": "3 A"},
-					{"answer": "4 A"}
-				]
-			},
-			{
-				"id": "3-44",
-				"image":"test-3-4246.png",
-				 "question": "What is the approximate value of total resistance?",
-				 "answers":[
-					{"answer": "8n"},
-					{"answer": "37n"},
-					{"answer": "  112n"},
-					{"answer": "  257n"}
-				]
-			},
-			{
-				"id": "3-45",
-				"image":"test-3-4246.png",
-				 "question": "What is the value of total power?",
-				 "answers":[
-					{"answer": "  1.2 kW"},
-					{"answer": "  1.5 kW"},
-					{"answer": "  1.8 kW"},
-					{"answer": "  2.0 kW"}
-				]
-			},
-			{
-				"id": "3-46",
-				"image":"test-3-4246.png",
-				 "question": "What is the total power consumed by R 3?",
-				 "answers":[
-					{"answer": "108 W"},
-					{"answer": "240 W"},
-					{"answer": "360 W"},
-					{"answer": "  1200 W"}
-				]
-			},
-			{
-				"id": "3-47",
-				"image":"test-3-4749.png",
-				 "question": "What is the value of the total resistance?",
-				 "answers":[
-					{"answer": "3.6n"},
-					{"answer": "15n"},
-					{"answer": "34n"},
-					{"answer": "40n"}
-				]
-			},
-			{
-				"id": "3-48",
-				"image":"test-3-4749.png",
-				 "question": "What is the total power used in the circuit?",
-				 "answers":[
-					{"answer": "22.5 W"},
-					{"answer": "26.5 W"},
-					{"answer": "60.0 W"},
-					{"answer": "250.0 W"}
-				]
-			},
-			{
-				"id": "3-49",
-				"image":"test-3-4749.png",
-				 "question": "What is the total voltage drop across R 3?",
-				 "answers":[
-					{"answer": "8 v"},
-					{"answer": "12 v"},
-					{"answer": "18 v"},
-					{"answer": "30 v"}
-				]
-			},
-			{
-				"id": "3-50",
-				"image":"test-3-5051.png",
-				 "question": "What is the value of total resistance?",
-				 "answers":[
-					{"answer": "5n"},
-					{"answer": "8n"},
-					{"answer": "13n"},
-					{"answer": "15n"}
-				]
-			},
-			{
-				"id": "3-51",
-				"image":"test-3-5051.png",
-				 "question": "If an equivalent resistor is used to represent the network of R1, R2, R 3, R 4, R5, and R6, what is the total voltage drop across this resistor?",
-				 "answers":[
-					{"answer": "8v"},
-					{"answer": "26v"},
-					{"answer": "52v"},
-					{"answer": "60v"}
-				]
-			},
-			{
-				"id": "3-52",
-				 "question": "If an open occurs in a series portion of a circuit, what is the effect on (a) total resistance, and (b) total current?",
-				 "answers":[
-					{"answer": "(a) Decreases to zero (b) Becomes infinite"},
-					{"answer": "(a) Decreases to zero (b) Decreases to zero"},
-					{"answer": "(a) Becomes infinite (b) Becomes infinite"},
-					{"answer": "(a) Becomes infinite (b) Decreases to zero"}
-				]
-			},
-			{
-				"id": "3-53",
-				 "question": "If an open occurs in a parallel branch of a circuit, what is the effect on (a) total resistance, and (b) total current?",
-				 "answers":[
-					{"answer": "Increases, (b) decreases"},
-					{"answer": "Increases, (b) increases"},
-					{"answer": "Decreases, (b) decreases"},
-					{"answer": "Decreases, (b) increases"}
-				]
-			},
-			{
-				"id": "3-54",
-				 "question": "If a short circuit occurs in a series portion of a circuit, what is the effect on (a) total resistance, and (b) total current?",
-				 "answers":[
-					{"answer": "Increases, (b) decreases"},
-					{"answer": "Increases, (b) increases"},
-					{"answer": "Decreases, (b) decreases"},
-					{"answer": "Decreases, (b) increases"}
-				]
-			},
-			{
-				"id": "3-55",
-				 "question": "If a short circuit occurs in a parallel branch of a circuit, what is the effect in (a) total resistance, and (b) total current?",
-				 "answers":[
-					{"answer": "Increases, (b) decreases"},
-					{"answer": "Increases, (b) increases"},
-					{"answer": "Decreases, (b) decreases"},
-					{"answer": "Decreases, (b) increases"}
-				]
-			},
-			{
-				"id": "3-56",
-				 "question": "If one branch of a parallel network shorts, what portion of the circuit current, if any, will flow through the remaining branches?",
-				 "answers":[
-					{"answer": "An amount determined by the combined resistance of the remaining branches"},
-					{"answer": "All"},
-					{"answer": "One-half"},
-					{"answer": "None"}
-				]
-			},
-			{
-				"id": "3-57",
-				 "question": "Which of the following circuit quantities need NOT be known before designing a voltage divider?",
-				 "answers":[
-					{"answer": "The current of the source"},
-					{"answer": "The voltage of the source"},
-					{"answer": "The current requirement of the load"},
-					{"answer": "The voltage requirement of the load"}
-				]
-			},
-			{
-				"id": "3-58",
-				 "question": "What should be the value of the bleeder current?",
-				 "answers":[
-					{"answer": "3A  "},
-					{"answer": "300 mA"},
-					{"answer": "30 mA"},
-					{"answer": "43 mA"}
-				]
-			},
-			{
-				"id": "3-59",
-				 "question": "What should be the ohmic value of the bleeder resistor?",
-				 "answers":[
-					{"answer": "50"},
-					{"answer": "500"},
-					{"answer": "5 k"},
-					{"answer": "50 k"}
-				]
-			},
-			{
-				"id": "3-60",
-				 "question": "What is the value of total current?",
-				 "answers":[
-					{"answer": "303 mA"},
-					{"answer": "330 mA"},
-					{"answer": "600 mA"},
-					{"answer": "3300 mA"}
-				]
-			},
-			{
-				"id": "3-61",
-				"image": "test-3-6166.png",
-				 "question": "Why must the value of R1 be calculated first?",
-				 "answers":[
-					{"answer": "For convenience"},
-					{"answer": "The current through R2 depends on the value of R1"},
-					{"answer": "The voltage drop across R1depends on the value of load 1"},
-					{"answer": "In any circuit, values for resistors labeled R1 are calculated first"}
-				]
-			},
-			{
-				"id": "3-62",
-				"image": "test-3-6166.png",
-				 "question": "How is the current through R2 calculated?",
-				 "answers":[
-					{"answer": "By adding IR1 and the current requirement of load 1"},
-					{"answer": "By adding the current requirements of load 1 and load 2"},
-					{"answer": "By subtracting the current requirement of load 1 from the current requirement of load 2"},
-					{"answer": "By subtracting the current requirement of load 2 from the current requirement of load 1"}
-				]
-			},
-			{
-				"id": "3-63",
-				"image": "test-3-6166.png",
-				 "question": "How is the voltage drop across R2 calculated?",
-				 "answers":[
-					{"answer": "By adding the voltage requirements of load 1 and load 2"},
-					{"answer": "By subtracting the voltage drops across R5 and R 3 from the source voltage"},
-					{"answer": "By subtracting the voltage requirement of load 1 from the voltage requirement of load 2"},
-					{"answer": "By subtracting the voltage requirements of load 1 and load 2 from the source voltage"}
-				]
-			},
-			{
-				"id": "3-64",
-				"image": "test-3-6166.png",
-				 "question": "What is the minimum wattage rating required for R5?",
-				 "answers":[
-					{"answer": "1 W"},
-					{"answer": "2 W"},
-					{"answer": "  1/2 W"},
-					{"answer": "  1/4 W"}
-				]
-			},
-			{
-				"id": "3-65",
-				"image": "test-3-6166.png",
-				 "question": "What is the total power supplied by the source?",
-				 "answers":[
-					{"answer": "  3.765 W"},
-					{"answer": "  7.965 W"},
-					{"answer": "  8.209 W"},
-					{"answer": "  8.965 W"}
-				]
-			},
-			{
-				"id": "3-66",
-				"image": "test-3-6166.png",
-				 "question": "What is the purpose of using the series- parallel network consisting of R 3, R4, and R5 in place of a single resistor?",
-				 "answers":[
-					{"answer": "It provides the desired resistance with resistor values that are easily obtainable"},
-					{"answer": "It provides the close tolerance required for the circuit"},
-					{"answer": "It is more reliable than the use of a single resistor"},
-					{"answer": "It costs less by using three resistors of lower wattage rating than a single, large power resistor"}
-				]
-			},
-			{
-				"id": "3-67",
-				 "question": "A single voltage divider provides both negative and positive voltages from a single source voltage through the use of a",
-				 "answers":[
-					{"answer": "ground between two of the dividing resistors"},
-					{"answer": "ground to the positive terminal of the source"},
-					{"answer": "ground to the negative terminal of the source"},
-					{"answer": "ground to the input of all loads requiring a negative voltage"}
-				]
-			},
-			{
-				"id": "3-68",
-				 "question": "Which of the following voltages are considered dangerous?",
-				 "answers":[
-					{"answer": "voltages above 115 volts only"},
-					{"answer": "voltages above 230 volts only"},
-					{"answer": "voltages above 450 volts only"},
-					{"answer": "All voltages"}
-				]
-			},
-			{
-				"id": "3-69",
-				 "question": "If you discover a possible malfunction in an electric circuit, which of the following actions should be taken?",
-				 "answers":[
-					{"answer": "Attempt repairs yourself"},
-					{"answer": "Report the malfunction to a qualified technician"},
-					{"answer": "Ignore the malfunction unless you were assigned to repair it"},
-					{"answer": "Secure the circuit immediately by removing power at the nearest switch"}
-				]
-			},
-			{
-				"id": "3-70",
-				 "question": "If a person has stopped breathing and there is NO detectable heartbeat, who should perform CPR?",
-				 "answers":[
-					{"answer": "Medical personnel only"},
-					{"answer": "The first person on the scene"},
-					{"answer": "Emergency Medical Technicians only"},
-					{"answer": "Trained, qualified personnel only"}
-				]
-			}
-		]
+		"questions": [{
+			"id": "3-1",
+			"image": "test-3-0103.png",
+			"question": "What parts of the circuit represent the (a) source and (b) load?",
+			"answers": [{
+				"answer": "(a) Es, (b) S1"
+			}, {
+				"answer": "(a) Es, (b) R1",
+				"correct": true
+			}, {
+				"answer": "(a) S1, (b) R1"
+			}, {
+				"answer": "(a) S1, (b) Es"
+			}]
+		}, {
+			"id": "3-2",
+			"image": "test-3-0103.png",
+			"question": "Which of the following terms describes the circuit condition?",
+			"answers": [{
+				"answer": "Partially shorted"
+			}, {
+				"answer": "Partially open"
+			}, {
+				"answer": "Shorted"
+			}, {
+				"answer": "Open",
+				"correct": true
+			}]
+		}, {
+			"id": "3-3",
+			"image": "test-3-0103.png",
+			"question": "Which of the following terms describes the figure 3A?",
+			"answers": [{
+				"answer": "Parts layout"
+			}, {
+				"answer": "Exploded view"
+			}, {
+				"answer": "Wiring diagram"
+			}, {
+				"answer": "Schematic diagram",
+				"correct": true
+			}]
+		}, {
+			"id": "3-4",
+			"question": "If circuit voltage is held constant, circuit current will react in what manner as the resistance (a) increases, and (b) decreases?",
+			"answers": [{
+				"answer": "(a) Increase (b) decrease"
+			}, {
+				"answer": "(a) Increase (b) increase"
+			}, {
+				"answer": "(a) Decrease (b) decrease"
+			}, {
+				"answer": "(a) Decrease (b) increase",
+				"correct": true
+			}]
+		}, {
+			"id": "3-5",
+			"question": "If circuit resistance is held constant, circuit current will react in what manner as the voltage (a) increases, and (b) decreases?",
+			"answers": [{
+				"answer": "(a) Increase (b) decrease",
+				"correct": true
+			}, {
+				"answer": "(a) Increase (b) increase"
+			}, {
+				"answer": "(a) Decrease (b) decrease"
+			}, {
+				"answer": "(a) Decrease (b) increase"
+			}]
+		}, {
+			"id": "3-6",
+			"question": "According to Ohm's law, what formula should be used to calculate circuit voltage if resistance and current value are known?",
+			"answers": [{
+				"image": "test-3-06-1.png"
+			}, {
+				"image": "test-3-06-2.png"
+			}, {
+				"image": "test-3-06-3.png",
+				"correct": true
+			}, {
+				"image": "test-3-06-4.png"
+			}]
+		}, {
+			"id": "3-7",
+			"image": "test-3-0708.png",
+			"question": "If the current is 15 amperes, what is the value of the voltage?",
+			"answers": [{
+				"answer": "50 v"
+			}, {
+				"answer": "75 v",
+				"correct": true
+			}, {
+				"answer": " 100 v"
+			}, {
+				"answer": " 150 v"
+			}]
+		}, {
+			"id": "3-8",
+			"image": "test-3-0708.png",
+			"question": "If the voltage is 200 volts, what is the value of the current?",
+			"answers": [{
+				"answer": "  10 A"
+			}, {
+				"answer": "  20 A"
+			}, {
+				"answer": "  30 A"
+			}, {
+				"answer": "  40 A",
+				"correct": true
+			}]
+		}, {
+			"id": "3-9",
+			"question": "Which of the following terms applies to the rate at which an electrical force causes motion?",
+			"answers": [{
+				"answer": "Power",
+				"correct": true
+			}, {
+				"answer": "Energy"
+			}, {
+				"answer": "Inertia"
+			}, {
+				"answer": "Each of the above"
+			}]
+		}, {
+			"id": "3-10",
+			"question": "Which of the following circuit quantities can be varied ONLY by varying one of the other circuit quantities?",
+			"answers": [{
+				"answer": "voltage"
+			}, {
+				"answer": "Current",
+				"correct": true
+			}, {
+				"answer": "Resistance"
+			}, {
+				"answer": "Each of the above"
+			}]
+		}, {
+			"id": "3-11",
+			"question": "Which of the following is a correct formula for determining power in an electrical circuit?",
+			"answers": [{
+				"image": "test-3-11-1.png"
+			}, {
+				"image": "test-3-11-2.png"
+			}, {
+				"image": "test-3-11-3.png"
+			}, {
+				"answer": "Each of the above",
+				"correct": true
+			}]
+		}, {
+			"id": "3-12",
+			"question": "What is the current in a circuit with 15 ohms of resistance that uses 135 watts of power?",
+			"answers": [{
+				"answer": "  10 A"
+			}, {
+				"answer": "  15 A"
+			}, {
+				"answer": "3 A",
+				"correct": true
+			}, {
+				"answer": "9 A"
+			}]
+		}, {
+			"id": "3-13",
+			"question": "What is the total power used by a 15-ohm resistor with 4 amps of current?",
+			"answers": [{
+				"answer": "60 W"
+			}, {
+				"answer": "  240 W",
+				"correct": true
+			}, {
+				"answer": "  360 W"
+			}, {
+				"answer": "  900 W"
+			}]
+		}, {
+			"id": "3-14",
+			"question": "What type of resistor should be used in question 3-13?",
+			"answers": [{
+				"answer": "Carbon"
+			}, {
+				"answer": "Wirewound",
+				"correct": true
+			}, {
+				"answer": "Precision"
+			}, {
+				"answer": "Composition"
+			}]
+		}, {
+			"id": "3-15",
+			"question": "How much total energy is converted by a l-horsepower motor in 10 hours?",
+			"answers": [{
+				"answer": "  7.46 kWh",
+				"correct": true
+			}, {
+				"answer": "  8.32 kWh"
+			}, {
+				"answer": "  8.59 kWh"
+			}, {
+				"answer": "  9.32 kWh"
+			}]
+		}, {
+			"id": "3-16",
+			"question": "If the energy used by the motor in question 3-15 is 9.5 kWh, what is the efficiency of the motor?",
+			"answers": [{
+				"answer": ".981"
+			}, {
+				"answer": ".904"
+			}, {
+				"answer": ".876"
+			}, {
+				"answer": ".785",
+				"correct": true
+			}]
+		}, {
+			"id": "3-17",
+			"image": "test-3-1723.png",
+			"question": "What is the total circuit resistance (R)?",
+			"answers": [{
+				"answer": "20Ω"
+			}, {
+				"answer": "60Ω"
+			}, {
+				"answer": "  180Ω",
+				"correct": true
+			}, {
+				"answer": "  240Ω"
+			}]
+		}, {
+			"id": "3-18",
+			"image": "test-3-1723.png",
+			"question": "If the circuit current is 3 amps, what is the source voltage (Es)?",
+			"answers": [{
+				"answer": "60 v"
+			}, {
+				"answer": " 180 v"
+			}, {
+				"answer": " 540 v",
+				"correct": true
+			}, {
+				"answer": " 720 v"
+			}]
+		}, {
+			"id": "3-19",
+			"image": "test-3-1723.png",
+			"question": "What is the total voltage dropped by each resistor in question 3-18?",
+			"answers": [{
+				"answer": "20 v"
+			}, {
+				"answer": "60 v"
+			}, {
+				"answer": " 180 v",
+				"correct": true
+			}, {
+				"answer": " 540 v"
+			}]
+		}, {
+			"id": "3-20",
+			"image": "test-3-1723.png",
+			"question": "If the current decreases to 2 amps, what is the total voltage drop across each resistor?",
+			"answers": [{
+				"answer": "120 v",
+				"correct": true
+			}, {
+				"answer": "230 v"
+			}, {
+				"answer": "310 v"
+			}, {
+				"answer": "400 v"
+			}]
+		}, {
+			"id": "3-21",
+			"image": "test-3-1723.png",
+			"question": "What would have to be done to the circuit to cause the current to decrease to 2 amps?",
+			"answers": [{
+				"answer": "The source voltage would have to be increased"
+			}, {
+				"answer": "The source voltage would have to be decreased",
+				"correct": true
+			}, {
+				"answer": "The resistance of R1 would have to be decreased"
+			}, {
+				"answer": "One of the resistors would have to be removed from the circuit"
+			}]
+		}, {
+			"id": "3-22",
+			"image": "test-3-1723.png",
+			"question": "If the circuit current is 2 amps, what is the total power used by each resistor?",
+			"answers": [{
+				"answer": "  240 W",
+				"correct": true
+			}, {
+				"answer": "  460 W"
+			}, {
+				"answer": "  620 W"
+			}, {
+				"answer": "  800 W"
+			}]
+		}, {
+			"id": "3-23",
+			"image": "test-3-1723.png",
+			"question": "What is the total power used in the circuit if Es = 360 v?",
+			"answers": [{
+				"answer": "720 W",
+				"correct": true
+			}, {
+				"answer": "  1380 W"
+			}, {
+				"answer": "  1860 W"
+			}, {
+				"answer": "  2400 W"
+			}]
+		}, {
+			"id": "3-24",
+			"question": "When Kirchoff's voltage law is used to assign polarities to the voltage drop across a resistor, which of the following references is used to indicate the end of the resistor that the current enters?",
+			"answers": [{
+				"answer": "Ground"
+			}, {
+				"answer": "Neutral"
+			}, {
+				"answer": "Negative",
+				"correct": true
+			}, {
+				"answer": "Positive"
+			}]
+		}, {
+			"id": "3-25",
+			"image": "test-3-2526.png",
+			"question": "What is the effective source voltage?",
+			"answers": [{
+				"answer": " 15 v"
+			}, {
+				"answer": " 25 v",
+				"correct": true
+			}, {
+				"answer": " 50 v"
+			}, {
+				"answer": " 75 v"
+			}]
+		}, {
+			"id": "3-26",
+			"image": "test-3-2526.png",
+			"question": "What is the total amount and direction of current through R 3?",
+			"answers": [{
+				"answer": "1.0 A from Y to X"
+			}, {
+				"answer": "1.0 A from X to Y"
+			}, {
+				"answer": ".33 A from Y to X"
+			}, {
+				"answer": ".33 A from X to Y",
+				"correct": true
+			}]
+		}, {
+			"id": "3-27",
+			"question": "Which of the following terms applies to a circuit in which there is NO complete path for current?",
+			"answers": [{
+				"answer": "Open",
+				"correct": true
+			}, {
+				"answer": "Short"
+			}, {
+				"answer": "Closed"
+			}, {
+				"answer": "Grounded"
+			}]
+		}, {
+			"id": "3-28",
+			"question": "A circuit in which the resistance is almost zero ohms is referred to by which of the following terms?",
+			"answers": [{
+				"answer": "Open"
+			}, {
+				"answer": "Short",
+				"correct": true
+			}, {
+				"answer": "Closed"
+			}, {
+				"answer": "Broken"
+			}]
+		}, {
+			"id": "3-29",
+			"image": "test-3-2932.png",
+			"question": "If R2 has a short circuit, what will most likely happen to the circuit?",
+			"answers": [{
+				"answer": "R1 will be destroyed",
+				"correct": true
+			}, {
+				"answer": "Es will increase"
+			}, {
+				"answer": "v will indicate O volts"
+			}, {
+				"answer": "S1 will automatically open"
+			}]
+		}, {
+			"id": "3-30",
+			"image": "test-3-2932.png",
+			"question": "What is the total voltage drop across Ri when the switch is closed?",
+			"answers": [{
+				"answer": "2.5 v",
+				"correct": true
+			}, {
+				"answer": "6.5 v"
+			}, {
+				"answer": "97.5 v"
+			}, {
+				"answer": " 100.0 v"
+			}]
+		}, {
+			"id": "3-31",
+			"image": "test-3-2932.png",
+			"question": "What will the meter indicate with (a) S1 open, and (b) S1 closed?",
+			"answers": [{
+				"answer": " (a) 100 v (b) 100 v"
+			}, {
+				"answer": " (a)  97.5 v  (b) 100 v"
+			}, {
+				"answer": " (a) 100 v (b)  97.5 v",
+				"correct": true
+			}, {
+				"answer": " (a)  97.5 v  (b)  97.5 v"
+			}]
+		}, {
+			"id": "3-32",
+			"image": "test-3-2932.png",
+			"question": "To achieve maximum power transfer in the circuit, which of the following conditions must be met?",
+			"answers": [{
+				"answer": "Ri = RL",
+				"correct": true
+			}, {
+				"answer": "Is = IL"
+			}, {
+				"answer": "Es = EL"
+			}, {
+				"answer": "Ks = KL"
+			}]
+		}, {
+			"id": "3-33",
+			"question": "Maximum power is transferred from a source to a load when the value of the load resistance is of what value when compared to the source resistance?",
+			"answers": [{
+				"answer": "Equal",
+				"correct": true
+			}, {
+				"answer": "Twice"
+			}, {
+				"answer": "One-half"
+			}, {
+				"answer": "Several times"
+			}]
+		}, {
+			"id": "3-34",
+			"question": "When maximum power is transferred from a source to a load, what is the efficiency of power transfer?",
+			"answers": [{
+				"answer": "  5%"
+			}, {
+				"answer": "  25%"
+			}, {
+				"answer": "  50%",
+				"correct": true
+			}, {
+				"answer": "  95%"
+			}]
+		}, {
+			"id": "3-35",
+			"question": "A circuit consists of three resistors connected in parallel. R1 = 30 ohms, R2 = 15 ohms, and R 3 = 10 ohms. If the current through R2 = 4 amperes, what is the total source voltage?",
+			"answers": [{
+				"answer": "   20 v"
+			}, {
+				"answer": "   60 v",
+				"correct": true
+			}, {
+				"answer": " 120 v"
+			}, {
+				"answer": " 220 v"
+			}]
+		}, {
+			"id": "3-36",
+			"question": "What is the relationship of total current to the current through a component in (a) a series circuit, and (b) a parallel circuit?",
+			"answers": [{
+				"answer": "(a) Divides (b) divides"
+			}, {
+				"answer": "(a) Divides (b) equals"
+			}, {
+				"answer": "(a) Equals (b) equals"
+			}, {
+				"answer": "(a) Equals (b) divides",
+				"correct": true
+			}]
+		}, {
+			"id": "3-37",
+			"question": "If a current has a negative polarity when Kirchoff's current law is applied, which of the following, statements is true of the current?",
+			"answers": [{
+				"answer": "It is from a battery"
+			}, {
+				"answer": "It is from a generator"
+			}, {
+				"answer": "It is entering a junction"
+			}, {
+				"answer": "It is leaving a junction",
+				"correct": true
+			}]
+		}, {
+			"id": "3-38",
+			"question": "Three equal resistors are connected in parallel and each resistor has an ohmic value of 300 ohms. What is the equivalent resistance of the circuit?",
+			"answers": [{
+				"answer": "  100Ω",
+				"correct": true
+			}, {
+				"answer": "  150Ω"
+			}, {
+				"answer": "  600Ω"
+			}, {
+				"answer": "  900Ω"
+			}]
+		}, {
+			"id": "3-39",
+			"question": "Three resistors with ohmic values of 120 ohms, 60 ohms, and 40 ohms are connected in parallel. What is the equivalent resistance of the circuit?",
+			"answers": [{
+				"answer": "  10Ω"
+			}, {
+				"answer": "  20Ω",
+				"correct": true
+			}, {
+				"answer": "  30Ω"
+			}, {
+				"answer": "  40Ω"
+			}]
+		}, {
+			"id": "3-40",
+			"question": "Two resistors with ohmic values of 90 ohms and 45 ohms are connected in parallel. What is the equivalent resistance of the circuit?",
+			"answers": [{
+				"answer": "  10Ω"
+			}, {
+				"answer": "  20Ω"
+			}, {
+				"answer": "  30Ω",
+				"correct": true
+			}, {
+				"answer": "  40Ω"
+			}]
+		}, {
+			"id": "3-41",
+			"question": "Which of the following terms describes a single resistor that represents a complex circuit?",
+			"answers": [{
+				"answer": "Equal resistor"
+			}, {
+				"answer": "Phantom resistor"
+			}, {
+				"answer": "Schematic resistor"
+			}, {
+				"answer": "Equivalent resistor",
+				"correct": true
+			}]
+		}, {
+			"id": "3-42",
+			"image": "test-3-4246.png",
+			"question": "What is the value of Es?",
+			"answers": [{
+				"answer": " 336 v"
+			}, {
+				"answer": " 300 v"
+			}, {
+				"answer": " 240 v"
+			}, {
+				"answer": " 120 v",
+				"correct": true
+			}]
+		}, {
+			"id": "3-43",
+			"image": "test-3-4246.png",
+			"question": "What is the value of current through R2?",
+			"answers": [{
+				"answer": "1 A"
+			}, {
+				"answer": "2 A",
+				"correct": true
+			}, {
+				"answer": "3 A"
+			}, {
+				"answer": "4 A"
+			}]
+		}, {
+			"id": "3-44",
+			"image": "test-3-4246.png",
+			"question": "What is the approximate value of total resistance?",
+			"answers": [{
+				"answer": "8Ω",
+				"correct": true
+			}, {
+				"answer": "37Ω"
+			}, {
+				"answer": "  112Ω"
+			}, {
+				"answer": "  257Ω"
+			}]
+		}, {
+			"id": "3-45",
+			"image": "test-3-4246.png",
+			"question": "What is the value of total power?",
+			"answers": [{
+				"answer": "  1.2 kW"
+			}, {
+				"answer": "  1.5 kW"
+			}, {
+				"answer": "  1.8 kW",
+				"correct": true
+			}, {
+				"answer": "  2.0 kW"
+			}]
+		}, {
+			"id": "3-46",
+			"image": "test-3-4246.png",
+			"question": "What is the total power consumed by R 3?",
+			"answers": [{
+				"answer": "108 W"
+			}, {
+				"answer": "240 W"
+			}, {
+				"answer": "360 W"
+			}, {
+				"answer": "  1200 W",
+				"correct": true
+			}]
+		}, {
+			"id": "3-47",
+			"image": "test-3-4749.png",
+			"question": "What is the value of the total resistance?",
+			"answers": [{
+				"answer": "3.6Ω"
+			}, {
+				"answer": "15Ω",
+				"correct": true
+			}, {
+				"answer": "34Ω"
+			}, {
+				"answer": "40Ω"
+			}]
+		}, {
+			"id": "3-48",
+			"image": "test-3-4749.png",
+			"question": "What is the total power used in the circuit?",
+			"answers": [{
+				"answer": "22.5 W"
+			}, {
+				"answer": "26.5 W"
+			}, {
+				"answer": "60.0 W",
+				"correct": true
+			}, {
+				"answer": "250.0 W"
+			}]
+		}, {
+			"id": "3-49",
+			"image": "test-3-4749.png",
+			"question": "What is the total voltage drop across R 3?",
+			"answers": [{
+				"answer": "8 v"
+			}, {
+				"answer": "12 v",
+				"correct": true
+			}, {
+				"answer": "18 v"
+			}, {
+				"answer": "30 v"
+			}]
+		}, {
+			"id": "3-50",
+			"image": "test-3-5051.png",
+			"question": "What is the value of total resistance?",
+			"answers": [{
+				"answer": "5Ω"
+			}, {
+				"answer": "8Ω"
+			}, {
+				"answer": "13Ω"
+			}, {
+				"answer": "15Ω",
+				"correct": true
+			}]
+		}, {
+			"id": "3-51",
+			"image": "test-3-5051.png",
+			"question": "If an equivalent resistor is used to represent the network of R1, R2, R 3, R 4, R5, and R6, what is the total voltage drop across this resistor?",
+			"answers": [{
+				"answer": "8v"
+			}, {
+				"answer": "26v"
+			}, {
+				"answer": "52v",
+				"correct": true
+			}, {
+				"answer": "60v"
+			}]
+		}, {
+			"id": "3-52",
+			"question": "If an open occurs in a series portion of a circuit, what is the effect on (a) total resistance, and (b) total current?",
+			"answers": [{
+				"answer": "(a) Decreases to zero (b) Becomes infinite"
+			}, {
+				"answer": "(a) Decreases to zero (b) Decreases to zero"
+			}, {
+				"answer": "(a) Becomes infinite (b) Becomes infinite"
+			}, {
+				"answer": "(a) Becomes infinite (b) Decreases to zero",
+				"correct": true
+			}]
+		}, {
+			"id": "3-53",
+			"question": "If an open occurs in a parallel branch of a circuit, what is the effect on (a) total resistance, and (b) total current?",
+			"answers": [{
+				"answer": "Increases, (b) decreases",
+				"correct": true
+			}, {
+				"answer": "Increases, (b) increases"
+			}, {
+				"answer": "Decreases, (b) decreases"
+			}, {
+				"answer": "Decreases, (b) increases"
+			}]
+		}, {
+			"id": "3-54",
+			"question": "If a short circuit occurs in a series portion of a circuit, what is the effect on (a) total resistance, and (b) total current?",
+			"answers": [{
+				"answer": "Increases, (b) decreases"
+			}, {
+				"answer": "Increases, (b) increases"
+			}, {
+				"answer": "Decreases, (b) decreases"
+			}, {
+				"answer": "Decreases, (b) increases",
+				"correct": true
+			}]
+		}, {
+			"id": "3-55",
+			"question": "If a short circuit occurs in a parallel branch of a circuit, what is the effect in (a) total resistance, and (b) total current?",
+			"answers": [{
+				"answer": "Increases, (b) decreases"
+			}, {
+				"answer": "Increases, (b) increases"
+			}, {
+				"answer": "Decreases, (b) decreases"
+			}, {
+				"answer": "Decreases, (b) increases",
+				"correct": true
+			}]
+		}, {
+			"id": "3-56",
+			"question": "If one branch of a parallel network shorts, what portion of the circuit current, if any, will flow through the remaining branches?",
+			"answers": [{
+				"answer": "An amount determined by the combined resistance of the remaining branches"
+			}, {
+				"answer": "All"
+			}, {
+				"answer": "One-half"
+			}, {
+				"answer": "None",
+				"correct": true
+			}]
+		}, {
+			"id": "3-57",
+			"question": "Which of the following circuit quantities need NOT be known before designing a voltage divider?",
+			"answers": [{
+				"answer": "The current of the source",
+				"correct": true
+			}, {
+				"answer": "The voltage of the source"
+			}, {
+				"answer": "The current requirement of the load"
+			}, {
+				"answer": "The voltage requirement of the load"
+			}]
+		}, {
+			"id": "3-58",
+			"question": "What should be the value of the bleeder current?",
+			"answers": [{
+				"answer": "3A  "
+			}, {
+				"answer": "300 mA"
+			}, {
+				"answer": "30 mA",
+				"correct": true
+			}, {
+				"answer": "43 mA"
+			}]
+		}, {
+			"id": "3-59",
+			"question": "What should be the ohmic value of the bleeder resistor?",
+			"answers": [{
+				"answer": "50"
+			}, {
+				"answer": "500"
+			}, {
+				"answer": "5 k",
+				"correct": true
+			}, {
+				"answer": "50 k"
+			}]
+		}, {
+			"id": "3-60",
+			"question": "What is the value of total current?",
+			"answers": [{
+				"answer": "303 mA"
+			}, {
+				"answer": "330 mA",
+				"correct": true
+			}, {
+				"answer": "600 mA"
+			}, {
+				"answer": "3300 mA"
+			}]
+		}, {
+			"id": "3-61",
+			"image": "test-3-6166.png",
+			"question": "Why must the value of R1 be calculated first?",
+			"answers": [{
+				"answer": "For convenience"
+			}, {
+				"answer": "The current through R2 depends on the value of R1",
+				"correct": true
+			}, {
+				"answer": "The voltage drop across R1depends on the value of load 1"
+			}, {
+				"answer": "In any circuit, values for resistors labeled R1 are calculated first"
+			}]
+		}, {
+			"id": "3-62",
+			"image": "test-3-6166.png",
+			"question": "How is the current through R2 calculated?",
+			"answers": [{
+				"answer": "By adding IR1 and the current requirement of load 1",
+				"correct": true
+			}, {
+				"answer": "By adding the current requirements of load 1 and load 2"
+			}, {
+				"answer": "By subtracting the current requirement of load 1 from the current requirement of load 2"
+			}, {
+				"answer": "By subtracting the current requirement of load 2 from the current requirement of load 1"
+			}]
+		}, {
+			"id": "3-63",
+			"image": "test-3-6166.png",
+			"question": "How is the voltage drop across R2 calculated?",
+			"answers": [{
+				"answer": "By adding the voltage requirements of load 1 and load 2"
+			}, {
+				"answer": "By subtracting the voltage drops across R5 and R 3 from the source voltage"
+			}, {
+				"answer": "By subtracting the voltage requirement of load 1 from the voltage requirement of load 2",
+				"correct": true
+			}, {
+				"answer": "By subtracting the voltage requirements of load 1 and load 2 from the source voltage"
+			}]
+		}, {
+			"id": "3-64",
+			"image": "test-3-6166.png",
+			"question": "What is the minimum wattage rating required for R5?",
+			"answers": [{
+				"answer": "1 W"
+			}, {
+				"answer": "2 W"
+			}, {
+				"answer": "  1/2 W",
+				"correct": true
+			}, {
+				"answer": "  1/4 W"
+			}]
+		}, {
+			"id": "3-65",
+			"image": "test-3-6166.png",
+			"question": "What is the total power supplied by the source?",
+			"answers": [{
+				"answer": "  3.765 W"
+			}, {
+				"answer": "  7.965 W"
+			}, {
+				"answer": "  8.209 W"
+			}, {
+				"answer": "  8.965 W",
+				"correct": true
+			}]
+		}, {
+			"id": "3-66",
+			"image": "test-3-6166.png",
+			"question": "What is the purpose of using the series- parallel network consisting of R 3, R4, and R5 in place of a single resistor?",
+			"answers": [{
+				"answer": "It provides the desired resistance with resistor values that are easily obtainable",
+				"correct": true
+			}, {
+				"answer": "It provides the close tolerance required for the circuit"
+			}, {
+				"answer": "It is more reliable than the use of a single resistor"
+			}, {
+				"answer": "It costs less by using three resistors of lower wattage rating than a single, large power resistor"
+			}]
+		}, {
+			"id": "3-67",
+			"question": "A single voltage divider provides both negative and positive voltages from a single source voltage through the use of a",
+			"answers": [{
+				"answer": "ground between two of the dividing resistors",
+				"correct": true
+			}, {
+				"answer": "ground to the positive terminal of the source"
+			}, {
+				"answer": "ground to the negative terminal of the source"
+			}, {
+				"answer": "ground to the input of all loads requiring a negative voltage"
+			}]
+		}, {
+			"id": "3-68",
+			"question": "Which of the following voltages are considered dangerous?",
+			"answers": [{
+				"answer": "voltages above 115 volts only"
+			}, {
+				"answer": "voltages above 230 volts only"
+			}, {
+				"answer": "voltages above 450 volts only"
+			}, {
+				"answer": "All voltages",
+				"correct": true
+			}]
+		}, {
+			"id": "3-69",
+			"question": "If you discover a possible malfunction in an electric circuit, which of the following actions should be taken?",
+			"answers": [{
+				"answer": "Attempt repairs yourself"
+			}, {
+				"answer": "Report the malfunction to a qualified technician",
+				"correct": true
+			}, {
+				"answer": "Ignore the malfunction unless you were assigned to repair it"
+			}, {
+				"answer": "Secure the circuit immediately by removing power at the nearest switch"
+			}]
+		}, {
+			"id": "3-70",
+			"question": "If a person has stopped breathing and there is NO detectable heartbeat, who should perform CPR?",
+			"answers": [{
+				"answer": "Medical personnel only"
+			}, {
+				"answer": "The first person on the scene"
+			}, {
+				"answer": "Emergency Medical Technicians only"
+			}, {
+				"answer": "Trained, qualified personnel only",
+				"correct": true
+			}]
+		}]
 	}
 }

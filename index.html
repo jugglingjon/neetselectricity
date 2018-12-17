@@ -90,6 +90,21 @@
 			<div class="col test-area">
 				<h3>{{currentTestIndex+1}}. {{currentTestData.title}}</h3>
 				<hr>
+				<!-- <div class="quiz" ng-repeat="question in currentTestData.questions" data-index="{{$index}}" style="margin-bottom: 20px;">
+					<div class="quiz-question">
+						<span>{{currentTestIndex+1}}-{{$index+1}}. </span>{{question.question}}
+						<div class="quiz-question-image" ng-show="question.image">
+							<img src="media/{{question.image}}">
+						</div>
+					</div>
+					<div class="quiz-answers" >
+						<ol type="A">
+							<li ng-repeat="answer in question.answers" class="quiz-answer" ng-class="answerClass($parent.$index,$index)" ng-click="testSelectAnswer($event,$parent.$index,$index)"><span ng-show="answer.correct" style="color:green">CORRECT: </span>{{answer.answer}}<img src="media/{{answer.image}}" ng-show="answer.image"></li>
+						</ol>
+					</div>
+				</div> -->
+
+
 				<div class="quiz" ng-repeat="question in currentTestData.questions" data-index="{{$index}}">
 					<div class="quiz-question">
 						<span>{{currentTestIndex+1}}-{{$index+1}}. </span>{{question.question}}
